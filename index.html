@@ -1363,9 +1363,64 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "10. Sep. 2026, 08:06 Uhr";
+const SNAP_DATE = "10. Sept. 2026, 08:29 Uhr";
 const SNAP_STATUS = "neu";
-const STUDIES = [];
+const STUDIES = [
+  {
+    journal:"Circulation", year:"2026", pmid:"42708210",
+    author:"Ramos-López N et al.", pubdate:"08.09.2026",
+    added:"08.09.2026",
+    title:"LGE-Korridore und Hochrisiko-Genotyp vorhersagen Herzrhythmusstörungen in dilatativer Kardiomyopathie besser als EF ≤35 %",
+    sum:"Retrospektive multizentrische europäische Studie mit 925 Patienten mit nichtischämischer Kardiomyopathie, Analyse von Spätanreicherungsmustern im MRT und genetischen Varianten zur Vorhersage maligner ventrikulärer Arrhythmien.",
+    result:"Nach Median-Follow-up 5,4 Jahre 95 Ereignisse (10,3 %). Pro Läsionskanal im LGE: Subdistribution Hazard Ratio 1,25 (95 % CI 1,11–1,42; p&lt;0,001). Hochrisikogenotpyen: SHR 2,28 (95 % CI 1,32–3,96; p=0,003). Optimales Cutoff ≥4 Korridore. Fünf-Jahres-C-Index 0,72 vs. 0,57 (EF ≤35 %-Klassifikation).",
+    transfer:"22 europäische Zentren, Europa-weite Kooperation, aber spezialisierte CMR/Genetik-Expertise erforderlich."
+  },
+  {
+    journal:"JACC Heart Fail", year:"2026", pmid:"42714366",
+    author:"Packer M et al.", pubdate:"08.09.2026",
+    added:"09.09.2026",
+    title:"Selektive Adipokinmodulierung verbessert HFpEF-Parameter stärker als Hämodynamik-Targeting",
+    sum:"Analyse von HFpEF-Patienten (veröffentlichtes abstract, methodische Fokusstudie), Vergleich der Effekte von gerichteter Adipokinmodulation versus traditioneller hämodynamischer Therapieoptimierung.",
+    result:"Gezielte Adipokinmodulation führte zu messbaren Verbesserungen der linksventrikulären Funktion und Struktur; Hämodynamik-only-Ansätze zeigten weniger Benefit. Hinweis auf Bedeutung inflammatorischer und metabolischer Pathways bei HFpEF.",
+    transfer:"Mechanismusstudie, USA-Setting, aber adipokine Targets sind universell relevant."
+  },
+  {
+    journal:"Open Heart", year:"2026", pmid:"42705842",
+    author:"Mohamed AA et al.", pubdate:"07.09.2026",
+    added:"07.09.2026",
+    title:"Lipidsenker-Therapieintensivierung würde in Dänemark 589 Schlaganfälle jährlich verhindern",
+    sum:"Landesweite dänische Kohortenstudie mit 487.962 Patienten mit hohem oder sehr hohem Atheroskleroserisiko, Messung der LDL-Cholesterin-Zielwert-Erreichung und Modellierung der Auswirkungen von Leitlinienimplementierung.",
+    result:"Aktuelle Zielerreichung Primärprävention 39,8 % (dänisch) bzw. 15,1 % (europäisch), Sekundärprävention 18,8 %. Mit optimaler Umsetzung Steigerung auf 91,9 % (dänisch) bzw. 75,8 % (europäisch). Implementierung würde 589 Schlaganfälle, 491 Herzinfarkte, 581 Revaskularisationen, 196 kardiovaskuläre Todesfälle jährlich verhindern; 15,8 Mio. € Kosteneinsparung.",
+    transfer:"Dänemark, vergleichbares nordeuropäisches Versicherungssystem, aber restriktivere PCSK9-Inhibitor-Erstattung."
+  },
+  {
+    journal:"Europace", year:"2026", pmid:"42713747",
+    author:"Heeger CH et al.", pubdate:"02.09.2026",
+    added:"09.09.2026",
+    title:"Kombinierte Pulmonalvenenisolation und Vorhofohrkauerstöpselung mit gepulstem Feldablation ist sicher und wirksam",
+    sum:"Retrospektive multizentrische Registerstudie zu 155 Patienten aus neun europäischen Ländern, die sich einer gleichzeitigen gepulsten Feldablation-basierten Pulmonalvenenisolation und Vorhofohrkauerstöpselung unterzogen.",
+    result:"Primärer Wirksamkeitsendpunkt erreicht bei 97,4 % (PVI erfolgreich 100 %, Verschluss 97,4 %), ernsthafte Nebenwirkungen bei 1,9 %. Sinusrhythmus bei 78,1 % der Patienten mit Follow-up &gt;6 Monate. Eine seltene Komplikation; insgesamt ein praxisrelevantes, kombiniertes Verfahren.",
+    transfer:"Multinationale europäische Zentren, deutsche Standorte beteiligt, vergleichbare Strukturen."
+  },
+  {
+    journal:"Eur Heart J", year:"2026", pmid:"42681860",
+    author:"Seferovic P et al.", pubdate:"02.09.2026",
+    added:"02.09.2026",
+    title:"Diabetische Kardiomyopathie: Expertenpapier zur Abgrenzung als eigenständige Erkrankung",
+    sum:"Expertenkonsensus-Review zur Frage, ob diabetische Kardiomyopathie als eigenständiger Phänotyp zu definieren ist, mit Diskussion von pathophysiologischen Mechanismen und klinischen Implikationen.",
+    result:"Mehrheitliche Übereinkunft: Diabetische Kardiomyopathie ist ein eigenständiges Syndrom mit charakteristischen Muskel-, Stoffwechsel- und entzündlichen Merkmalen; Unterscheidung von rein ischämischer oder hypertensiver Kardiomyopathie gerechtfertigt. Empfehlung für zukünftige therapeutische Ansätze.",
+    transfer:"Expertenkonsens international, Leitlinien-relevant für Diabetes-Kardiologie-Interface in Deutschland."
+  },
+  {
+    journal:"J Am Coll Cardiol", year:"2026", pmid:"42683967",
+    author:"Ni W et al.", pubdate:"01.09.2026",
+    added:"02.09.2026",
+    title:"Temperaturextreme und Herzinsuffizienzeinweisungen in Schweden: Kältewellen erhöhen Risiko um 8,5 %",
+    sum:"Bevölkerungsweite Fall-Crossover-Studie in Schweden mit 482.000 Herzinsuffizienzeinweisungen 2006–2021, Analyse der Assoziation mit Kältephasen und Hitzewellen.",
+    result:"Kältephasen/niedrigere Temperaturen (lag 2–6 Tage): OR 1,085 für kumulative Assoziation (95 % CI 1,042–1,129). Höhere Temperaturen (lag 0–3): OR 1,009 pro 10-Perzentil-Anstieg (95 % CI 1,006–1,013). Höhere Risiken verzögert bei Kälte, unmittelbar bei Hitze.",
+    transfer:"Schweden, aber klimageografische Besonderheiten; Befund temperaturunabhängig übertragbar."
+  },
+];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
@@ -1379,18 +1434,27 @@ const RADAR_FRISTEN = [];
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "10. Sep. 2026, 08:06 Uhr";
-const NEWS = [];
+const NEWS_STAND = "10.09.2026";
+const NEWS = [
+  {titel:"Defibrillator nach Herzinfarkt: DHZC sieht keinen Überlebensvorteil", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/defibrillator-nach-herzinfarkt-dhzc-sieht-keinen-ueberlebensvorteil/"},
+  {titel:"Langzeitstudie am Herzzentrum Leipzig zeigt: Spezialisierte Aufwachräume entlasten die Intensivstation – ohne Abstriche bei der Sicherheit", datum:"2026-05-13", url:"https://www.monitor-versorgungsforschung.de/news/langzeitstudie-am-herzzentrum-leipzig-zeigt-spezialisierte-aufwachraeume-entlasten-die-intensivstation-ohne-abstriche-bei-der-sicherheit/"},
+];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const PRESSE = [];
+const PRESSE = [
+  {titel:"Berlin-Marathon: Vor extremer Ausdauerbelastung auch den Nierenstatus kennen", datum:"2026-09-09", url:"http://idw-online.de/de/news877088", quelle:"idw"},
+  {titel:"Blutdruck-Awareness in Unternehmen: Neue Materialien für Betriebsärztinnen und -ärzte sowie BGM-Verantwortliche", datum:"2026-09-09", url:"http://idw-online.de/de/news877074", quelle:"idw"},
+];
 // === PRESSE-BLOCK-ENDE ===
 
 // Meldungen des G-BA — taeglich von scripts/newsfeed.py
 // === SELBST-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const SELBST = [];
+const SELBST = [
+  {titel:"Drucksensorimplantation und Monitoring des pulmonalarteriellen Druckes bei Herzinsuffizienz im Stadium NYHA III", datum:"2026-07-23", url:"/bewertungsverfahren/methodenbewertung/329/", quelle:"G-BA"},
+  {titel:"Drucksensorimplantation und Monitoring des pulmonalarteriellen Druckes bei Herzinsuffizienz im Stadium NYHA III", datum:"2026-07-23", url:"/bewertungsverfahren/methodenbewertung/328/", quelle:"G-BA"},
+];
 // === SELBST-BLOCK-ENDE ===
 
 // === CHIPS-BLOCK-START (themenspezifisch) ===

@@ -1,1 +1,80 @@
-[]
+[
+ {
+  "pmid": "42714366",
+  "journal": "JACC Heart Fail",
+  "year": "2026",
+  "author": "Packer M et al.",
+  "pubdate": "08.09.2026",
+  "added": "09.09.2026",
+  "transfer": "Mechanismusstudie, USA-Setting, aber adipokine Targets sind universell relevant.",
+  "title": "Selektive Adipokinmodulierung verbessert HFpEF-Parameter stärker als Hämodynamik-Targeting",
+  "sum": "Analyse von HFpEF-Patienten (veröffentlichtes abstract, methodische Fokusstudie), Vergleich der Effekte von gerichteter Adipokinmodulation versus traditioneller hämodynamischer Therapieoptimierung.",
+  "result": "Gezielte Adipokinmodulation führte zu messbaren Verbesserungen der linksventrikulären Funktion und Struktur; Hämodynamik-only-Ansätze zeigten weniger Benefit. Hinweis auf Bedeutung inflammatorischer und metabolischer Pathways bei HFpEF.",
+  "aufgenommen": "2026-09-10"
+ },
+ {
+  "pmid": "42713747",
+  "journal": "Europace",
+  "year": "2026",
+  "author": "Heeger CH et al.",
+  "pubdate": "02.09.2026",
+  "added": "09.09.2026",
+  "transfer": "Multinationale europäische Zentren, deutsche Standorte beteiligt, vergleichbare Strukturen.",
+  "title": "Kombinierte Pulmonalvenenisolation und Vorhofohrkauerstöpselung mit gepulstem Feldablation ist sicher und wirksam",
+  "sum": "Retrospektive multizentrische Registerstudie zu 155 Patienten aus neun europäischen Ländern, die sich einer gleichzeitigen gepulsten Feldablation-basierten Pulmonalvenenisolation und Vorhofohrkauerstöpselung unterzogen.",
+  "result": "Primärer Wirksamkeitsendpunkt erreicht bei 97,4 % (PVI erfolgreich 100 %, Verschluss 97,4 %), ernsthafte Nebenwirkungen bei 1,9 %. Sinusrhythmus bei 78,1 % der Patienten mit Follow-up >6 Monate. Eine seltene Komplikation; insgesamt ein praxisrelevantes, kombiniertes Verfahren.",
+  "aufgenommen": "2026-09-10"
+ },
+ {
+  "pmid": "42708210",
+  "journal": "Circulation",
+  "year": "2026",
+  "author": "Ramos-López N et al.",
+  "pubdate": "08.09.2026",
+  "added": "08.09.2026",
+  "transfer": "22 europäische Zentren, Europa-weite Kooperation, aber spezialisierte CMR/Genetik-Expertise erforderlich.",
+  "title": "LGE-Korridore und Hochrisiko-Genotyp vorhersagen Herzrhythmusstörungen in dilatativer Kardiomyopathie besser als EF ≤35 %",
+  "sum": "Retrospektive multizentrische europäische Studie mit 925 Patienten mit nichtischämischer Kardiomyopathie, Analyse von Spätanreicherungsmustern im MRT und genetischen Varianten zur Vorhersage maligner ventrikulärer Arrhythmien.",
+  "result": "Nach Median-Follow-up 5,4 Jahre 95 Ereignisse (10,3 %). Pro Läsionskanal im LGE: Subdistribution Hazard Ratio 1,25 (95 % CI 1,11–1,42; p<0,001). Hochrisikogenotpyen: SHR 2,28 (95 % CI 1,32–3,96; p=0,003). Optimales Cutoff ≥4 Korridore. Fünf-Jahres-C-Index 0,72 vs. 0,57 (EF ≤35 %-Klassifikation).",
+  "aufgenommen": "2026-09-10"
+ },
+ {
+  "pmid": "42705842",
+  "journal": "Open Heart",
+  "year": "2026",
+  "author": "Mohamed AA et al.",
+  "pubdate": "07.09.2026",
+  "added": "07.09.2026",
+  "transfer": "Dänemark, vergleichbares nordeuropäisches Versicherungssystem, aber restriktivere PCSK9-Inhibitor-Erstattung.",
+  "title": "Lipidsenker-Therapieintensivierung würde in Dänemark 589 Schlaganfälle jährlich verhindern",
+  "sum": "Landesweite dänische Kohortenstudie mit 487.962 Patienten mit hohem oder sehr hohem Atheroskleroserisiko, Messung der LDL-Cholesterin-Zielwert-Erreichung und Modellierung der Auswirkungen von Leitlinienimplementierung.",
+  "result": "Aktuelle Zielerreichung Primärprävention 39,8 % (dänisch) bzw. 15,1 % (europäisch), Sekundärprävention 18,8 %. Mit optimaler Umsetzung Steigerung auf 91,9 % (dänisch) bzw. 75,8 % (europäisch). Implementierung würde 589 Schlaganfälle, 491 Herzinfarkte, 581 Revaskularisationen, 196 kardiovaskuläre Todesfälle jährlich verhindern; 15,8 Mio. € Kosteneinsparung.",
+  "aufgenommen": "2026-09-10"
+ },
+ {
+  "pmid": "42683967",
+  "journal": "J Am Coll Cardiol",
+  "year": "2026",
+  "author": "Ni W et al.",
+  "pubdate": "01.09.2026",
+  "added": "02.09.2026",
+  "transfer": "Schweden, aber klimageografische Besonderheiten; Befund temperaturunabhängig übertragbar.",
+  "title": "Temperaturextreme und Herzinsuffizienzeinweisungen in Schweden: Kältewellen erhöhen Risiko um 8,5 %",
+  "sum": "Bevölkerungsweite Fall-Crossover-Studie in Schweden mit 482.000 Herzinsuffizienzeinweisungen 2006–2021, Analyse der Assoziation mit Kältephasen und Hitzewellen.",
+  "result": "Kältephasen/niedrigere Temperaturen (lag 2–6 Tage): OR 1,085 für kumulative Assoziation (95 % CI 1,042–1,129). Höhere Temperaturen (lag 0–3): OR 1,009 pro 10-Perzentil-Anstieg (95 % CI 1,006–1,013). Höhere Risiken verzögert bei Kälte, unmittelbar bei Hitze.",
+  "aufgenommen": "2026-09-10"
+ },
+ {
+  "pmid": "42681860",
+  "journal": "Eur Heart J",
+  "year": "2026",
+  "author": "Seferovic P et al.",
+  "pubdate": "02.09.2026",
+  "added": "02.09.2026",
+  "transfer": "Expertenkonsens international, Leitlinien-relevant für Diabetes-Kardiologie-Interface in Deutschland.",
+  "title": "Diabetische Kardiomyopathie: Expertenpapier zur Abgrenzung als eigenständige Erkrankung",
+  "sum": "Expertenkonsensus-Review zur Frage, ob diabetische Kardiomyopathie als eigenständiger Phänotyp zu definieren ist, mit Diskussion von pathophysiologischen Mechanismen und klinischen Implikationen.",
+  "result": "Mehrheitliche Übereinkunft: Diabetische Kardiomyopathie ist ein eigenständiges Syndrom mit charakteristischen Muskel-, Stoffwechsel- und entzündlichen Merkmalen; Unterscheidung von rein ischämischer oder hypertensiver Kardiomyopathie gerechtfertigt. Empfehlung für zukünftige therapeutische Ansätze.",
+  "aufgenommen": "2026-09-10"
+ }
+]
