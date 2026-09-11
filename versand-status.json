@@ -1,0 +1,33 @@
+{
+ "hub": "Knowledge-Hub Kardiologie",
+ "domain": "kardio.m-vf.de",
+ "datum": "2026-09-11",
+ "stand": "terminiert",
+ "titel": "MVF Kardiologie-Newsletter 11.09.2026",
+ "betreff": "Neueste Studien - Kardiologie – 10. September 2026 bis 11. September 2026",
+ "anzahl": 12,
+ "pmids": [
+  "42720633",
+  "42720269",
+  "42717033",
+  "42714589",
+  "42695491",
+  "42671454",
+  "42714366",
+  "42713747",
+  "42708210",
+  "42705842",
+  "42683967",
+  "42681860"
+ ],
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098818",
+ "termin_utc": "2026-09-14T08:00:00+00:00",
+ "empfaenger": 1,
+ "listengroesse": 5905,
+ "beanstandungen": [],
+ "aussortiert": [],
+ "pool": {},
+ "rubriken": {
+  "news": "c908c3090d21adf9"
+ }
+}
