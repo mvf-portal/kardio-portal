@@ -14,7 +14,6 @@
   "_GEHEIMNISSE": "Muessen zu den Secrets im Repository passen.",
   "SECRET_CLAUDE": "KARDIOHUB",
   "SECRET_MAILCHIMP": "KARDIOHUBMC",
-  "_MAILCHIMP": "mc_gruppe_feld ist NOCH NICHT abgelesen. Nach dem Anlegen der Gruppe auf der gehosteten Anmeldeseite ablesen - die Nummernvergabe ist nicht vorhersagbar.",
   "MC_PRAEFIX": "MVF Kardiologie-Newsletter",
   "MC_GRUPPE_NAME": "Studien Newsletter Kardiologie",
   "MC_GRUPPE_FELD": "",
