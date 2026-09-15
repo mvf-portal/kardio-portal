@@ -2,51 +2,23 @@
  "hub": "Knowledge-Hub Kardiologie",
  "domain": "kardio.m-vf.de",
  "datum": "2026-09-15",
- "stand": "terminiert",
+ "stand": "gestoppt",
  "titel": "MVF Kardiologie-Newsletter 15.09.2026",
- "betreff": "Neueste Studien - Kardiologie – 13. September 2026 bis 15. September 2026",
- "anzahl": 19,
+ "betreff": "Neueste Studien - Kardiologie – 16. September 2026",
+ "anzahl": 2,
  "pmids": [
-  "42735223",
-  "42734670",
-  "42717863",
-  "42703766",
-  "42669312",
-  "42669307",
-  "42726202",
-  "42714581",
-  "42714046",
-  "42671012",
-  "42670975",
-  "42670644",
-  "42731862",
-  "42731860",
-  "42731859",
-  "42708882",
-  "42706219",
-  "42677938",
-  "42671117"
+  "42721291",
+  "42717878"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098889",
- "termin_utc": "2026-09-15T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098892",
+ "termin_utc": null,
  "empfaenger": 1,
  "listengroesse": 5906,
- "beanstandungen": [],
- "aussortiert": [
-  "Studie 20 (PMID  42726202): PMID ist keine Zahl",
-  "Studie 21 (PMID  42721291): PMID ist keine Zahl",
-  "Studie 22 (PMID  42717878): PMID ist keine Zahl",
-  "Studie 23 (PMID  42677938): PMID ist keine Zahl",
-  "Studie 24 (PMID  42671117): PMID ist keine Zahl",
-  "Studie 25 (PMID  42671012): PMID ist keine Zahl"
+ "beanstandungen": [
+  "fuer heute liegt bei Mailchimp schon eine Ausgabe dieses Hubs vor: 5013cdee90 (sent) - eine zweite waere ein Doppelversand"
  ],
- "pool": {
-  "geholt": 220,
-  "bekannt": 41,
-  "pool": 52,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "aussortiert": [],
+ "pool": {},
  "rubriken": {
   "news": "c908c3090d21adf9",
   "radar": "20d46d2efa301677"
