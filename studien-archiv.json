@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42721291",
+  "journal": "Eur Heart J Cardiovasc Imaging",
+  "year": "2026",
+  "author": "",
+  "pubdate": "",
+  "added": "",
+  "transfer": "Schottische Studie, vergleichbare europäische Gesundheitssysteme.",
+  "title": "Künstliche Intelligenz und Herzmuskel-Phänotypen vorhersagen Myokardinfarkt-Risiko in der Langzeitbeobachtung",
+  "sum": "Post-hoc-Analyse der SCOT-HEART-Studie mit 1.736 Teilnehmern untersuchte, ob radiomische Phänotypen aus Herz-CTA das Langzeit-Risiko für Herzinfarkt (Median 8,6 Jahre Follow-up) vorhersagen über konventionelle Risikofaktoren hinaus.",
+  "result": "82 von 1.736 Teilnehmern (4,7%) erlebten während Follow-up tödlichen oder nicht-tödlichen Myokardinfarkt. Radiomische Phänotypen waren assoziiert mit Alter, Geschlecht, Hypertension und Diabetes (p<0,01). Integration radiomischer Merkmale in klinisches Modell verbesserte Diskrimination für zukünftige Myokardinfarkte (C-Index von 0,693 auf 0,722, Δ=0,029, p<0,001) und Modell-Fit (Likelihood-Ratio-Test χ²=13,5, p=0,009).",
+  "aufgenommen": "2026-09-16"
+ },
+ {
+  "pmid": "42717878",
+  "journal": "Circ Heart Fail",
+  "year": "2026",
+  "author": "",
+  "pubdate": "",
+  "added": "",
+  "transfer": "Internationale Studie mit niederländischen/europäischen Zentren, vergleichbar mit deutschen Versorgungssystemen.",
+  "title": "LMNA-Genotyp und Vorhofflimmern-Risiko in genetischer Kardiomyopathie",
+  "sum": "Beobachtungsstudie von 3.117 Patienten mit genetischer dilatativer Kardiomyopathie (DCM) aus der SHaRe-Registry untersuchte Prävalenz, Inzidenz und Prognosebedeutung von Vorhofflimmern nach Genotyp.",
+  "result": "Von 2.491 AF-freien Patienten mit Follow-up entwickelten 312 (12,5%) während eines Medians von 4,5 Jahren Vorhofflimmern. Kumulative AF-Prävalenz betrug 23,6%. LMNA zeigte die höchste AF-Inzidenz (7,6 pro 100 Patientenjahre) und kumulative AF-Prävalenz (56,7%) und war die einzige Genotyp-Variable unabhängig assoziiert mit inzidentem AF (HR 5,52, 95% KI 3,84-7,95; p<0,001). TTN hatte AF-Inzidenz von 2,1 pro 100 Patientenjahre. AF war unabhängig assoziiert mit erhöhtem Risiko für kombiniertes Endpunkt (HR 1,58, 95% KI 1,29-1,94; p<0,001) einschließlich Herzinsuffizienz, ventrikuläre Arrhythmien und Gesamtsterblichkeit.",
+  "aufgenommen": "2026-09-16"
+ },
+ {
   "pmid": "42735223",
   "journal": "Circulation",
   "year": "2026",
@@ -245,32 +271,6 @@
   "sum": "Randomisierte Studie (ABLATE versus PACE) in Deutschland und Österreich: Pacemaker-Implantation mit Atrioventricular-Node-Ablation (PM+AVNA) vs. Pulmonalvenenisolation (PVI) bei älteren Patienten (≥75 Jahre) mit symptomatischem persistentem Vorhofflimmern.",
   "result": "Bei 12-Monaten-Follow-up: Primärer Endpunkt (Hospitalisierung wegen Arrhythmie, Herzinsuffizienz, elektrische Kardioversion oder CRT-Upgrade) trat bei 24% (PM+AVNA) vs. 46% (PVI) auf (Hazard Ratio 0,45; 95%-KI 0,27–0,74; p=0,002). PM+AVNA zeigte weniger AF-Hospitalisierungen und Kardioversionen, aber mehr HF-Hospitalisierungen. Mortalität und Lebensqualität unterschieden sich nicht.",
   "aufgenommen": "2026-09-13"
- },
- {
-  "pmid": "42721291",
-  "journal": "Eur Heart J Cardiovasc Imaging",
-  "year": "2026",
-  "author": "",
-  "pubdate": "",
-  "added": "",
-  "transfer": "Schottische Studie, vergleichbare europäische Gesundheitssysteme.",
-  "title": "Künstliche Intelligenz und Herzmuskel-Phänotypen vorhersagen Myokardinfarkt-Risiko in der Langzeitbeobachtung",
-  "sum": "Post-hoc-Analyse der SCOT-HEART-Studie mit 1.736 Teilnehmern untersuchte, ob radiomische Phänotypen aus Herz-CTA das Langzeit-Risiko für Herzinfarkt (Median 8,6 Jahre Follow-up) vorhersagen über konventionelle Risikofaktoren hinaus.",
-  "result": "82 von 1.736 Teilnehmern (4,7%) erlebten während Follow-up tödlichen oder nicht-tödlichen Myokardinfarkt. Radiomische Phänotypen waren assoziiert mit Alter, Geschlecht, Hypertension und Diabetes (p<0,01). Integration radiomischer Merkmale in klinisches Modell verbesserte Diskrimination für zukünftige Myokardinfarkte (C-Index von 0,693 auf 0,722, Δ=0,029, p<0,001) und Modell-Fit (Likelihood-Ratio-Test χ²=13,5, p=0,009).",
-  "aufgenommen": "2026-09-12"
- },
- {
-  "pmid": "42717878",
-  "journal": "Circ Heart Fail",
-  "year": "2026",
-  "author": "",
-  "pubdate": "",
-  "added": "",
-  "transfer": "Internationale Studie mit niederländischen/europäischen Zentren, vergleichbar mit deutschen Versorgungssystemen.",
-  "title": "LMNA-Genotyp und Vorhofflimmern-Risiko in genetischer Kardiomyopathie",
-  "sum": "Beobachtungsstudie von 3.117 Patienten mit genetischer dilatativer Kardiomyopathie (DCM) aus der SHaRe-Registry untersuchte Prävalenz, Inzidenz und Prognosebedeutung von Vorhofflimmern nach Genotyp.",
-  "result": "Von 2.491 AF-freien Patienten mit Follow-up entwickelten 312 (12,5%) während eines Medians von 4,5 Jahren Vorhofflimmern. Kumulative AF-Prävalenz betrug 23,6%. LMNA zeigte die höchste AF-Inzidenz (7,6 pro 100 Patientenjahre) und kumulative AF-Prävalenz (56,7%) und war die einzige Genotyp-Variable unabhängig assoziiert mit inzidentem AF (HR 5,52, 95% KI 3,84-7,95; p<0,001). TTN hatte AF-Inzidenz von 2,1 pro 100 Patientenjahre. AF war unabhängig assoziiert mit erhöhtem Risiko für kombiniertes Endpunkt (HR 1,58, 95% KI 1,29-1,94; p<0,001) einschließlich Herzinsuffizienz, ventrikuläre Arrhythmien und Gesamtsterblichkeit.",
-  "aufgenommen": "2026-09-12"
  },
  {
   "pmid": "42720633",
