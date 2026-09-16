@@ -1,22 +1,20 @@
 {
  "hub": "Knowledge-Hub Kardiologie",
  "domain": "kardio.m-vf.de",
- "datum": "2026-09-15",
- "stand": "gestoppt",
- "titel": "MVF Kardiologie-Newsletter 15.09.2026",
+ "datum": "2026-09-16",
+ "stand": "terminiert",
+ "titel": "MVF Kardiologie-Newsletter 16.09.2026",
  "betreff": "Neueste Studien - Kardiologie – 16. September 2026",
  "anzahl": 2,
  "pmids": [
   "42721291",
   "42717878"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098892",
- "termin_utc": null,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098900",
+ "termin_utc": "2026-09-16T08:00:00+00:00",
  "empfaenger": 1,
- "listengroesse": 5906,
- "beanstandungen": [
-  "fuer heute liegt bei Mailchimp schon eine Ausgabe dieses Hubs vor: 5013cdee90 (sent) - eine zweite waere ein Doppelversand"
- ],
+ "listengroesse": 5905,
+ "beanstandungen": [],
  "aussortiert": [],
  "pool": {},
  "rubriken": {
