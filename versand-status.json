@@ -5,16 +5,15 @@
  "stand": "terminiert",
  "titel": "MVF Kardiologie-Newsletter 01.10.2026",
  "betreff": "Neueste Studien - Kardiologie – 1. Oktober 2026",
- "anzahl": 6,
+ "anzahl": 5,
  "pmids": [
   "42814450",
   "42814433",
   "42814432",
   "42814115",
-  "42808156",
-  "42805582"
+  "42808156"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099194",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099195",
  "termin_utc": "2026-10-01T08:00:00+00:00",
  "empfaenger": 5,
  "listengroesse": 5906,
