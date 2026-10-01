@@ -2,41 +2,27 @@
  "hub": "Knowledge-Hub Kardiologie",
  "domain": "kardio.m-vf.de",
  "datum": "2026-10-01",
- "stand": "gestoppt",
+ "stand": "terminiert",
  "titel": "MVF Kardiologie-Newsletter 01.10.2026",
  "betreff": "Neueste Studien - Kardiologie – 1. Oktober 2026",
  "anzahl": 6,
  "pmids": [
-  "42815583",
   "42814450",
   "42814433",
   "42814432",
   "42814115",
-  "42813221"
+  "42808156",
+  "42805582"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099186",
- "termin_utc": null,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099194",
+ "termin_utc": "2026-10-01T08:00:00+00:00",
  "empfaenger": 5,
  "listengroesse": 5906,
- "beanstandungen": [
-  "Studie 1 (PMID 42815583): Titel, Zusammenfassung und Ergebnis enthalten 4 englische Funktionswoerter - vermutlich der englische Abstract",
-  "Studie 2 (PMID 42814450): Titel, Zusammenfassung und Ergebnis enthalten 6 englische Funktionswoerter - vermutlich der englische Abstract",
-  "Studie 3 (PMID 42814433): Titel, Zusammenfassung und Ergebnis enthalten 4 englische Funktionswoerter - vermutlich der englische Abstract",
-  "Studie 4 (PMID 42814432): Titel, Zusammenfassung und Ergebnis enthalten 7 englische Funktionswoerter - vermutlich der englische Abstract",
-  "Studie 5 (PMID 42814115): Titel, Zusammenfassung und Ergebnis enthalten 8 englische Funktionswoerter - vermutlich der englische Abstract",
-  "Studie 6 (PMID 42813221): Titel, Zusammenfassung und Ergebnis enthalten 4 englische Funktionswoerter - vermutlich der englische Abstract",
-  "jede der 6 Studien enthaelt mindestens 2 englische Funktionswoerter - die Ausgabe ist vermutlich insgesamt englisch geblieben"
- ],
+ "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 116,
-  "pool": 44,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "pool": {},
  "rubriken": {
-  "news": "6620212467538a9e",
+  "news": "2bcbf6ec5f98e19a",
   "radar": "20d46d2efa301677"
  }
 }
