@@ -265,14 +265,16 @@ Gib ausschliesslich das geforderte JSON zurueck.
 # Neue Begriffe VOR dem Eintragen messen:
 #     py scripts/newsfeed.py --probe
 NEWS_SUCHE = [
-    "Kardiologie",
-    "Herzinsuffizienz",
     "Herzinfarkt",
-    "Vorhofflimmern",
-    "Bluthochdruck",
-    "Herzbericht",
     "Herzzentrum",
-    "Kardiologische Reha",
+    "Herzschwäche",
+    "Herz-Kreislauf",
+    "Herzinsuffizienz",
+    "Vorhofflimmern",
+    "Rhythmusstörungen",
+    "Herzbericht",
+    "Kardiologie",
+    "Bluthochdruck",
 ]
 
 # Der Ausschreibungsradar steht NICHT mehr hier. Er laeuft seit dem 28.08.2026
