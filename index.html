@@ -1477,62 +1477,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Okt. 2026, 06:25 Uhr";
+const SNAP_DATE = "6. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Am J Cardiol", year:"2026", pmid:"42830154",
-    author:"Afonso LM et al.", pubdate:"04.10.2026",
-    added:"04.10.2026",
-    title:"Linksatrialer Verschluss bei Krebspatienten mit Vorhofflimmern: höhere Mortalität, gleiche Schlaganfall-/Blutungsrate",
-    sum:"Systematische Übersichtsarbeit und aktualisierte Metaanalyse: 9 Studien mit 209.325 Patienten, davon 39,3% Frauen, Alter 77 Jahre, zur Sicherheit und Wirksamkeit des linksatrialen Appendage Occlusion (LAAO) bei Krebspatienten mit Vorhofflimmern.",
-    result:"Krebs assoziiert mit höherer Langzeit-Gesamtmortalität (HR 1,64, 95%-KI 1,20–2,23; p=0,002). Kein signifikanter Unterschied bei Schlaganfall (HR 0,59, 95%-KI 0,30–1,15; p=0,12) oder Blutung (HR 1,02, 95%-KI 0,57–1,83; p=0,94). Kein Unterschied zwischen aktuellem und prior Krebs (p=0,146).",
-    transfer:"Internationale Kohorten, Befund zur Mortalität systemunabhängig, Indikationsabwägung für deutsche Zentren relevant"
+    journal:"Open Heart", year:"2026", pmid:"42833702",
+    author:"Tollit J et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Häufig übersehene Warnsymptome vor plötzlichem Herzstillstand bei Kindern",
+    sum:"Retrospektive Analyse von 58 Kindern mit überlebtem außerklinischem Herzstillstand ohne bekannte kardiale Vordiagnose in einem britischen Spezialistenzen­trum (1996–2025); Erfassung von Symptomen vor dem Ereignis.",
+    result:"50,9 % (28/58) hatten kardiale Warnsymptome vor dem Herzstillstand, davon 23,6 % (13/58) mit Synkopen; von diesen 13 Synkopen-Patienten suchten nur 3 ärztliche Hilfe auf. Nach Herzstillstand wurde bei 72,4 % (42/58) eine vererbte Herzerkrankung diagnostiziert, am häufigsten hypertrophe Kardiomyopathie (29,8 %). Potenzielle Chancen zur Früherkennung wurden überwiegend verpasst.",
+    transfer:"UK-Spezialzentrum; Struktur der Primärversorgung und Triage in Deutschland vergleichbar."
   },
   {
-    journal:"Herz", year:"2026", pmid:"42823488",
-    author:"Yıldırım E et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Osaka Prognostic Score sagt paroxysmals Vorhofflimmern voraus: OR 3,37",
-    sum:"Querschnittsstudie: 941 Personen (198 mit VF-Anamnese, 743 Kontrollen) wurden auf Zusammenhang zwischen Osaka Prognostic Score (OPS, basierend auf CRP, Lymphozytenzahl, Albumin) und paroxysmalem Vorhofflimmern untersucht.",
-    result:"Multivariable logistische Regression: OPS unabhängig mit VF assoziiert (OR 3,37; p&lt;0,001). ROC-Analyse: OPS &gt;0,5 mit VF-Präsenz verbunden (Sensitivität 55,6%, Spezifität 77,4%, AUC 0,682; p&lt;0,001). Einfacher klinischer Biomarker, der Zusatzinformation zur Risikostratifikation liefert.",
-    transfer:"Türkei, prospektives Design zur Validierung erforderlich, Biomarker-Konzept international übertragbar"
+    journal:"Open Heart", year:"2026", pmid:"42833699",
+    author:"van Kempen EJ et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Vorhofflimmern nach Schlaganfall: Phänotypisierung für gezieltes Screening",
+    sum:"Retrospektive Kohortenstudie von 1836 Schlaganfall-Patienten in den Niederlanden (Jan 2019–Okt 2024); Charakterisierung von Patienten mit neu detektiertem oder bekanntem Vorhofflimmern und zugehörigen Risikofaktoren.",
+    result:"Vorhofflimmern lag bei 30,5 % vor: 19,7 % bekannt, 10,8 % neu diagnostiziert. Ein Machine-Learning-Phänotyp (generative topographic mapping) mit älterem Alter, schwerer Schlaganfall, Schlaganfall-Vorgeschichte, Hypertonie, Diabetes, hoher kardialer Last (KHK, Herzklappenfehler, Herzinsuffizienz), reduzierter Nierenfunktion und Zeichen der Vorhofumgestaltung zeigte 47,9 % AF-Prävalenz. Schweregrad, kardiale Last und Vorhofumgestaltung waren stärkste Prädiktoren.",
+    transfer:"Niederländische Universitätsklinik, vergleichbares Sozialversicherungssystem und Dokumentation."
   },
   {
-    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42805720",
-    author:"Sathanandam S et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"Transkatheter-PDA-Verschluss am Bett Neugeborener sicherer und kürzer als im Labor",
-    sum:"Retrospektive Analyse der Transition eines interventionellen Verfahrens vom Katheterisierungslabor auf die neonatale Intensivstation: 500 extrem frühgeborene Kinder (&lt;28 Wochen, &lt;2 kg) mit hämodynamisch signifikantem Ductus arteriosus, davon 176 am Bett behandelt.",
-    result:"Bettseitige Verfahren waren kürzer (18 Min. vs. 32 Min., p&lt;0,001), mit weniger Strahlenbelastung (0,019 vs. 0,068 Gy×cm²; p&lt;0,001). Prozedurales Erfolg: 100% in allen Settings. Komplikationsrate 1,7% ähnlich in allen Gruppen. Überlebensrate nach Median 6,8 Jahren: 89%, keine Rezidiv-PDAs, minimale Spätkomplikationen.",
-    transfer:"USA-Zentren, aber Verfahrenssicherheit und Outcome-Daten unabhängig von Gesundheitssystem übertragbar"
+    journal:"Open Heart", year:"2026", pmid:"42833701",
+    author:"Giliomee LJ et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Entzündung ohne Ödem deutet auf Vernarbung bei tuberkulöser Perikarditis hin",
+    sum:"Prospektive Kohortenstudie mit Baseline- und 6-Monats-Kardio-MRT bei tuberkulöser Perikarditis (Südafrika); Untersuchung, wie Entzündungsmarker und Ödem die Vorhersage einer Perikardverfestigung verbessern.",
+    result:"Von 633 ödematösen Segmenten zeigten 20,7 % Versteifung bei Follow-up, von 267 nicht-ödematösen Segmenten 51,7 % (p&lt;0,001). Höhere Baseline-Entzündungslast war unabhängig mit Versteifung assoziiert (OR 1,32 pro SD-Anstieg, 95%-KI 1,12–1,55; p=0,0011); Baseline-Ödem war protektiv (OR 0,29, 95%-KI 0,20–0,43; p&lt;0,001). Interpretation: Ödem spiegelt akute reversible, intensive Entzündung ohne Ödem eher fibroseanfällige Phänotypen wider.",
+    transfer:"Südafrika-Spezialistenzen­trum; Mechanismus der Fibroseentwicklung grundlagenrelevant, Übertragbarkeit auf TB-Epidemiologie Europas begrenzt."
   },
   {
-    journal:"Eur Heart J", year:"2026", pmid:"42799541",
-    author:"Gori M et al.", pubdate:"26.09.2026",
-    added:"26.09.2026",
-    title:"HFpEF und HFmrEF: Klinische Trends in Patientendaten-Metaanalyse stabilisiert sich",
-    sum:"Individuelle Patientendaten-Metaanalyse von Herzinsuffizienz-Studien mit erhaltener und mittlerer Auswurffraktion: Analyse von zeitlichen Trends und Outcomes über mehrere Jahrzehnte in randomisierten Kontrolltrialen.",
-    result:"Gori et al. zeigen, dass sich die klinischen Charakteristiken und Outcomevariablen von HFpEF und HFmrEF über Zeit stabilisieren; präzise Quantifizierung der Baseline-Merkmale und Endpunkte im Abstract nicht genannt. Befund unterstreicht, dass diese Phänotypen konstante Prognostik aufweisen.",
-    transfer:"Europäische und nordamerikanische Studienpopulationen, übertragbar auf strukturierte Versorgung"
+    journal:"Open Heart", year:"2026", pmid:"42833698",
+    author:"Yingchoncharoen T et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Sterblichkeitsmuster und Prädiktoren bei Herzinsuffizienz in Thailand",
+    sum:"Prospektive Kohortenstudie von 2879 Herzinsuffizienz-Patienten aus dem Thai Heart Failure Registry (Jan 2021–Dez 2023); Erfassung von Todesursachen und Mortalitätsprädiktoren.",
+    result:"Über 23 Monate: 301 Todesfälle (10,5 %), Inzidenzrate 6,8/100 Personen-Jahre. Kardiovaskulär 49,5 % (149), nicht-kardiovaskulär 38,5 % (116), ungeklärt 12,0 % (36). Bei HFrEF/HFmrEF überwog kardiovaskuläre Mortalität (5,3 % vs. 3,9 %), bei HFpEF nicht-kardiovaskulär höher (5,5 % vs. 4,1 %, besonders Sepsis). Unabhängige Mortalitätsprädiktoren: ischämische Ätiologie (HR 1,34; 95%-KI 1,06–1,69), Vorhofflimmern (HR 1,57; 1,24–2,00), periphere Ödeme (HR 2,11; 1,57–2,85), Hyponatriämie (HR 1,83; 1,39–2,39), Hypokaliämie (HR 1,44; 1,06–1,95), erhöhtes Harnstoff-Stickstoff (HR 1,56; 1,23–1,98), Schleifen-Diuretika (HR 1,61; 1,21–2,14). Gute Therapieadhärenz assoziiert mit niedrigerer Mortalität.",
+    transfer:"Thailand-Register mit breiter Abdeckung; Befunde zu Elektrolytstörungen und Diuretika-Nutzen international übertragbar."
   },
   {
-    journal:"JACC Clin Electrophysiol", year:"2026", pmid:"42820878",
-    author:"Salvajoli B et al.", pubdate:"11.09.2026",
-    added:"01.10.2026",
-    title:"Stereotaktische Bestrahlung für therapierefraktäre Kammertachykardie bei Chagas-Kardiomyopathie möglich",
-    sum:"Prospektive Phase-I/II-Pilotstudie: 11 Patienten mit Chagas-Kardiomyopathie und therapierefraktärer Kammertachykardie, bei denen interventionelle Ablation versagt oder nicht in Frage kam, erhielten einzelne 25-Gy-SBRT-Fraktion auf arrhythmisches Substrat.",
-    result:"Median Follow-up 160 Tage: VT-Rezidiv in 10 von 11 Patienten (Median bis Rezidiv 79 Tage nach 6-Wochen-Blanking-Phase). Vergleich 12 Monate nach vs. 6 Monate vor SBRT: signifikante Reduktion VT-Episoden (p=0,040), Antitachykardie-Pacing (p=0,012) und kombinierte Therapien (p=0,022). 12-Monats-Gesamtüberleben 45,5%. Keine schwerwiegenden therapiebedingten Nebenwirkungen.",
-    transfer:"Brasilien, neue Technik, aber Machbarkeit und Sicherheit wegweisend für seltene, therapierefraktäre Indikation"
-  },
-  {
-    journal:"Cardiovasc Res", year:"2026", pmid:"42698267",
-    author:"Shumliakivska M et al.", pubdate:"05.09.2026",
-    added:"05.09.2026",
-    title:"Klonale Hämatopoese DNMT3A verursacht endotheliale Aktivierung und Herzinsuffizienz via Semaphorin 4A",
-    sum:"Experimentelle Arbeit: DNMT3A-getriebene klonale Hämatopoese wurde in Herzinsuffizienz-Modellen untersucht; Mechanismus über Semaphorin-4A-abhängige endotheliale Aktivierung identifiziert durch genetische und pharmakologische Intervention.",
-    result:"DNMT3A-Mutation in Blutvorläuferzellen triggert klonale Expansion, die über zirkulierende Signalmoleküle (Semaphorin 4A) endotheliale Dysfunktion und Herzinsuffizienz-Phänotyp induziert. Genetische und pharmazeutische Blockade des Mechanismus reduziert HF-Progression in vivo.",
-    transfer:"Deutschland (Frankfurt, Heidelberg), funktioneller Mechanismus mit therapeutischem Ansatz für tiefere Grundlagenforschung"
+    journal:"Open Heart", year:"2026", pmid:"42833700",
+    author:"Demir OM et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Lebenserwartung kein Kriterium: Alter allein rechtfertigt Verzicht auf Aortenklappenersatz",
+    sum:"Konzeptionelle Analyse zur Fehlinterpretation der Lebenserwartung bei Entscheidungen über Aortenklappenintervention im höheren Alter; Darlegung, warum Alter kein valider Proxy für Futilität ist.",
+    result:"Life Expectancy bei Geburt ist Populationsmittelwert, nicht individuelle Obergrenze. Ein 90-Jähriger in England/Wales hat noch durchschnittlich 3,9 Jahre Lebenserwartung; ein durchschnittlicher 82-Jähriger wird älter als ein 72-Jähriger. Wer die Durchschnittserwartung übertroffen hat, gehört zu langlebigeren Stratum und könnte am meisten von dauerhafter Klappe profitieren. Futilität ist real (fortgeschrittene Herzschäden, Gebrechlichkeit, dominante Komorbiditäten), aber Alter ist ungenauer Proxy. Empfehlung: Altersbasierte Nihilismus ersetzen durch Stadium-, Schadensausmaß- und Komorbiditäts-adjustierte Prognose mit explizit dokumentiertem erwarteten Nutzen im Shared Decision-Making.",
+    transfer:"Britischer Fachdiskurs; Konzept auf deutsche Klappen-DMP und TAVI-Indikation übertragbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1543,22 +1534,22 @@ const RADAR_STAND = "05.10.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#kardio";
 const RADAR_EIGENES = 13;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2027-01-07", "2026-10-19", "2026-10-28"], [], ["2026-10-09", "2026-10-19", "2026-10-19", "2026-10-06", "2026-10-28", "2027-01-07", "2026-10-19", "2026-10-19"], [], ["2026-10-15", "2026-11-19"], [], [], ["2026-10-22", "2026-11-18", "2026-10-30", "2026-11-06", "2026-11-09", "2026-10-26"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-10-15", "2027-01-07"], ["2026-10-05", "2027-01-07", "2027-01-07", "2027-01-07", "2026-10-07", "2026-11-18", "2026-11-18", "2026-10-14"], ["2026-11-19", "2027-01-07", "2027-01-07", "2027-01-07"], ["2026-10-06"]];
+const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"], [], ["2026-10-06", "2026-10-28", "2026-10-09", "2026-10-19", "2026-10-19", "2027-01-07", "2026-10-19", "2026-10-19"], [], ["2026-10-15"], [], [], ["2026-10-30", "2026-10-22", "2026-11-18", "2026-10-26"], [], ["2026-10-20", "2026-10-09", "2026-10-09"], [], ["2026-10-15", "2026-10-15", "2027-01-07", "2026-10-15", "2026-10-15"], ["2027-01-07", "2027-01-07", "2027-01-07", "2026-10-07", "2026-10-07", "2026-11-18", "2026-11-18", "2026-10-05"], ["2026-11-19", "2027-01-07", "2027-01-07"], ["2026-10-06", "2026-11-09"]];
 // === RADAR-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.10.2026";
+const NEWS_STAND = "06.10.2026";
 const NEWS = [
   {titel:"Gesprächskarten für Herzinsuffizienz-Patienten: Abbott stellt Set vor", datum:"2026-09-28", url:"https://www.monitor-versorgungsforschung.de/news/gespraechskarten-fuer-herzinsuffizienz-patienten-abbott-stellt-set-vor/"},
-  {titel:"Rhythmusstörungen: 509.490 Klinikfälle 2024 laut Deutschem Herzbericht", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/rhythmusstoerungen-509-490-klinikfaelle-2024-laut-deutschem-herzbericht/"},
+  {titel:"Interatrialer Shunt bei Herzschwäche: G-BA beschließt neue Leistung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/interatrialer-shunt-bei-herzschwaeche-g-ba-beschliesst-neue-leistung/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Prof. Christina Weisheit übernimmt Leitung der Anästhesiologie am Campus Kiel", datum:"2026-10-01", url:"http://idw-online.de/de/news878334", quelle:"idw"},
+  {titel:"Neuartiges Verfahren zur Therapie von Vorhofflimmern / Zentralklinik Bad Berka als erstes Thüringer Zentrum", datum:"2026-10-05", url:"https://www.presseportal.de/pm/109212/6364766", quelle:"presseportal.de"},
   {titel:"ACS Pathfinder als Medizinprodukt zugelassen: Algorithmus unterstützt Herzinfarkt-Diagnose", datum:"2026-09-29", url:"http://idw-online.de/de/news878154", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
@@ -1567,7 +1558,6 @@ const PRESSE = [
 // === SELBST-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const SELBST = [
   {titel:"Perkutan implantierter interatrialer Shunt zur Behandlung der Herzinsuffizienz mit reduzierter linksventrikulärer Ejektionsfraktion (LVEF ≤ 40 %)", datum:"2026-09-17", url:"/bewertungsverfahren/methodenbewertung/338/", quelle:"G-BA"},
-  {titel:"Perkutan implantierter interatrialer Shunt zur Behandlung der Herzinsuffizienz mit reduzierter linksventrikulärer Ejektionsfraktion (LVEF ≤ 40 %)", datum:"2026-09-17", url:"/bewertungsverfahren/methodenbewertung/345/", quelle:"G-BA"},
 ];
 // === SELBST-BLOCK-ENDE ===
 
