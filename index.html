@@ -1477,53 +1477,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "7. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Open Heart", year:"2026", pmid:"42833702",
-    author:"Tollit J et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Häufig übersehene Warnsymptome vor plötzlichem Herzstillstand bei Kindern",
-    sum:"Retrospektive Analyse von 58 Kindern mit überlebtem außerklinischem Herzstillstand ohne bekannte kardiale Vordiagnose in einem britischen Spezialistenzen­trum (1996–2025); Erfassung von Symptomen vor dem Ereignis.",
-    result:"50,9 % (28/58) hatten kardiale Warnsymptome vor dem Herzstillstand, davon 23,6 % (13/58) mit Synkopen; von diesen 13 Synkopen-Patienten suchten nur 3 ärztliche Hilfe auf. Nach Herzstillstand wurde bei 72,4 % (42/58) eine vererbte Herzerkrankung diagnostiziert, am häufigsten hypertrophe Kardiomyopathie (29,8 %). Potenzielle Chancen zur Früherkennung wurden überwiegend verpasst.",
-    transfer:"UK-Spezialzentrum; Struktur der Primärversorgung und Triage in Deutschland vergleichbar."
+    journal:"Heart Rhythm", year:"2026", pmid:"42838320",
+    author:"Tsioufis PA et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"Flecainid konvertiert paroxysmales Vorhofflimmern bei KHK rascher als Amiodaron ohne Proarrhythmie",
+    sum:"Randomisierte, offene Multizenterstudie mit 87 Patienten mit paroxysmales Vorhofflimmern und dokumentierter KHK ohne Restischämie: Vergleich intravenöser Flecainid vs. Amiodaron zur akuten Kardioversion in der Notaufnahme.",
+    result:"Konversion zu Sinusrhythmus innerhalb 6 Stunden: Flecainid 85,7 % vs. Amiodaron 40,0 % (p&lt;0,001). Mediane Konversionszeit: 20 Min. vs. 244 Min. (p&lt;0,001). Krankenhausaufnahme: 14,3 % vs. 60,0 % (p&lt;0,001). Keine ventrikulären Proarrhythmien über 24 Stunden in beiden Gruppen, kein Tod bis 30 Tage. Hypothese-generierende Evidenz gegen die bisherige KHK-Kontraindikation bei fehlender Restischämie.",
+    transfer:"Griechische akademische Studie, mediterrane KHK-Population; Sicherheitsbefund übertragbar, Dosierungskonzept dem deutschen Versorgungsalltag angepasst."
   },
   {
-    journal:"Open Heart", year:"2026", pmid:"42833699",
-    author:"van Kempen EJ et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Vorhofflimmern nach Schlaganfall: Phänotypisierung für gezieltes Screening",
-    sum:"Retrospektive Kohortenstudie von 1836 Schlaganfall-Patienten in den Niederlanden (Jan 2019–Okt 2024); Charakterisierung von Patienten mit neu detektiertem oder bekanntem Vorhofflimmern und zugehörigen Risikofaktoren.",
-    result:"Vorhofflimmern lag bei 30,5 % vor: 19,7 % bekannt, 10,8 % neu diagnostiziert. Ein Machine-Learning-Phänotyp (generative topographic mapping) mit älterem Alter, schwerer Schlaganfall, Schlaganfall-Vorgeschichte, Hypertonie, Diabetes, hoher kardialer Last (KHK, Herzklappenfehler, Herzinsuffizienz), reduzierter Nierenfunktion und Zeichen der Vorhofumgestaltung zeigte 47,9 % AF-Prävalenz. Schweregrad, kardiale Last und Vorhofumgestaltung waren stärkste Prädiktoren.",
-    transfer:"Niederländische Universitätsklinik, vergleichbares Sozialversicherungssystem und Dokumentation."
+    journal:"EuroIntervention", year:"2026", pmid:"42837205",
+    author:"Rissanen TT et al.", pubdate:"05.10.2026",
+    added:"06.10.2026",
+    title:"Sirolimus-Ballons bei hochblutungsrisiko-Patienten: geringere Target-Vessel-Failure-Rate als Drug-Eluting-Stents",
+    sum:"Substudie der SELUTION-DeNovo-Studie verglich bei 522 Hochrisiko-Patienten die Strategie Sirolimus-eluierende Ballons (mit fakultativem Stenting) gegen systematische Drug-Eluting-Stents.",
+    result:"Target Vessel Failure nach 1 Jahr in der Ballon-Gruppe 4,9 % vs. DES-Gruppe 7,9 % (absolute Risikodifferenz −3,05 %, 95%-KI: −7,27–1,17). Schwere Blutungen (BARC 3-5): 2,3 % vs. 3,2 %. Alle Antiplatelet-Medikation wurde in 27,8 % der Ballon-Gruppe vs. 14,9 % der DES-Gruppe nach 6 Monaten pausiert. Eine sichere Alternative zu systematischem Stenting bei ausgewählten Hochrisiko-Patienten.",
+    transfer:"Europäische Multizenterstudie, vergleichbare Versorgungssysteme, hohe Übertragbarkeit auf deutsche Praxis."
   },
   {
-    journal:"Open Heart", year:"2026", pmid:"42833701",
-    author:"Giliomee LJ et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Entzündung ohne Ödem deutet auf Vernarbung bei tuberkulöser Perikarditis hin",
-    sum:"Prospektive Kohortenstudie mit Baseline- und 6-Monats-Kardio-MRT bei tuberkulöser Perikarditis (Südafrika); Untersuchung, wie Entzündungsmarker und Ödem die Vorhersage einer Perikardverfestigung verbessern.",
-    result:"Von 633 ödematösen Segmenten zeigten 20,7 % Versteifung bei Follow-up, von 267 nicht-ödematösen Segmenten 51,7 % (p&lt;0,001). Höhere Baseline-Entzündungslast war unabhängig mit Versteifung assoziiert (OR 1,32 pro SD-Anstieg, 95%-KI 1,12–1,55; p=0,0011); Baseline-Ödem war protektiv (OR 0,29, 95%-KI 0,20–0,43; p&lt;0,001). Interpretation: Ödem spiegelt akute reversible, intensive Entzündung ohne Ödem eher fibroseanfällige Phänotypen wider.",
-    transfer:"Südafrika-Spezialistenzen­trum; Mechanismus der Fibroseentwicklung grundlagenrelevant, Übertragbarkeit auf TB-Epidemiologie Europas begrenzt."
+    journal:"EuroIntervention", year:"2026", pmid:"42837204",
+    author:"Marquard JM et al.", pubdate:"05.10.2026",
+    added:"06.10.2026",
+    title:"SYNTAX-Score und mikroaxiales Pumpen-Support bei kardiogenem Schock: komplexe Koronararterien verschlechtern Prognose",
+    sum:"Sekundäranalyse der DanGer-Shock-Studie mit 256 Patienten mit Mehrgefäßerkrankung und infarktbedingtem kardiogenem Schock zur prognostischen Bedeutung des SYNTAX-Scores und Effekt der mechanischen Unterstützung.",
+    result:"Hoher Baseline-SYNTAX-Score (&gt;32) assoziiert mit erhöhtem Odds Ratio für 180-Tage-Mortalität: 3,12 (95%-KI: 1,17–8,69) verglichen mit niedrigem Score. Residualer SYNTAX-Score unabhängiger Mortalitätsprädiktor. Bei isolierter Linkshauptsstamm-Läsion zeigte mikroaxiales Pumpen-Support-System Vorteil (adjustiertes OR 0,17, 95%-KI: 0,03–0,99).",
+    transfer:"Dänisch-deutsches Multizentrenkonsortium, vergleichbare europäische Strukturen und Ressourcen."
   },
   {
-    journal:"Open Heart", year:"2026", pmid:"42833698",
-    author:"Yingchoncharoen T et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Sterblichkeitsmuster und Prädiktoren bei Herzinsuffizienz in Thailand",
-    sum:"Prospektive Kohortenstudie von 2879 Herzinsuffizienz-Patienten aus dem Thai Heart Failure Registry (Jan 2021–Dez 2023); Erfassung von Todesursachen und Mortalitätsprädiktoren.",
-    result:"Über 23 Monate: 301 Todesfälle (10,5 %), Inzidenzrate 6,8/100 Personen-Jahre. Kardiovaskulär 49,5 % (149), nicht-kardiovaskulär 38,5 % (116), ungeklärt 12,0 % (36). Bei HFrEF/HFmrEF überwog kardiovaskuläre Mortalität (5,3 % vs. 3,9 %), bei HFpEF nicht-kardiovaskulär höher (5,5 % vs. 4,1 %, besonders Sepsis). Unabhängige Mortalitätsprädiktoren: ischämische Ätiologie (HR 1,34; 95%-KI 1,06–1,69), Vorhofflimmern (HR 1,57; 1,24–2,00), periphere Ödeme (HR 2,11; 1,57–2,85), Hyponatriämie (HR 1,83; 1,39–2,39), Hypokaliämie (HR 1,44; 1,06–1,95), erhöhtes Harnstoff-Stickstoff (HR 1,56; 1,23–1,98), Schleifen-Diuretika (HR 1,61; 1,21–2,14). Gute Therapieadhärenz assoziiert mit niedrigerer Mortalität.",
-    transfer:"Thailand-Register mit breiter Abdeckung; Befunde zu Elektrolytstörungen und Diuretika-Nutzen international übertragbar."
+    journal:"EuroIntervention", year:"2026", pmid:"42837202",
+    author:"Oshima A et al.", pubdate:"05.10.2026",
+    added:"06.10.2026",
+    title:"Standardisierte Erfolgsbeurteilung nach PCI identifiziert 12 % zusätzliche Hochrisiko-Läsionen",
+    sum:"Prospektive Analyse von 1.548 Patienten mit Dreigefäßerkrankung: Vergleich visueller Erfolgsbeurteilung durch Operateur versus standardisierte quantitative Koronarangiographie (QCA) und angio-FFR durch Core Lab.",
+    result:"Operator-bewerteter Device-Erfolg 97,4 %, aber Core-Lab-QCA nur 88,0 %, kombiniert QCA+angio-FFR 83,2 %. Läsionen ohne QCA-basierter Erfolgskriterien hatten höhere Lesion-Oriented-Composite-Endpoint-Rate nach 1 Jahr (12,0 % vs. 9,1 %, p=0,041). Standardisierte Kernlab-Bewertung reklassifiziert erheblichen Anteil visueller Erfolge und identifiziert Hochrisiko-Läsionen.",
+    transfer:"Europäische Multizenterstudie mit standardisiertem Kernlab-Protokoll, hohe Übertragbarkeit auf deutsche Interventionszentren."
   },
   {
-    journal:"Open Heart", year:"2026", pmid:"42833700",
-    author:"Demir OM et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Lebenserwartung kein Kriterium: Alter allein rechtfertigt Verzicht auf Aortenklappenersatz",
-    sum:"Konzeptionelle Analyse zur Fehlinterpretation der Lebenserwartung bei Entscheidungen über Aortenklappenintervention im höheren Alter; Darlegung, warum Alter kein valider Proxy für Futilität ist.",
-    result:"Life Expectancy bei Geburt ist Populationsmittelwert, nicht individuelle Obergrenze. Ein 90-Jähriger in England/Wales hat noch durchschnittlich 3,9 Jahre Lebenserwartung; ein durchschnittlicher 82-Jähriger wird älter als ein 72-Jähriger. Wer die Durchschnittserwartung übertroffen hat, gehört zu langlebigeren Stratum und könnte am meisten von dauerhafter Klappe profitieren. Futilität ist real (fortgeschrittene Herzschäden, Gebrechlichkeit, dominante Komorbiditäten), aber Alter ist ungenauer Proxy. Empfehlung: Altersbasierte Nihilismus ersetzen durch Stadium-, Schadensausmaß- und Komorbiditäts-adjustierte Prognose mit explizit dokumentiertem erwarteten Nutzen im Shared Decision-Making.",
-    transfer:"Britischer Fachdiskurs; Konzept auf deutsche Klappen-DMP und TAVI-Indikation übertragbar."
+    journal:"ESC Heart Fail", year:"2026", pmid:"42836328",
+    author:"Leps C et al.", pubdate:"27.08.2026",
+    added:"06.10.2026",
+    title:"Herzinsuffizienz-Patienten erreichen Intensivtraining-Ziele nicht; nur intensive Aktivität senkt NT-proBNP um 0,19 pg/ml pro Trainingsminute",
+    sum:"Prospektive Beobachtungsstudie mit 156 Herzinsuffizienz-Patienten (NYHA I und II/III), die 12 Monate lang mit multisensorischem Activity Tracker kontinuierlich überwacht wurden, um Zusammenhänge zwischen Bewegungsumfang, Intensität und kardiovaskulären Outcomes zu klären.",
+    result:"Median wöchentliche moderate körperliche Aktivität (MPA) nur 225 Min. (NYHA I) bzw. 167 Min. (NYHA II/III); intensive Aktivität (VPA) nur 17 bzw. 9 Min./Woche. VPA positiv assoziiert mit maximaler Sauerstoffaufnahme (β=3,815, 95%-KI [1,43–10,19], p=0,008). MPA invers mit NT-proBNP assoziiert (β=−0,189, 95%-KI [−0,353–−0,025], p=0,024). Tägliche Schritte positiv mit VO₂max (β=0,545, p&lt;0,001), invers mit Fettmasse (β=−1,058, p&lt;0,001) und CRP (β=−0,057, p=0,005).",
+    transfer:"Deutsche Multizenterstudie mit etablierten deutschen Rehabilitations-Zentren, direkt anwendbar auf deutsche Trainingsprogramme."
+  },
+  {
+    journal:"ESC Heart Fail", year:"2026", pmid:"42836327",
+    author:"Gori M et al.", pubdate:"27.08.2026",
+    added:"06.10.2026",
+    title:"Pflege-gesteuerte Titration von Herzinsuffizienz-Therapien: Implementierungs-Roadmap für Deutschland",
+    sum:"Narrative Analyse zur praktischen Umsetzung nurse-led Titration von Guideline-Directed Medical Therapy (GDMT) in Italien und anderen europäischen Ländern; Beschreibung von Voraussetzungen, medizin-rechtliche Aspekte und operationales Flussdiagramm für die Implementierung.",
+    result:"Hauptvoraussetzungen sind dedizierte Schulung und standardisierte Management-Protokolle. Detaillierte ärztliche Verordnungen notwendig, die für jeden Patienten Timing, Methode und resultierende Maßnahmen spezifizieren. Multi-professionelle Strategie mit Pflege-gesteuerte GDMT-Titration empfohlen als Weg zur Verbesserung der Leitlinien-Umsetzung in der Routinepraxis. In Italien und vielen europäischen Ländern noch nicht Standard.",
+    transfer:"Italienische Konsensusarbeit mit europäischen Zentren, unmittelbare Relevanz für deutsche Versorgungsstrukturen und DMP."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1539,7 +1548,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.10.2026";
+const NEWS_STAND = "07.10.2026";
 const NEWS = [
   {titel:"Gesprächskarten für Herzinsuffizienz-Patienten: Abbott stellt Set vor", datum:"2026-09-28", url:"https://www.monitor-versorgungsforschung.de/news/gespraechskarten-fuer-herzinsuffizienz-patienten-abbott-stellt-set-vor/"},
   {titel:"Interatrialer Shunt bei Herzschwäche: G-BA beschließt neue Leistung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/interatrialer-shunt-bei-herzschwaeche-g-ba-beschliesst-neue-leistung/"},
