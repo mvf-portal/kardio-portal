@@ -1,34 +1,34 @@
 {
  "hub": "Knowledge-Hub Kardiologie",
  "domain": "kardio.m-vf.de",
- "datum": "2026-10-08",
+ "datum": "2026-10-09",
  "stand": "terminiert",
- "titel": "MVF Kardiologie-Newsletter 08.10.2026",
- "betreff": "Neueste Studien - Kardiologie – 8. Oktober 2026",
+ "titel": "MVF Kardiologie-Newsletter 09.10.2026",
+ "betreff": "Neueste Studien - Kardiologie – 9. Oktober 2026",
  "anzahl": 6,
  "pmids": [
-  "42844166",
-  "42843992",
-  "42843498",
-  "42841926",
-  "42841215",
-  "42834810"
+  "42850059",
+  "42847313",
+  "42834504",
+  "42823339",
+  "42808440",
+  "42786622"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099302",
- "termin_utc": "2026-10-08T08:00:00+00:00",
- "empfaenger": 6,
- "listengroesse": 5883,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099328",
+ "termin_utc": "2026-10-09T08:00:00+00:00",
+ "empfaenger": 5,
+ "listengroesse": 5876,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 123,
-  "pool": 43,
+  "bekannt": 108,
+  "pool": 53,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
   "news": "e05ad4570c89363f",
-  "radar": "03b4c22590ec6f36"
+  "radar": "d59cd4e4aadd55a2"
  }
 }
