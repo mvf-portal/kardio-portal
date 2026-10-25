@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42857992",
+  "journal": "J Am Heart Assoc",
+  "year": "2026",
+  "author": "Lindberg P et al.",
+  "pubdate": "20.10.2026",
+  "added": "10.10.2026",
+  "transfer": "Schweden, Bevölkerungsregister mit vollständiger Erfassung; Daten übertragbar auf deutsches Sozialversicherungssystem",
+  "title": "Long COVID erhöht Bluthochdruck-Risiko um 14 Prozent",
+  "sum": "Schwedische Bevölkerungskohortenstudie (1,22 Mio. Personen ohne Hypertonie) zu Langzeitfolgen nach SARS-CoV-2-Infektion: Long-COVID-Patienten entwickelten innerhalb von 4 Jahren häufiger neu auftretende Hypertonie als nicht-exponierte Personen.",
+  "result": "Long-COVID-Diagnose erhöhte das Hypertonie-Risiko um 14 % gesamtkohort (Hazard Ratio 1,14; 95%-KI 1,09–1,20; p<0,001), bei Frauen um 13 % (HR 1,13; 1,05–1,22; p=0,001) und Männern um 15 % (HR 1,15; 1,05–1,27; p=0,002). Das Risiko stieg früh und persistierte über 36 Monate Nachbeobachtung.",
+  "aufgenommen": "2026-10-25"
+ },
+ {
   "pmid": "42913987",
   "journal": "Heart Rhythm",
   "year": "2026",
