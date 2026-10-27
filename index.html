@@ -2039,53 +2039,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Europace", year:"2026", pmid:"42921970",
-    author:"Ha FJ et al.", pubdate:"23.10.2026",
+    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42933915",
+    author:"Miyamoto J et al.", pubdate:"26.10.2026",
+    added:"26.10.2026",
+    title:"Pulmonale Hypertonie nach Mitral-TEER: Normalisierung senkt Risiko, Persistenz erhöht es deutlich",
+    sum:"In 3.484 Patienten mit schwerer Mitralinsuffizienz wurde untersucht, wie sich periprozedural gemessene Veränderungen der pulmonalen Hypertonie nach transkatheter Mitralklappenreparatur auf Sterblichkeit und Herzinsuffizienz-Hospitalisierungen auswirken.",
+    result:"Nach 2 Jahren betrug die Inzidenz kardiovaskulärer Tod oder HF-Hospitalisierung bei Patienten ohne PH 17,6%, bei normalisierter PH 18,1%, bei neu aufgetretener PH 27,2% und bei persistierender PH 27,6% (p&lt;0,001). Normalisierte PH zeigte vergleichbare Outcomes wie keine PH (adj. HR 0,98; 95%-KI 0,78-1,24). Residuale und neu aufgetretene PH waren unabhängig mit schlechteren Ergebnissen assoziiert (HR 1,37 bzw. 1,46).",
+    transfer:"Japan, OCEAN-Mitral-Registry mit vergleichbarem Gesundheitssystem und Dokumentationsstandard."
+  },
+  {
+    journal:"Circulation", year:"2026", pmid:"42932419",
+    author:"Packer M et al.", pubdate:"27.10.2026",
+    added:"26.10.2026",
+    title:"Activin-A-Blockade bei HFpEF mit pulmonaler Hypertonie: Sotatercept senkt Wedge-Druck und LA-Volumen",
+    sum:"Mechanistische Analyse, wie Activin-A-Signaling über epicardiales Fettgewebe bei HFpEF mit kombiniert postcapillärer und precapillärer pulmonaler Hypertonie (CpcPH) wirkt und wie der Activin-Type-II-Rezeptor-Ligand-Trap Sotatercept diese Pathologie beeinflusst.",
+    result:"Die CADENCE-Studie zeigte, dass Sotatercept bei CpcPH-HFpEF sowohl pulmonalarterielle Verschlussdruck als auch LA-Volumen-Index senkte – Effekte, die nicht allein durch Reduktion des pulmonalvaskulären Widerstands erklärbar sind. Experimentelle Daten bestätigen, dass Activin-A-Blockade LA- und Lungenvenenfibrose reduziert und venöse Remodellierung attenuiert.",
+    transfer:"Praxisrelevante Grundlagensynthese für Phase-III-Outcomes-Studie, Mechanismus und klinischer Nutzen beschrieben."
+  },
+  {
+    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42933913",
+    author:"McEntegart M et al.", pubdate:"26.10.2026",
+    added:"26.10.2026",
+    title:"Laser-basierte intravaskuläre Lithotripsie bei Koronarkalk: 93,7% Erfolgsrate, MACE 6,7%",
+    sum:"420 Patienten mit schwer verkalkten de-novo-Koronarlasionen wurden mit einem neuen Quad-Emitter-IVL-System behandelt; primäre Endpunkte waren 30-Tage-Freiheit von MACE (Sicherheit) und Prozedurserfolg (Stentimplantation mit &lt;50% residualer Stenose).",
+    result:"30-Tage-MACE-Freiheit 93,3% (95%-KI untere Grenze 90,8%, überschreitet Performance-Ziel von 86,2%; p&lt;0,0001). Prozedurserfolg 93,7% (95%-KI untere Grenze 91,3%, überschreitet Ziel von 85,8%; p&lt;0,0001). OCT bestätigte Kalkfrakturen in 67% der Läsionen; mediane Stent-Expansion 94,2% ± 19,4% an Maximalverkalkung.",
+    transfer:"Internationale multizentrische Studie, Gerätetechnik übertragbar, Verfahren in Deutschland noch nicht routinemäßig verfügbar."
+  },
+  {
+    journal:"Open Heart", year:"2026", pmid:"42933877",
+    author:"Nabeshima Y et al.", pubdate:"26.10.2026",
+    added:"26.10.2026",
+    title:"TTR-Amyloidose: Therapiebenefit hängt vom Erkrankungsstadium ab – frühe Intervention günstiger",
+    sum:"Retrospektive Analyse zur zeitabhängigen Effektivität von Therapien (Stabilisatoren, Antisense-Oligonukleotide) bei Transthyretin-Amyloid-Kardiomyopathie in Abhängigkeit vom Erkrankungsstadium bei Therapiebeginn.",
+    result:"Der relative und absolute Therapiebenefit war stadiumabhängig: Frühes Stadium zeigte größeren Nutzen als späte Stadien; frühe Intervention führte zu besseren funktionellen Outcomes und reduzierter Progression. Quantitativ berichtete die Studie, dass Patienten im frühen Stadium eine höhere Wahrscheinlichkeit für funktionelle Verbesserung hatten als jene mit fortgeschrittener Erkrankung.",
+    transfer:"Japan, vergleichbare Epidemiologie und Versorgungsstruktur; unterstreicht Bedeutung frühzeitiger Diagnostik in Deutschland."
+  },
+  {
+    journal:"Cardiovasc Res", year:"2026", pmid:"42922432",
+    author:"Giacobbe F et al.", pubdate:"23.10.2026",
     added:"24.10.2026",
-    title:"Pulsed-Field-Ablation: Same-Day-Discharge möglich mit guter Sicherheit",
-    sum:"Multizentrische Analyse von 240 Patienten mit Vorhofflimmern, die nach Pulsed-Field-Ablation (PFA) am selben Tag entlassen wurden; Erfassung von Sicherheit, Effektivität und Kostenaspekten in der SENTINEL Registry.",
-    result:"Same-Day-Discharge nach PFA war durchführbar mit niedriger Komplikationsrate. Verfahren zeigte gutes Sicherheitsprofil und ermöglichte Kosteneffizienz durch Einsparung von stationären Übernachtungen im Vergleich zu konventioneller thermischer Ablation.",
-    transfer:"Australien, Neuseeland, mit europäischen Zentren beteiligt; übertragbar auf deutsche Struktur für Rhythmologie"
+    title:"KI bei Herzinfarkt-Diagnostik: AUC 0,97 für AMI, 0,96 für STEMI, 0,97 für NSTEMI",
+    sum:"Systematischer Review und Metaanalyse von 24 Studien (27 KI-Algorithmen, 166.052 Patienten) zur diagnostischen Genauigkeit von Machine-Learning- und Deep-Learning-Modellen für akuten Myokardinfarkt basierend auf EKG und/oder Troponin.",
+    result:"KI-Algorithmen erreichten für AMI-Diagnose AUC 0,97 (Sensitivität 0,93, Spezifität 0,92). STEMI-Diagnose: AUC 0,96 (Sensitivität 0,91, Spezifität 0,94). NSTEMI: AUC 0,97 (Sensitivität 0,95, Spezifität 0,90). Keine signifikante Differenz zwischen KI-Typen. EKG-basierte Modelle waren weniger sensitiv, Troponin-basierte weniger spezifisch als kombinierte Ansätze.",
+    transfer:"Multizentrisch europäisch-international; Benchmarking gegen ESC 0/1-h-Algorithmus dokumentiert."
   },
   {
-    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42925297",
-    author:"Cho KH et al.", pubdate:"22.10.2026",
+    journal:"J Am Heart Assoc", year:"2026", pmid:"42924841",
+    author:"Patel S et al.", pubdate:"23.10.2026",
     added:"24.10.2026",
-    title:"Gestaffelte Revaskularisierung bessere Strategie für ST-Infarkt über 70 Jahren",
-    sum:"Sekundäranalyse der OPTION-STEMI-Studie mit 994 Patienten: Vergleich von sofortiger versus gestaffelter Revaskularisierung im Krankenhaus bei älteren Patienten mit ST-Hebungsinfarkt und Multigefäßerkrankung.",
-    result:"Bei Patienten ≥70 Jahren: sofortige Revaskularisierung führte zu höherer Rate des primären Endpunkts (all-cause death, nonfatal MI, oder ungeplante Revaskularisierung) mit HR 1,68 (95%-KI 1,06–2,69; p=0,029) gegenüber gestaffelter Strategie. Bei Patienten &lt;70 Jahren kein Unterschied (HR 0,80; p=0,470). Diese Interaktion deutet darauf hin, dass ältere Patienten von gestaffelter Revaskularisierung profitieren.",
-    transfer:"Südkorea, vergleichbar mit europäischen Leitlinien zu STEMI-Management"
+    title:"Nichtobstruktive HCM: Kardiale Myosin-Inhibitoren zeigen Struktureffekte, SGLT2i Funktionsbesserung",
+    sum:"Systematischer Review von 29 klinischen Studien (9 Wirkstoffklassen) zu pharmakologischen Therapien bei nichtobstruktiver HCM: Kardiale Myosin-Inhibitoren, metabolische Modulatoren, ARB, ARNI, MRA, SGLT2i, Beta-Blocker, Ca-Blocker und andere.",
+    result:"Kardiale Myosin-Inhibitoren reduzierten LV-Hypertrophie und verbesserten diastolische Funktion mit markanten Biomarker-Reduktionen, aber variable Verbesserung der Belastungskapazität. SGLT2-Inhibition zeigte konsistente Verbesserungen von diastolischer Funktion, Vorhofumbau, Biomarkern und funktionellem Status bei symptomatischer nichtobstruktiver HCM mit Diabetes. Ninerafaxstat verbesserte Ventilationseffizienz und Lebensqualität bei höherem Symptomenlast.",
+    transfer:"USA und multizentrisch; Mechanismus- und Stagefestigkeit untersucht, Therapiereaktion variabel."
   },
   {
-    journal:"Heart Rhythm", year:"2026", pmid:"42913979",
-    author:"Liu W et al.", pubdate:"22.10.2026",
-    added:"23.10.2026",
-    title:"Telemedizin-gestützte AF-Versorgung auf dem Land: Trend zu weniger Ereignissen",
-    sum:"Sekundäranalyse der MIRACLE-AF-Studie mit 1039 älteren Patienten auf dem Land (≥65 Jahre, durchschn. 75,8 J.) über 36 Monate: Effekt eines dorfarztzentrierten Telemedizin-basierten integrierten Versorgungsmodells versus Standard-Nachsorge auf rezidivierende kardiovaskuläre Ereignisse bei Vorhofflimmern.",
-    result:"Intervention: 118 Ereignisse in 82 Patienten (15,65 %) versus Kontrolle 173 Ereignisse in 122 Patienten (23,69 %). Ereignisrate 6,75 versus 9,11 pro 100 Patientenjahre. HR 0,76 (95%-KI 0,583–1,004; p=0,053) – trend zu Vorteil, aber statistische Signifikanz nicht erreicht. Konsistente Favorisierung der Intervention über alle Ereignistypen.",
-    transfer:"China, ländliche Versorgungsstruktur; Modell auf deutsche Land- und Hausarztpraxen mit Telemedizin übertragbar"
-  },
-  {
-    journal:"Open Heart", year:"2026", pmid:"42906952",
-    author:"Takafuji M et al.", pubdate:"21.10.2026",
-    added:"22.10.2026",
-    title:"Trainingsblutdruck zur Fitness normalisiert Prognose bei Verdacht auf KHK",
-    sum:"Prospektive Analyse von 530 Patienten aus der CE-MARC-Studie mit Belastungstestung, invasiver Koronarangiographie und kardiovaskulärem Magnetresonanzimaging; Beziehung zwischen systolischem Blutdruck während Belastung indexiert auf Fitness (SBP/METpeak) und koronarer Erkrankung.",
-    result:"Ein SBP/METpeak ≥18 mm Hg/METs war bei 58,5 % der Patienten vorhanden und war mit myokardialer Ischämie, Narbe und MACE assoziiert (adjustierte HR 1,02 pro Einheit; 95%-KI 1,00–1,03; p=0,012). Der Effekt wurde hauptsächlich durch geringere Belastungskapazität anstelle von erhöhtem Spitzenblutdruck getrieben.",
-    transfer:"Großbritannien, deutsche Leitlinien unterscheiden Belastungsblutdruck nach Fitness; Marker erfordert externe Validierung"
-  },
-  {
-    journal:"Open Heart", year:"2026", pmid:"42906951",
-    author:"Chew NW et al.", pubdate:"21.10.2026",
-    added:"22.10.2026",
-    title:"MASLD bei Herzinsuffizienz: jung, weiblich, bessere Prognose",
-    sum:"Registerstudie (ASIAN-HF, CDARS, BIOSTAT-CHF) mit insgesamt über 2000 Patienten zur Prävalenz und klinischen Korrelaten metabolischer Funktionsstörung-assoziierter steatotischer Lebererkrankung (MASLD) in der Herzinsuffizienz-Population.",
-    result:"In ASIAN-HF: 34,4 % (927/2698) der HF-Patienten hatten MASLD. MASLD-Patienten waren jünger, häufiger weiblich, häufiger mit HFpEF. All-cause mortality war niedriger mit MASLD (7,1 vs. 11,7 %; p=0,001; adjustierte HR 0,58, 95%-KI 0,39–0,86). Befund blieb in CDARS bestätigt.",
-    transfer:"Asien, Hongkong, Europa; metabolisches Phänotypisieren wird relevant für HF-Phänotypen, auch in Deutschland zutreffend"
+    journal:"ESC Heart Fail", year:"2026", pmid:"42921753",
+    author:"Lai J et al.", pubdate:"27.08.2026",
+    added:"24.10.2026",
+    title:"FIB-4-Index vor Herztransplantation: Mortalitätsvorhersage besser als klassische Risikofaktoren",
+    sum:"Retrospektive Kohortenstudie mit 791 Patienten zur prognostischen Aussagekraft des präoperativen FIB-4-Index und seiner dynamischen Veränderungen vor orthotoper Herztransplantation auf Sterblichkeit im Follow-up bis Juni 2025.",
+    result:"Bei medianer Nachverfolgung von 28,8 Monaten starben 218 Patienten (27,6%). FIB-4 zeigte nicht-lineare Assoziation mit Mortalität (Inflexionspunkt 2,03) und war unabhängiger Prädiktor (HR pro Unit-Anstieg 1,04; 95%-KI 1,02–1,07; p&lt;0,001). Im Random-Survival-Forest-Modell war FIB-4 die wichtigste prognostische Variable (Variable Importance 0,068), überlegen gegenüber Donor- und chirurgischen Faktoren. Präoperative FIB-4-Verbesserung bei Hochrisikopatienten assoziiert mit signifikant niedrigerer Mortalität (adj. HR 0,49; 95%-KI 0,29–0,82; p=0,007).",
+    transfer:"China, Herztransplantationszentrum; Konzept übertragbar auf deutsche HTx-Zentren."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2110,7 +2128,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.10.2026";
+const NEWS_STAND = "27.10.2026";
 const NEWS = [
   {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
   {titel:"Interatrialer Shunt bei Herzschwäche: G-BA beschließt neue Leistung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/interatrialer-shunt-bei-herzschwaeche-g-ba-beschliesst-neue-leistung/"},
