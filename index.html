@@ -2046,71 +2046,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "28. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "29. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Heart Rhythm", year:"2026", pmid:"42946317",
-    author:"Huang X et al.", pubdate:"27.10.2026",
+    journal:"Heart Rhythm", year:"2026", pmid:"42951093",
+    author:"Johner N et al.", pubdate:"28.10.2026",
+    added:"28.10.2026",
+    title:"Pulsfeldablation senkt Rezidive bei Vorhofflimmern und hypertropher Kardiomyopathie",
+    sum:"Vergleich von Ablationsverfahren (Pulsfeldablation, Kryoballon, Radiofrequenz) bei 364 Patienten mit hypertropher Kardiomyopathie und Vorhofflimmern bezüglich Rezidivraten und Sicherheit über 24 Monate.",
+    result:"Pulsfeldablation zeigte gegenüber Radiofrequenz eine um 43 % gesenkte Arrhythmierezidivrate (adjustierte HR 0,57; 95%-KI 0,36–0,91; p=0,018) und 57 % weniger kardiovaskuläre Hospitalisierungen (HR 0,43; 95%-KI 0,23–0,80; p=0,008). Verbesserung der NYHA-Klasse war signifikant (p=0,032). Kryoballon unterschied sich nicht signifikant von den anderen Verfahren. Komplikationen traten in 1,2 % (Pulsfeld), 4,0 % (Kryoballon) und 5,2 % (Radiofrequenz) auf.",
+    transfer:"Europäische Multizenterstudie mit etablierter Ablations-Infrastruktur; Ergebnisse übertragbar auf deutsche Herzchirurgie-Zentren mit Elektrophysiologie."
+  },
+  {
+    journal:"Am Heart J", year:"2026", pmid:"42951054",
+    author:"Johannesson E et al.", pubdate:"28.10.2026",
+    added:"28.10.2026",
+    title:"PROPER-Trial: Kann verlängerte Perikarddrainage postoperatives Vorhofflimmern nach Herzchirurgie senken?",
+    sum:"Prospektive, multizentrische, randomisierte Studie an 8 nordischen Herzchirurgie-Zentren mit 624 Patienten: Vergleich prolongierter posteriorer Perikarddrainage versus Standardversorgung nach elektiver koronarer Bypass-, Aortenklappenersatz- oder Aortenchirurgie. Primärer Endpunkt ist Vorhofflimmern innerhalb von 7 Tagen; sekundäre Endpunkte umfassen Rezidive, Blutungs- oder Schlaganfallhospitalisierungen und Mortalität über 5 Jahre.",
+    result:"Studiendesign und Rationale: Perikardiales Blutödem wird als Auslöser für postoperatives Vorhofflimmern vermutet; prolongierte Drainage könnte dies verhindern. Rekrutierung abgeschlossen, Ergebnisse ausstehend. Die Maßnahme ist niedrigriskant und könnte bei Erfolg breite Anwendung finden.",
+    transfer:"Nordische Herzchirurgie-Zentren, vergleichbare Strukturen und Dokumentation wie deutsche Kliniken mit Herzchirurgie."
+  },
+  {
+    journal:"Int J Cardiol", year:"2026", pmid:"42951035",
+    author:"Santangelo G et al.", pubdate:"28.10.2026",
+    added:"28.10.2026",
+    title:"Vorhof- und rechtsventrikuläre Entkopplung prognostiziert Mortalität bei mittelschwerer Aortenstenose",
+    sum:"Retrospektive Studie mit 135 Patienten mit mittelschwerer Aortenstenose; Prüfung zweier echokardiographischer Kopplungsindizes (TAPSE/PASP-Ratio und linkskammer-volumetrisch-mechanischer Kopplungsindex LACI) als Prognoseparameter über 1,6 Jahre.",
+    result:"33 Patienten (24 %) starben während Follow-up. Reduzierte TAPSE/PASP (&lt;0,67 mm/mmHg) und erhöhter LACI (&gt;5,17) waren unabhängig mit erhöhter Mortalität assoziiert (HR jeweils ~3,0–3,2; p&lt;0,01). Die Stratifizierung in drei Gruppen (beidseitig erhalten, einfache oder kombinierte Entkopplung) zeigte 1-Jahres-Überlebensraten von 95 % bis 49 % (p&lt;0,0001). Keine Assoziation mit hämodynamischer Progression oder Klappenwechsel.",
+    transfer:"Italienisches Zentrum mit europäischen Echokardiographie-Standards; Indizes anwendbar in deutschen kardiologischen Abteilungen."
+  },
+  {
+    journal:"Eur Heart J Cardiovasc Imaging", year:"2026", pmid:"42950123",
+    author:"Wang W et al.", pubdate:"28.10.2026",
+    added:"28.10.2026",
+    title:"Rechtsvorhof-Strain in CMR verbessert Prognose bei HFmrEF unabhängig vom linken Ventrikel",
+    sum:"Retrospektive Multizenterstudie mit 1.317 Patienten mit HFmrEF (Herzkatheter und Echokardiographie zwischen April 2016 und September 2024); Validierung in 385 weiteren Patienten (Januar 2019 bis Januar 2025). Primärer Endpunkt: kombiniert Gesamtmortalität, HF-Hospitalisierung oder Herztransplantation über median 2,8 bzw. 2,1 Jahre.",
+    result:"243 (Entwicklungs-) und 72 (Validierungs-)Patienten erreichten den Primärendpunkt. Der rechtsventrikuläre Conduit-Strain war unabhängiger Prädiktor (HR 0,86 pro 1 %-Einheit; 95%-KI 0,82–0,90; p&lt;0,001). Das Vollmodell mit klinischen Variablen, traditioneller Bildgebung und Vorhof-Strain erzielte beste Diskriminierung (C-Index 0,80 in Entwicklung, 0,81 in Validierung).",
+    transfer:"China und europäische Zentren mit CMR-Technologie; Methodik und Cutoff-Werte übertragbar auf deutsche Universitätskliniken."
+  },
+  {
+    journal:"Eur Heart J Acute Cardiovasc Care", year:"2026", pmid:"42934199",
+    author:"Zhao M et al.", pubdate:"27.10.2026",
     added:"27.10.2026",
-    title:"Linker Schenkelblock-Pacing überlegen bei Auswurffraktion und mechanischer Synchronie",
-    sum:"Prospektive Pilot-Vergleichsstudie an 14 Patienten mit reduzierter EF und komplettem Linksschenkelblock: Akute Effekte von Linker-Schenkel-Pacing (LBBP) vs. Linksventrikulärer-Septal-Pacing (LVSP) auf Mechanik und Resynchronisierung per Echokardiographie und EKG.",
-    result:"Beide Pacing-Modi reduzierten QRS-Dauer und LV-Aktivierungszeit vs. LBBB (p&lt;0,001); LVSP zeigte breiteres QRS als LBBP (p&lt;0,001). LBBP zeigte bessere mechanische Synchronie (SDI) als LVSP, beide besser als LBBB (alle p&lt;0,001). EF stieg mit beiden Modi, stärker bei LBBP als LVSP. RV-Funktion unverändert in allen Gruppen.",
-    transfer:"China, aber CRT-Mechanik universal; für deutsche Schrittmacher-Zentren bei Resynchronisations-Therapie relevant."
+    title:"Notfall-TAVI bei akuter schwerer Aortenstenose: hohe Erfolgsrate, niedriges Frührisiko, gute funktionelle Erholung",
+    sum:"Prospektive Kohortenstudie an einem chinesischen Zentrum (2022–2025): 53 Patienten mit akut dekompensierter schwerer Aortenstenose, davon 36 dringende, 14 notfall- und 3 Rettungs-TAVI. Primärer Endpunkt 12-Monats-Gesamtmortalität; sekundär: Geräteerfolg, 30-Tage-Sicherheit, funktionelle und echokardiographische Erholung.",
+    result:"Geräteerfolg 98,1 % (52/53). 30-Tage-Mortalität: 1/36 (dringend), 0/14 (notfall), 0/3 (rettung). 12-Monats-Mortalität 3/53. Kaplan-Meier 12-Monats-Überleben 94,3 % (95%-KI 83,5–98,1 %). Permanenter AV-Block 0/53; NYHA-Klasse, KCCQ-12, LVEF und transvalvuläre Gradienten verbesserten sich signifikant (alle p&lt;0,001).",
+    transfer:"China mit etabliertem TAVI-Programm; Ergebnisse zu akuter Indikation und Langzeit-Outcome relevant für deutsche Herzzentren."
   },
   {
-    journal:"ESC Heart Fail", year:"2026", pmid:"42945463",
-    author:"Tumelty E et al.", pubdate:"27.10.2026",
-    added:"27.10.2026",
-    title:"Subkutane Furosemid-Infusion zuhause bei HF + chronischer Nierenkrankheit: Machbarkeitsstudie mit Rekrutierung laufend",
-    sum:"Prospektive britische Machbarkeitsstudie (Stage 1: 200 Patienten mit HF und CKD unter Monitoring; Stage 2: 80 mit Flüssigkeitsüberlauf randomisiert zu Heimbehandlung mit subkutanem Furosemid vs. Standardcare), Primäres Outcome Rekrutierung, Bindung und Adhärenz.",
-    result:"Studienprotokoll; Rekrutierung und Retentionsergebnisse werden erwartet. Ziel: Bewertung der Durchführbarkeit einer randomisierten Studie zu subkutanem Furosemid zur Reduktion von Krankenhauseinweisungen. Tägliche Gewichts- und Vitalzeichen-Überwachung und Kalium-Kontrollen geplant.",
-    transfer:"Großbritannien (NHS), vergleichbares Versicherungssystem; Modell für deutsche Heim-Diuretika-Programme adaptierbar."
-  },
-  {
-    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42933919",
-    author:"Stolk DJ et al.", pubdate:"26.10.2026",
-    added:"26.10.2026",
-    title:"Endovaskuläre Revaskularisierung bei kritischer Gliedischämie: 78 % Gliedrettung nach 2 Jahren",
-    sum:"Prospektives niederländisches Register mit 1.060 Gliedmaßen bei chronischer, gliedbedrohender Ischämie, die endovaskulär revaskularisiert wurden, mit Nachverfolgung der Amputation und Überleben.",
-    result:"Technischer Erfolg 92,3 %; Gliedrettung 78,4 % und amputationsfreies Überleben über 24 Monate. Rutherford-6-Patienten zeigten deutlich schlechtere Ergebnisse (HR für Gliedverlust 3,07, 95%-KI 1,89–4,99; HR für amputationsfreies Überleben 2,07, 95%-KI 1,50–2,86). Überschussrisiko in den ersten 3 Monaten bei schwerer Ischämie besonders ausgeprägt (HR 14,13).",
-    transfer:"Niederländische Klinikdaten mit vergleichbarer Sozialversicherung, Übertragbarkeit auf deutsche Versorgung hoch."
-  },
-  {
-    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"42933917",
-    author:"Pauschinger C et al.", pubdate:"26.10.2026",
-    added:"26.10.2026",
-    title:"Rezidivierende Mitralinsuffizienz nach TEER erhöht Sterblichkeit um 43 %",
-    sum:"Deutsche retrospektive Kohortenstudie mit 461 Patienten nach erfolgreicher M-TEER, Nachverfolgung auf rezidivierende Mitralregurgitation (≥1-Grad-Zunahme) und Mortalität über mediane 3,44 Jahre.",
-    result:"Rezidivierende Mitralregurgitation trat bei 31,7 % auf (104/326 funktional, 42/135 degenerativ). 4-Jahres-Mortalität ohne Rezidiv 44,8 % vs. mit Rezidiv 56,3 % (HR 1,43; 95%-KI 1,06–1,93; p=0,019). Effekt signifikant bei degenerativer (p=0,014), nicht bei funktionaler Mitralregurgitation (p=0,11).",
-    transfer:"Deutsche Universitätsklinik Hamburg mit vollständiger Dokumentation, direkt auf deutsche Praxis übertragbar."
-  },
-  {
-    journal:"JACC Heart Fail", year:"2026", pmid:"42944673",
-    author:"Shen L et al.", pubdate:"26.10.2026",
-    added:"27.10.2026",
-    title:"NT-proBNP vorhersagt Ereignisrisiko gleich stark mit und ohne Vorhofflimmern",
-    sum:"Post-hoc-Analyse der randomisierten QUEST-Studie mit 3.110 Patienten mit Herzinsuffizienz und reduzierter Auswurffraktion (HFrEF), Behandlung mit chinesischem Phytopharmakon vs. Placebo, Stratifizierung nach NT-proBNP-Quartilen und Vorhofflimmern-Status.",
-    result:"Höhere NT-proBNP-Spiegel sagten erhöhtes Risiko voraus (Q4 vs. Q1: HR 4,03, 95%-KI 3,12–5,20). Prognostischer Wert von NT-proBNP war unabhängig vom Vorhofflimmern-Status konsistent (alle p-Interaktion ≥0,30). Phytopharmakon reduzierte NT-proBNP um 10 % nach 3 Monaten; Behandlungseffekt auf kardiovaskuläre Ereignisse konsistent über NT-proBNP-Spektrum.",
-    transfer:"China – andere Therapie, aber NT-proBNP-Prognostik universal; deutsche Biomarker-Nutzung basiert auf vergleichbaren Mechanismen."
-  },
-  {
-    journal:"Circ Res", year:"2026", pmid:"42929140",
-    author:"Gillan JL et al.", pubdate:"26.10.2026",
-    added:"26.10.2026",
-    title:"Myeloide Zellrekrutierung verbindet Herzinsuffizienz mit sekundärer pulmonaler Hypertonie",
-    sum:"Tiermodell-gestützte mechanistische Studie (Maus, Ratte) mit CCR2-Antagonist-Intervention: Nachweis, dass Monozyten-Rekrutierung nach Infarkt systemische pulmonale Gefäßumwandlung und rechtsventrikuläre Dysfunktion treibt; Validierung in menschlichen Lungenproben von PAH- und PH-LHD-Patienten.",
-    result:"CCR2-Antagonist RS102895 ab Tag 10 post-MI in Mäusen reduzierte Lungenvaskulatur-Umwandlung, RV-Druck (systolisch und diastolisch) und RV-Hypertrophie bei 6 Wochen vs. Kontrolle, ohne linksventrikuläre Herzinsuffizienz zu verbessern. Entzündliche Adhäsionsmoleküle (VCAM1, SELE) in PH-LHD-Lungengewebe erhöht.",
-    transfer:"Grundlagenarbeit mit klarem klinischem Weg (CCR2-Antagonisten als therapeutisches Ziel) an deutschen kardiologischen und pneumologischen Zentren relevant."
-  },
-  {
-    journal:"JACC Heart Fail", year:"2026", pmid:"42944674",
-    author:"Paldino A et al.", pubdate:"23.10.2026",
-    added:"27.10.2026",
-    title:"Verwandte von Patienten mit idiopathischer Kardiomyopathie: 5 % Erkrankungsrisiko pro Jahr",
-    sum:"Europäische Multizenter-Kohortenstudie mit 292 Erstgradangehörigen von 118 Probanden mit dilatativer Kardiomyopathie ohne identifizierten genetischen Defekt, Verfolgung auf Erkrankungsentwicklung über median 52 Monate.",
-    result:"35 von 292 Verwandten entwickelten Erkrankung (14 bei Baseline, 21 während Follow-up) bei einer Inzidenzrate von 17 pro 1.000 Personenjahre. Prädiktoren: familiäre DCM (HR 4,24), QRS &gt;120 ms (HR 7,24), erniedrigte EF (HR 3,73), LV-Dilatation (HR 6,19). Erkrankungsalter bei Proband korrelierte mit Alter bei Manifestation in Verwandten (r=0,80). Ernsthafte kardiale Ereignisse bei 4 %.",
-    transfer:"Italien, Niederlande, Spanien – europäische Versorgungsstrukturen, deutsches Screening analog übertragbar."
+    journal:"J Am Heart Assoc", year:"2026", pmid:"42857989",
+    author:"Stolte T et al.", pubdate:"20.10.2026",
+    added:"10.10.2026",
+    title:"Blutdruck nach TAVI: U-Form des Outcome-Risikos mit Optimum bei moderater Senkung",
+    sum:"Analyse von 1.191 TAVI-Patienten mit Messung des Blutdrucks vor und nach Eingriff sowie Verfolgung der kardiovaskulären Ereignisse über 12 Monate.",
+    result:"Beim Entlassungsblutdruck zeigte sich eine U-förmige Assoziation mit MACE: systolische Werte &lt;115 mmHg oder &gt;143 mmHg waren mit erhöhtem 1-Jahres-Risiko verbunden (p&lt;0,001). Eine moderate Senkung um 5–25 mmHg war mit niedrigerem MACE-Risiko assoziiert. Der Baseline-Blutdruck war nicht signifikant assoziiert.",
+    transfer:"Universitätsspital Basel, vergleichbare europäische Struktur; Erkenntnis unmittelbar auf deutsche TAVI-Zentren anwendbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2135,7 +2126,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "28.10.2026";
+const NEWS_STAND = "29.10.2026";
 const NEWS = [
   {titel:"Ablation bei Vorhofflimmern: Herzstiftung zu Nutzen und Risiken", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/ablation-bei-vorhofflimmern-herzstiftung-zu-nutzen-und-risiken/"},
   {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
