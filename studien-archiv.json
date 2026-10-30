@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42956796",
+  "journal": "Lancet",
+  "year": "2026",
+  "author": "Boeddinghaus J et al.",
+  "pubdate": "29.10.2026",
+  "added": "29.10.2026",
+  "transfer": "Schweiz, Italien, Spanien, UK, USA, Australien, Mehrländer-Konsortium; Ergebnis unabhängig vom Gesundheitssystem",
+  "title": "0/1-Stunden-Troponin-Pathway reduziert Notfallaufenthalt nicht gegenüber Standard",
+  "sum": "Systematische Übersichtsarbeit mit Individual-Participant-Data-Metaanalyse von 5 randomisierten Studien mit insgesamt 110.933 Patienten zum Vergleich des frühen 0/1-h-Troponin-Messablaufs mit dem Standard-0/3-h-Ablauf bei Herzinfarktsverdacht.",
+  "result": "Kombinereignis (Tod oder neuer Typ-1-Herzinfarkt innerhalb 30 Tagen): 0,8% (0/1 h) vs. 1,0% (0/3 h), OR 0,83 (95%-KI 0,45–1,53). Notfallaufenthaltszeit 314 min (0/1 h) vs. 308 min (0/3 h), geometrischer Mittelwert-Ratio 1,03 (95%-KI 0,85–1,25). Direkte Entlassung: 67,0% vs. 65,8%, OR 1,31 (95%-KI 0,79–2,16). Zwischen den Studien erhebliche Heterogenität (I²=62,9–99,2%). Sicherheitsendpunkte mit beiden Verfahren niedrig, Unterschied bleibt unpräzise.",
+  "aufgenommen": "2026-10-30"
+ },
+ {
   "pmid": "42951093",
   "journal": "Heart Rhythm",
   "year": "2026",
