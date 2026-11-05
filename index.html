@@ -2161,62 +2161,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "4. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "5. Nov. 2026, 14:26 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Circulation", year:"2026", pmid:"42974684",
-    author:"Garcia-Pavia P et al.", pubdate:"03.11.2026",
+    journal:"Heart Rhythm", year:"2026", pmid:"42982388",
+    author:"Dolejsi T et al.", pubdate:"04.11.2026",
+    added:"04.11.2026",
+    title:"Telemonitoring mit implantierbarem Monitor erkennt Arrhythmien nach Herzinfarkt früher",
+    sum:"Die Studie untersuchte, ob eine Fernüberwachung mittels implantierbarem Kardio-Monitor schwerwiegende Rhythmusstörungen bei Herzinfarkt-Patienten mit eingeschränkter Auswurffraktion (36–50 %) besser erkennt als konventionelle Nachsorge.",
+    result:"Die Telemonitoring-Gruppe zeigte erheblich mehr erkannte schwerwiegende Rhythmusstörungen (STEMI: Hazard Ratio 11,99; NSTEMI: HR 4,44; beide p&lt;0,001). Erkannte Arrhythmien waren unabhängig vom Infarkttyp mit späteren Komplikationen assoziiert (STEMI HR 7,77; NSTEMI HR 4,26). Die intensivierte Überwachung verbesserte die Früherkennung gefährlicher Rhythmusstörungen bei beiden Infarkttypen.",
+    transfer:"Österreich und Deutschland, SMART-MI-Studie der Unikliniken Innsbruck, München, Göttingen"
+  },
+  {
+    journal:"Europace", year:"2026", pmid:"42980655",
+    author:"Koščálová K et al.", pubdate:"04.11.2026",
+    added:"04.11.2026",
+    title:"Gewichtsreduktion verbessert Vorhofflimmern-Kontrolle nach Ablation bei Adipositas nicht",
+    sum:"Die randomisierte Studie testete, ob ein intensives Gewichtsabnahmeprogramm die Vorhofflimmern-Rezidive bei adipösen Patienten nach Katheterablation reduziert.",
+    result:"Trotz erfolgreicher Gewichtsreduktion um 6,8 % in der Interventionsgruppe zeigte sich kein signifikanter Unterschied in der Vorhofflimmern-Rezidiv-freien Überlebenszeit (aktiv 70,4 % vs. Kontrolle 69,6 %). Die geringe Rhythmusstörungsbelastung nach Ablation limitierte weitere Verbesserungspotenziale durch Gewichtsabnahme.",
+    transfer:"Tschechische Studie, vergleichbare europäische Versorgungsstruktur und Dokumentation"
+  },
+  {
+    journal:"Eur Heart J", year:"2026", pmid:"42978512",
+    author:"Køber L et al.", pubdate:"04.11.2026",
+    added:"04.11.2026",
+    title:"Hydralazin-Isosorbid-Dinitrat bringt keine Prognoseverbesserung bei Herzinsuffizienz",
+    sum:"Die dänische randomisierte Studie untersuchte, ob die Kombination Hydralazin-Isosorbid-Dinitrat zusätzlich zur modernen Standardtherapie die Hospitalisierung oder Sterblichkeit bei Patienten mit reduzierter Auswurffraktion senkt.",
+    result:"Der primäre Endpunkt (Hospitalisierung wegen Herzinsuffizienz, dringende ambulante Therapie oder Tod) trat bei 30,6 % (H-ISDN) vs. 30,5 % (Placebo) auf (HR 0,90; 95%-KI 0,67–1,21; p=0,48). Die Mortalität lag bei 19,4 % vs. 24,2 % (HR 0,72; 95%-KI 0,51–1,02). Die Substanzklasse zeigte unter modernen Therapieregimen keinen zusätzlichen Nutzen.",
+    transfer:"Dänemark, öffentliches Gesundheitssystem, vergleichbar mit deutscher Klinikstruktur"
+  },
+  {
+    journal:"Eur Heart J", year:"2026", pmid:"42981224",
+    author:"Ahmed S et al.", pubdate:"04.11.2026",
+    added:"04.11.2026",
+    title:"Leitliniengerechte Herzinsuffizienz-Therapie verbessert Überleben bei angeborenen Herzfehlern",
+    sum:"Die Studie evaluierte den Effekt guideline-directed medical therapy (GDMT) auf rechtsventrikuläre Funktion und Überleben bei 213 Patienten mit korrigierter Transposition (cc-TGA) und Rechtsventrikel-Dysfunktion.",
+    result:"Höhere GDMT-Scores waren mit Verbesserungen der rechtsventrikulären Funktion (25 % mit Strain-Verbesserung &gt;20 %), reduziertem NT-proBNP (56 % mit Abfall &gt;20 %) und niedrigerem Mortalitätsrisiko assoziiert (16 % starben). Der Nutzen war auf Patienten mit moderate/schwerer Dysfunktion begrenzt. GDMT reduzierte das Risiko für Herzinsuffizienz-Hospitalisierung, Tod oder Transplantation signifikant.",
+    transfer:"USA-Studie (Mayo Clinic), Pathomechanismus übertragbar auf deutsche Spezialzentren"
+  },
+  {
+    journal:"J Am Heart Assoc", year:"2026", pmid:"42980503",
+    author:"Mitchell JD et al.", pubdate:"04.11.2026",
+    added:"04.11.2026",
+    title:"Amyloid-Kardiomyopathie wird durchschnittlich 5,2 Jahre nach Symptombeginn diagnostiziert",
+    sum:"Eine US-amerikanische Kohortenstudie analysierte die Zeitspanne von erstem klinischen Symptom bis zur Diagnose der Transthyretin-Amyloid-Kardiomyopathie bei 7.509 Patienten anhand von Krankenversicherungsdaten.",
+    result:"Die mediane Verzögerung von erstem dokumentiertem Symptom bis Diagnose betrug 5,2 Jahre (variant 4,4 Jahre, wildtyp 5,2 Jahre). Patienten hatten im Mittel 8 verschiedene Manifestationen vor Diagnose und besuchten in den 3 Jahren vor Diagnose 12 Hausarzt- und 14 Spezialistentermine. Hypertension war mit längerer Verzögerung assoziiert (β +0,46 Jahre). Die diagnostische Lücke führt zu fortgeschrittenerem Erkrankungsstadium bei Diagnose.",
+    transfer:"USA-Daten, Diagnoseverzögerungen sind länderübergreifend relevant"
+  },
+  {
+    journal:"Lancet", year:"2026", pmid:"42976899",
+    author:"Wee SB et al.", pubdate:"03.11.2026",
     added:"03.11.2026",
-    title:"Vutrisiran senkt Sterblichkeit bei TTR-Amyloidose-Kardiomyopathie um 37 %",
-    sum:"Offene Extensionsstudie zur Langzeitwirkung des Silencing-Arzneistoffs Vutrisiran bei Patienten mit Transthyretin-Amyloidose und Kardiomyopathie über 48 Monate.",
-    result:"Patienten mit kontinuierlicher Vutrisiran-Gabe (n=243) zeigten gegenüber der Gruppe mit verzögertem Behandlungsbeginn (n=223) eine Reduktion der Sterblichkeit um 37 % (Hazard Ratio 0,63, 95%-KI 0,46–0,84; p=0,0023), der kardiovaskulären Ereignisse um 37 % (HR 0,63, 95%-KI 0,51–0,79; p=0,0001) und Verbesserungen in Lebensqualität (Kansas City Score +9,0 Punkte; p&lt;0,0001) sowie Biomarkern (NT-proBNP Fold-Change 0,66, Troponin I 0,71; beide p&lt;0,0001). Die frühe Behandlung war der verspäteten Therapie überlegen.",
-    transfer:"Europäische Zentren eingebunden, vergleichbare Dokumentation kardiologischer Fachabteilungen."
+    title:"PCI und Bypass führen zu vergleichbarer 10-Jahres-Sterblichkeit bei Hauptstamm-Stenose",
+    sum:"Die multizentrische IRIS-MAIN-Registry verglich die Langzeitergebnisse von PCI mit Stent versus Bypass-Operation bei 5.379 Patienten mit Hauptstamm-Erkrankung über 10 Jahre.",
+    result:"Die 10-Jahres-Kaplan-Meier-Mortalität unterschied sich nicht signifikant zwischen PCI und CABG (24,0 % vs. 22,9 %; overlap-gewichtetes HR 1,00; 95%-KI 0,87–1,14; p=0,99). Beide Revaskularisationsverfahren erzielen vergleichbare Langzeit-Überlebensergebnisse; die Wahl sollte multidisziplinär in Heart-Team-Diskussion getroffen werden.",
+    transfer:"Asiatische Registry (Korea, Indien, Japan, Indonesien, Malaysia), globale Ergebnisse für Therapieentscheidung"
   },
   {
-    journal:"Eur J Prev Cardiol", year:"2026", pmid:"42974820",
-    author:"Mourre F et al.", pubdate:"03.11.2026",
+    journal:"EuroIntervention", year:"2026", pmid:"42975599",
+    author:"Gim DH et al.", pubdate:"02.11.2026",
     added:"03.11.2026",
-    title:"Erhöhtes Restcholesterin verdoppelt KHK-Risiko in familiärer Hypercholesterinämie",
-    sum:"Kohortenstudie (CGPS und UK Biobank mit über 537.000 Teilnehmern) zur Assoziation von Restcholesterin ≥1 mmol/L mit koronarem Ereignisrisiko bei klinisch und genetisch definierter familiärer Hypercholesterinämie.",
-    result:"Restcholesterin ≥1 mmol/L (39 mg/dL) war in beiden Kohorten (CGPS und UK Biobank) mit etwa 50 % höherem KHK-Risiko assoziiert: CGPS: HR 1,49 (95%-KI 1,39–1,59); UK Biobank: HR 1,47 (1,43–1,52). Bei Simon-Broome-FH: CGPS HR 1,59 (1,31–1,93), UK Biobank HR 1,18 (1,10–1,27). Effekt zeigte sich über alle FH-Definitionen hinweg konsistent.",
-    transfer:"Europäische Kohortenstudie (Dänemark, UK), vergleichbar mit Daten zur FH-Diagnostik hierzulande."
-  },
-  {
-    journal:"EuroIntervention", year:"2026", pmid:"42975601",
-    author:"Zhang R et al.", pubdate:"02.11.2026",
-    added:"03.11.2026",
-    title:"Post-PCI μQFR ≤0,91 vorhersagt 30 % höheres MACE-Risiko über 5 Jahre",
-    sum:"Prospektive Analyse aus der FAVOR-III-China-Studie zur prognostischen Aussagekraft des drahtlosen Murray-Law-basierten quantitativen Flussverhältnisses nach PCI für kardiovaskuläre Langzeitereignisse.",
-    result:"Bei 3.455 Patienten mit 4.196 PCI-behandelten Gefäßen lag die 5-Jahres-MACE-Rate (Tod, Myokardinfarkt, Revaskularisierung) bei niedriger post-PCI-μQFR (≤0,91) bei 23,1 % vs. 19,0 % (mittlere Tertile) und 17,2 % (höchste Tertile; p=0,001). Adjustierte Hazard Ratio für niedrigste vs. höchste Tertile: 1,30 (95%-KI 1,06–1,60). Mit ROC-Cutoff 0,94 traten MACE häufiger auf (22,3 % vs. 17,4 %; aHR 1,23, p=0,02).",
-    transfer:"China-Studie mit Methodik vom Invasiven Standard, MACE-Definition international etabliert."
-  },
-  {
-    journal:"JACC Heart Fail", year:"2026", pmid:"42975393",
-    author:"Sayed A et al.", pubdate:"02.11.2026",
-    added:"03.11.2026",
-    title:"SGLT2-Hemmer, GLP-1-RA und nicht-steroidale MRA könnten in USA 498.000 HF-Fälle verhindern",
-    sum:"Health-Care-Policy-Modellierung zur Reduktion der geschätzten 10-Jahres-Herzinsuffizienz-Last in der US-Bevölkerung durch Risiko-basierte Behandlung mit SGLT2-Hemmern, GLP-1-Rezeptoragonisten und nicht-steroidalen Mineralokortikoid-Rezeptor-Antagonisten.",
-    result:"Ausgangs-HF-Inzidenz über 10 Jahre: 5,5 Millionen (95%-KI 5,1–5,8 Mio.). Mit SGLT2i Monotherapie: 5,1 Mio., mit GLP-1-RA: 5,2 Mio., mit nicht-steroidalen MRA: 5,4 Mio., mit Kombinationstherapie: 4,8 Mio. (95%-KI 4,4–5,2 Mio.). Kombinations-Therapy bei ≥10%-Risk-Patienten (n=6,8 Mio.) hätte Reduktion um 498.000 Fälle mit NNT 14.",
-    transfer:"USA-Modell mit globalen Substanzklassen; Übertragbarkeit auf Deutschland beschränkt durch andere Kostenträger-Struktur."
-  },
-  {
-    journal:"Eur Heart J Cardiovasc Imaging", year:"2026", pmid:"42969021",
-    author:"Grafton-Clarke C et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"10,8 % der HFrEF-Patienten ohne LGE-Infarktmuster haben angiographische KHK",
-    sum:"Systematische Übersichtsarbeit mit Metaanalyse zur Prävalenz angiographischer koronarer Stenosen bei Patienten mit systolischer Herzinsuffizienz, deren kardiovaskuläres Magnetresonanz-Imaging kein Infarktmuster zeigt.",
-    result:"22 Studien mit 1.418 scar-negativen Patienten: 10,8 % (95%-KI 7,4–15,4) hatten ≥50%-Stenose, 7,6 % (4,4–12,6) ≥70%-Stenose, 4,9 % (2,2–10,6) High-Risk-Muster. Unter den 2.236 Patienten mit verfügbarem CMR und Invasivem Angiogramm waren 818 mit Infarktmuster-LGE, 1.418 ohne. Die fehlende LGE schließt KHK nicht aus.",
-    transfer:"Europäische und internationale Zentren, Standard-CMR-Protokolle vergleichbar mit Deutschland."
-  },
-  {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"42960736",
-    author:"Zhang J et al.", pubdate:"30.10.2026",
-    added:"30.10.2026",
-    title:"Stellares Ganglienblock senkt postoperative Herzrhythmusstörungen, nicht aber Vorhofflimmern",
-    sum:"Randomisierte, doppelblinde, Placebo-kontrollierte Studie zur Prävention von postoperativem Vorhofflimmern durch präoperatives Stellates Ganglienblock bei 140 Patienten unter Herzklappenoperation mit kardiopulmonaler Umleitung.",
-    result:"132 Patienten in Modified-Intention-to-Treat: POAF trat in 43 % der SGB-Gruppe und 40 % der Placebo-Gruppe auf (OR 0,99, 95%-KI 0,46–2,15; p=0,989). SGB reduzierte jedoch intraoperatives Kammerflimmern nach Aorten-Crossclamp-Freigabe (6 % vs. 19 %; OR 0,21, p=0,022), postoperatives Troponin I (Differenz -2.562 ng/L; p=0,045) und akutes Nierenversagen (5 % vs. 18 %; OR 0,24; p=0,046).",
-    transfer:"China-Studie, aber autonome Neuromodulation und kardiale Biomarker sind universal gültig."
+    title:"CT-Messung der Ischämie-Anfälligkeit sagt Herzinfarkt-Risiko präziser voraus",
+    sum:"Die Studie evaluierte, ob CT-angiographische Messungen (CT-μFR und CT-μFR-Gradient) das 3-Jahres-Risiko für Herzinfarkt oder notfallmäßige Revaskularisierung bei 885 Koronargefäßen vorhersagen.",
+    result:"Gefäße mit CT-μFR ≤0,80 oder Gradient ≥0,004/mm zeigten höheres Ereignisrisiko (79,1 % vs. 20,4 %; adjustiertes HR 6,87; 95%-KI 5,26–8,96; p&lt;0,001). Der Gradient verbesserte die Risikovorhersage über CT-μFR allein (C-Index 0,700 auf 0,755; p&lt;0,001). Die kombinierte Bewertung ermöglicht bessere Risikostratifikation für Koronarpatienten.",
+    transfer:"Internationale Studie (Korea, China), CT-Physiologie-Messung ist in deutschen Zentren etabliert"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2241,7 +2250,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "04.11.2026";
+const NEWS_STAND = "05.11.2026";
 const NEWS = [
   {titel:"Ablation bei Vorhofflimmern: Herzstiftung zu Nutzen und Risiken", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/ablation-bei-vorhofflimmern-herzstiftung-zu-nutzen-und-risiken/"},
   {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
@@ -2252,7 +2261,6 @@ const NEWS = [
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
   {titel:"Zurück ins Leben: Neues Nachsorgeprogramm nach Herz-Kreislauf-Stillstand startet", datum:"2026-11-02", url:"http://idw-online.de/de/news880078", quelle:"idw"},
-  {titel:"Holografie-Premiere in der Kinderkardiologie", datum:"2026-10-29", url:"http://idw-online.de/de/news879918", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
