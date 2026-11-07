@@ -2161,62 +2161,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "7. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Heart Fail", year:"2026", pmid:"42986123",
-    author:"Stewart Coats AJ et al.", pubdate:"05.11.2026",
+    journal:"Circ Heart Fail", year:"2026", pmid:"42993694",
+    author:"Ciminelli ALA et al.", pubdate:"06.11.2026",
+    added:"06.11.2026",
+    title:"Digitale Intervention verbessert Therapie-Optimierung und reduziert Krankenhauseinweisungen bei Herzinsuffizienz in Brasilien um 54%",
+    sum:"Randomisierte Studie mit 154 Patienten (87 Intervention, 67 Kontrolle) in 5 brasilianischen öffentlichen Krankenhäusern untersuchte eine digitale Gesundheitsintervention (Patient-App + Provider-Dashboard mit telemedizinischer Unterstützung und Remote Monitoring) zur Optimierung der Herzinsuffizienz-Therapie nach stationärer Aufnahme.",
+    result:"Primärer Endpunkt (GDMT-Score 0-12 nach 90 Tagen): Interventionsgruppe +3,3 Punkte (7,2→10,5), Kontrollgruppe +0,3 Punkte (7,2→7,5); adjustierte Differenz 3,01 (95%-KI 2,30-3,73; p&lt;0,001). Hospitalisierungen: 9/87 (10,3%) vs. 15/67 (22,4%); Risiko-Ratio 0,46 (95%-KI 0,21-0,99; p=0,048). Selbstversorgung verbessert (β=14,79; p&lt;0,001). Kein signifikanter Unterschied in Mortalität.",
+    transfer:"Brasilien (niedrig-/mittleres Einkommensland), Versorgungslücken übertragbar auf Deutschland, Telemedizin-Modell umsetzbar"
+  },
+  {
+    journal:"Eur J Heart Fail", year:"2026", pmid:"42993097",
+    author:"Echivard M et al.", pubdate:"06.11.2026",
+    added:"06.11.2026",
+    title:"Kammerar­rhythmien und Herzinsuffizienz-Ereignisse sind bidirektional assoziiert und vorhersagekräftig für Mortalität nach Herzinfarkt",
+    sum:"Prospektive Registerstudie mit 1.014 Patienten der multizentrischen WICD-MI-Kohorte (Wearable-, später ICD-implantiert nach Herzinfarkt mit persistierender LVEF ≤35%) analysierte die wechselseitige Assoziation zwischen Kammerar­rhythmien und Herzinsuffizienz-Ereignissen sowie deren Zusammenhang mit Mortalität über Median 2,6 Jahre post-ICD-Implantation.",
+    result:"Kammerar­rhythmien waren unabhängig assoziiert mit erhöhtem Herzinsuffizienz-Ereignis-Risiko (aHR 3,50; 95%-KI 1,66-7,38; p=0,001); umgekehrt führten Herzinsuffizienz-Ereignisse zu nachfolgenden Ar­rhythmien (aHR 2,96; 95%-KI 1,59-5,50; p=0,0008). Beide waren independent mit Mortalität assoziiert, HF-Ereignisse numerisch stärker (aHR 7,96; 95%-KI 4,71-13,47) als VA (aHR 4,43; 95%-KI 2,35-8,36), beide p&lt;0,0001. VA-HF-Assoziation war am stärksten für Schock-behandelte Ar­rhythmien.",
+    transfer:"Multizentrisch Frankreich, europäisches Versicherungssystem, harter Endpunkt Mortalität"
+  },
+  {
+    journal:"Clin Res Cardiol", year:"2026", pmid:"42986435",
+    author:"Ferreira JP et al.", pubdate:"05.11.2026",
     added:"05.11.2026",
-    title:"Empagliflozin senkt HF-Hospitalisierungen bei HFpEF mit diastolischer Dysfunktion deutlicher",
-    sum:"Sekundäranalyse der EMPEROR-Preserved-Studie (n=5.988) zu Empagliflozin bei HFpEF, stratifiziert nach echokardiographischen Zeichen diastolischer Dysfunktion.",
-    result:"Die Hazard Ratio für die primäre Endpunktkombination (HF-Hospitalisierung oder kardiovaskulärer Tod) betrug 0,91 ohne diastolische Zeichen, 0,64 mit einem und 0,49 mit zwei oder mehr Zeichen (Trend p=0,0014). Der Vorteil verstärkte sich also mit stärkerer diastolischer Dysfunktion.",
-    transfer:"Europäische Studie mit globaler Rekrutierung; Effekt unabhängig von Natriumwerten."
+    title:"Chlorid, nicht Natrium, prognostiziert Herzinsuffizienz-Ereignisse unabhängig von SGLT2-Hemmern",
+    sum:"Analyse von 9.718 Patienten aus der EMPEROR-Studie untersuchte die Bedeutung von Serum-Natrium und Chlorid-Konzentrationen für die Prognose bei Herzinsuffizienz und die Effekte von Empagliflozin.",
+    result:"Patienten mit beiden Werten im unteren Quintil (Na+ &lt;140 mmol/L und Cl- &lt;99 mmol/L) zeigten 1,3-1,7-fach höhere Raten von Herzinsuffizienz-Ereignissen und Mortalität als die mit höheren Werten. Niedriges Chlorid war mit erhöhter Mortalität assoziiert, unabhängig vom Natrium-Spiegel. Empagliflozin erhöhte beide Parameter moderat (+0,1 mmol/L), seine Vorteile waren aber von den Elektrolyt-Spiegeln unabhängig (Interaktion p&gt;0,1).",
+    transfer:"EMPEROR-Pooled-Daten (international), Mechanismus mit klinischem Endpunkt messbar, Elektrolyt-Überwachung könnte Patientenrisiko-Stratifizierung verbessern"
   },
   {
-    journal:"Eur J Prev Cardiol", year:"2026", pmid:"42978109",
-    author:"Coleman KM et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Frauen erhalten seltener Katheterablation und haben höheres Schlaganfallrisiko",
-    sum:"Retrospektive Real-World-Kohortenstudie (n=165.563 mit AF-Diagnose) aus US-amerikanischem Versorgungsnetz zum Geschlechtsunterschied in der AF-Versorgungskaskade und Ergebnissen.",
-    result:"Frauen älter, höhere Komorbiditäten. Katheterablation bei 3,5% der Frauen vs. 5,7% der Männer (p&lt;0,001). Frauen: höheres Schlaganfallrisiko (aHR 1,24), höheres Demenzrisiko (aHR 1,30), moderat niedrigere Mortalität (aHR 0,96).",
-    transfer:"USA-Studie; Sicherheitsbefund zu Geschlechtsdisparitäten übertragbar."
+    journal:"Open Heart", year:"2026", pmid:"42971732",
+    author:"Melot A et al.", pubdate:"02.11.2026",
+    added:"02.11.2026",
+    title:"Linksatrialer Umbau prognostiziert Belastungsintoleranz und Herzinsuffizienz-Ereignisse in HCM besser als ventrikuläre Parameter",
+    sum:"Retrospektive Kohortenstudie mit 336 konsekutiven HCM-Patienten untersuchte, ob der Linksatrium-Umbau—gemessen mittels Volumen, Funktion und des Linksatrialen Steifheitsindex (LASI)—mit Belastungskapazität und klinischen Ergebnissen unabhängig von konventionellen linksventrikulären Parametern assoziiert ist.",
+    result:"Progressive Belastungsminderung (VO₂-Gruppen) war mit Linksatrium-Verschlechterung assoziiert. LASI zeigte beste Diskriminierung für reduzierte Belastungskapazität (AUC 0,623). LASI ≥0,51 identifizierte unabhängig Patienten mit schwerer funktioneller Limitation (aOR 3,29; 95%-KI 1,04-11,30; p&lt;0,05). Im Follow-up (3 Jahre): erhöhtes LASI war stark assoziiert mit Herzinsuffizienz-Ereignissen und Mortalität (nicht aber mit Ar­rhythmien), was auf hämodynamische statt elektrische Krankheitsprogression hindeutet.",
+    transfer:"Frankreich (Rennes), europäische Echokardiographie-Protokolle, HCM-Stratifizierung verbessert"
   },
   {
-    journal:"Eur Heart J", year:"2026", pmid:"42978507",
-    author:"Milojevic M et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Poolanalyse TAVI vs. OP bei niedriger Aortenklappenstenose-Risiko: späte Mortalität",
-    sum:"Gepoolte Analyse randomisierter Studien (Autoren aus Europa, Schweiz, Deutschland) zum Vergleich TAVI und chirurgischer Aortenklappenersatz bei Niedrig-Risiko-Patienten mit zeitabhängiger Mortalität.",
-    result:"Abstract enthält nur Titel und Studiendesign ohne konkrete Ergebnisse (Mortalitätszahlen, Hazard Ratios oder Unterschiede).",
-    transfer:"Europäische Kooperationsstudie; Ergebnis erforderlich."
-  },
-  {
-    journal:"EuroIntervention", year:"2026", pmid:"42975595",
-    author:"Tajima A et al.", pubdate:"02.11.2026",
-    added:"03.11.2026",
-    title:"P4-Trial: CCTA-gesteuerte PCI nicht unterlegen gegenüber IVUS (Studiendesign)",
-    sum:"Randomisierte internationale offene Studie (geplant n=1.100) zum Vergleich CCTA-gesteuerter versus IVUS-gesteuerter PCI bei chronischen Koronarsyndrom mit primärem Endpunkt Zielgefäßversagen nach 12 Monaten.",
-    result:"Studiendesign: Nicht-Unterlegenheitskriterium für CCTA-Gruppe. Primärer Endpunkt: Kombination kardiale Tote, Zielgefäß-MI oder Revaskularisierung. Angestrebt: 1.100 Patienten mit koronarer Stenose &gt;70% und FFR≤0,80.",
-    transfer:"Internationale multizentrisches europäisches Netzwerk; Ergebnis erwartet."
-  },
-  {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"42924852",
-    author:"Liao R et al.", pubdate:"03.11.2026",
+    journal:"J Am Heart Assoc", year:"2026", pmid:"42924847",
+    author:"Fang Y et al.", pubdate:"03.11.2026",
     added:"24.10.2026",
-    title:"Erhöhtes Remnant-Cholesterol und CRP erhöhen PAD-Risiko trotz Lipidsenker",
-    sum:"Prospektive Kohortenstudie (n=18.741) von Typ-2-Diabetes-Patienten unter Lipidsenker-Therapie aus UK Biobank mit 13,6 Jahren Nachverfolgung zur Assoziation von Remnant-Cholesterol und hochsensitivem CRP mit peripherer arterieller Erkrankung.",
-    result:"1.223 PAD-Fälle (6,5%). Erhöhtes Remnant-Cholesterol (≥125 nmol/L) und erhöhtes hsCRP waren unabhängig mit höherem PAD-Risiko assoziiert. Patienten mit beiden Erhöhungen zeigten das höchste Risiko, Effekt war unabhängig vom LDL-Cholesterol.",
-    transfer:"UK-Daten, vergleichbare Versicherungssysteme; dokumentiert Residualrisiko trotz Leitlinientherapie."
+    title:"Lipoprotein(a) erhöht Herzinfarkt- und Schlaganfall-Risiko progressiv mit Nierenfunktion",
+    sum:"Kohortenstudie mit 333.321 Teilnehmern aus der UK Biobank untersuchte, ob Lipoprotein(a) das Risiko für atherosklerotische kardiovaskuläre Ereignisse über das kardiovaskulär-renal-metabolische Kontinuum hinweg prognostiziert.",
+    result:"Bei 17.581 Ereignissen (Median-Nachbeobachtung 15,3 Jahre): erhöhtes Lp(a) (≥125 nmol/L) war mit HR 1,31 (95%-KI 1,25-1,36) für atherosklerotische Ereignisse assoziiert. Das Risiko stieg progressiv: 10-Jahres-Risiko variierte von 0,64% (CKM-Stadium 0, niedriges Lp(a)) bis 16,30% (CKM-Stadium 3, erhöhtes Lp(a)); Risiko-Differenz durch erhöhtes Lp(a) betrug 0,23% in Stadium 0, aber 2,20% in Stadium 3. In kombinierter Analyse (CKM-Stadium 3 + erhöhtes Lp(a) vs. Stadium 0 + niedriges Lp(a)): HR 3,43 (95%-KI 2,74-4,31).",
+    transfer:"UK Biobank, vergleichbare Primärprävention, CKM-Staging als europäischer Standard etabliert"
   },
   {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"42924851",
-    author:"Zhang F et al.", pubdate:"03.11.2026",
-    added:"24.10.2026",
-    title:"Polygenes Vorhofflimmer-Risiko zeigt sexsspezifische Alterseffekte",
-    sum:"Prospektive UK-Biobank-Kohorte (n=386.154, 15,6 Jahre Follow-up) zur Assoziation von Vorhofflimmer-Polygenic-Risk-Score mit Inzidenz nach Alter und Geschlecht.",
-    result:"Bei hohem PRS (≥0,858): Männer 40–49 Jahre HR 2,76 vs. Frauen 2,07; Frauen 60–69 Jahre HR 2,22 vs. Männer 1,95 (Bonferroni p&lt;0,001 für Altersinteraktion). Altersabhängige Trajektorien unterschieden sich zwischen Geschlechtern (p=0,005).",
-    transfer:"UK-Daten, großes nationales Register; Basis für sexusspezifische Risikostratigraphie."
+    journal:"Europace", year:"2026", pmid:"42905917",
+    author:"Duchateau J et al.", pubdate:"21.10.2026",
+    added:"22.10.2026",
+    title:"Pulsfeldablation zeigt Gewebespezifität mit seltenen permanenten Nervenschädigungen und geringerem Schaden am Leitungssystem als Radiofrequenz",
+    sum:"Narrative Übersichtsarbeit integriert biophysikalische Mechanismen, präklinische und klinische Evidenz zum Verständnis der gewebespezifischen Effekte der Pulsfeldablation (PFA) auf Myokard, Nervengewebe und Leitungssystem im Vergleich zu thermischen Energiequellen.",
+    result:"PFA zeigt bevorzugte Wirkung auf Myokard durch Elektroporation ohne permanente thermische Nekrose. Nervenstimulation und vorübergehende reversible Leitungsstörungen können auftreten, permanente Nervenschädigungen erscheinen extrem selten in aktueller klinischer Praxis. Läsionsdauer und -reifung unterscheiden sich histologisch von Radiofrequenzablation. Effekt auf das Leitungssystem ist stark abhängig von Feldstärke und anatomischer Nähe. Gewebespezifität bei heterogenen Substraten (Fibrose, Fettgewebe) limitiert—lokale Feldverteilung bestimmt Läsions-Dauerhaftigkeit.",
+    transfer:"Multizentrisches Europa und USA, Grundlagenmechanismus mit klinischer Anwendung etabliert"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2241,7 +2241,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.11.2026";
+const NEWS_STAND = "07.11.2026";
 const NEWS = [
   {titel:"Ablation bei Vorhofflimmern: Herzstiftung zu Nutzen und Risiken", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/ablation-bei-vorhofflimmern-herzstiftung-zu-nutzen-und-risiken/"},
   {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
