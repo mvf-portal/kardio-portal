@@ -2161,62 +2161,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "8. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "9. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Open Heart", year:"2026", pmid:"42971733",
-    author:"Thungthienthong M et al.", pubdate:"02.11.2026",
+    journal:"Circulation", year:"2026", pmid:"42999950",
+    author:"Lewis GD et al.", pubdate:"08.11.2026",
+    added:"08.11.2026",
+    title:"Eisensubstitution verbessert Belastungskapazität bei HFpEF mit Eisenmangel",
+    sum:"US-amerikanische Doppelblind-RCT bei 65 Patienten mit Herzinsuffizienz bei erhaltener Ejektionsfraktion (HFpEF) und Eisenmangel, randomisiert auf einmalige intravenöse Eisengabe (Ferric Derisomaltose 1000 mg) oder Placebo mit Messung der maximalen Sauerstoffaufnahme nach 12 Wochen.",
+    result:"Peak VO2 verbesserte sich unter Eisengabe um 1,2 mL·kg⁻¹·min⁻¹ (95% KI 0,6–1,7) gegenüber 0,1 unter Placebo (Differenz 1,1, p=0,02). Auch VO2 an der anaeroben Schwelle, 6-Minuten-Gehstrecke und NYHA-Klasse verbesserten sich (p&lt;0,05), nicht aber Lebensqualität.",
+    transfer:"USA, aber Eisenmangel bei HFpEF und Symptomverbessserung international übertragbar"
+  },
+  {
+    journal:"Eur J Prev Cardiol", year:"2026", pmid:"42999996",
+    author:"Simon T et al.", pubdate:"08.11.2026",
+    added:"08.11.2026",
+    title:"Lipoprotein(a)-Messung bei Herzinfarkt: Entladung optimal, Zwei-Stufen-Strategie validiert",
+    sum:"Französische multizentrische Kohortenstudie (FRENCHIE-Lp(a)) mit 1561 Herzinfarkt-Patienten, die Lipoprotein(a) bei Aufnahme, Entlassung und 3–12 Monate Follow-up gemessen und Variabilität sowie Strategien zur Identifikation von Patienten mit Lp(a) &gt;70 mg/dL analysierte.",
+    result:"Median-Lp(a) blieb stabil (13 mg/dL bei Aufnahme, Differenz 0 über Zeit), aber 31,5% der Patienten wechselten zwischen Kategorien. Ein pragmatisches Zwei-Stufen-Schema (Messung bei Entlassung, Wiederholung nur wenn &gt;37 mg/dL) identifizierte Patienten mit Lp(a) &gt;70 mg/dL mit nur 0,97% Fehlklassifizierungsrate.",
+    transfer:"Französisches Gesundheitssystem, aber Lp(a)-Screening und Therapie-Selektion international relevant"
+  },
+  {
+    journal:"Lancet", year:"2026", pmid:"42998670",
+    author:"Motovska Z et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Cangrelor versus Ticagrelor bei Herzinfarkt mit Schock: Blutplättchenhemmung wirksamer, klinisches Benefit unklar",
+    sum:"Europäische Multizentrumstudie (Tschechien, Frankreich, Deutschland, Polen, Slovakei) bei 605 Patienten mit akutem Herzinfarkt und kardiogenem Schock verglich intravenöse Cangrelor-Bolus gefolgt von Infusion versus zerkauter oraler Ticagrelor-Ladedosis bezüglich Plättchenhemmung und 30-Tage-Ergebnis.",
+    result:"Cangrelor erreichte effektive Plättchenhemmung (100% vs. 22%, p&lt;0,0001), aber der primäre klinische Endpunkt (Tod, Herzinfarkt oder Schlaganfall in 30 Tagen) zeigte Nicht-Unterlegenheit nicht (38% vs. 41%, Differenz -4 Prozentpunkte, p=0,13). Blutungen waren vergleichbar (6% vs. 5%).",
+    transfer:"Europäische RCT mit deutschem Zentrum; Ergebnisse zur Plättchenhemmungsstrategie bei kardiogenem Schock relevant für Akut-Versorgung"
+  },
+  {
+    journal:"Circulation", year:"2026", pmid:"42998293",
+    author:"Motovska Z et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Cangrelor reduziert Mikrozirkulationsstörungen, verbessert Herzfunktion nach Herzinfarkt mit Schock",
+    sum:"Bildgebungs-Substudie der DAPT-SHOCK-AMI-Studie mit Echokardiographie und Herzmagnetresonanz bei 208 bzw. 93 Patienten mit Herzinfarkt und kardiogenem Schock, um strukturelle und funktionelle Auswirkungen der Plättchenhemmungsstrategie über 1 Jahr zu vergleichen.",
+    result:"Cangrelor war mit niedrigerem Risiko für Mikrozirkulationsobstruktion assoziiert (adjustiertes Odds Ratio 0,27, 95% KI 0,08–0,98, p=0,023). Nach 1 Jahr stieg die linksventrikuläre Ejektionsfraktion unter Cangrelor um 37,9% vs. 21,7% (p=0,046), mit besserer globaler Längsdehnung und weniger Vorhofvergrößerung.",
+    transfer:"Europäische Multizenterstudie mit deutschem, niederländischem und französischem Zentrum; Bildgebungs-Endpunkte für mechanistisches Verständnis relevant"
+  },
+  {
+    journal:"Cardiovasc Res", year:"2026", pmid:"42995452",
+    author:"Baldwin SN et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Kolchizin senkt Blutdruck und Neutrophilen/Lymphozyten-Ratio bei koronarer Herzerkrankung",
+    sum:"Doppelblind-RCT an 111 Patienten mit chronischer koronarer Herzerkrankung und Arterientzündung, randomisiert auf Kolchizin 0,6 mg täglich oder Placebo für 24 Wochen, mit Messung der arteriellen Glukoseaufnahme per FDG-PET und systemischen Inflammationsmarkern.",
+    result:"Kolchizin reduzierte nicht die Aorten-FDG-Aufnahme (primärer Endpunkt, p=0,38), aber senkte Neutrophilen/Lymphozyten-Ratio (Differenz -0,36 vs. -0,08, p=0,033), zeigte Trend zu niedrigerem C-reaktivem Protein (-28,2% vs. -5,8%, p=0,060) und dämpfte Blutdruckanstieg (systolisch 0,88 vs. 4,94 mmHg, p=0,046).",
+    transfer:"Kanadisch-europäische Studie mit Mechanismus-Validierung; Kolchizin-Einsatz bei KHK experimentell"
+  },
+  {
+    journal:"Eur Heart J", year:"2026", pmid:"42968503",
+    author:"Litwin SE et al.", pubdate:"02.11.2026",
     added:"02.11.2026",
-    title:"Omeprazol reduziert Antiplatelet-Wirkung von Clopidogrel bei Diabetikern mit KHK",
-    sum:"Randomisierte placebokontrollierte Crossover-Studie bei 50 Patienten mit Diabetes und KHK unter Doppelplättchenhemmung zur Untersuchung der Wechselwirkung zwischen Omeprazol und Clopidogrel.",
-    result:"Omeprazol erhöhte die P2Y12-Reaktionseinheiten um durchschnittlich 20,57 gegenüber Baseline (p=0,002) und 16,14 gegenüber Placebo (p=0,006). Der Anteil der Clopidogrel-Non-Responder stieg von 44% auf 56%, wobei 25% der Responder zu Non-Respondern konvertierten. Dies deutet auf eine klinisch relevante Schwächung der Antiplatelet-Wirkung hin.",
-    transfer:"Thailand, aber Befund zur Arzneimittelinteraktion ist universell übertragbar auf deutsche Praxis."
-  },
-  {
-    journal:"Europace", year:"2026", pmid:"42965305",
-    author:"Vögeli B et al.", pubdate:"31.10.2026",
-    added:"31.10.2026",
-    title:"Vorhofflimmern und Herzinsuffizienz erhöhen synergistisch das Schlaganfallrisiko",
-    sum:"Beobachtungsstudie von 2.712 Patienten aus der Swiss-AF-Studie mit Gehirn-MRT zur Untersuchung von Assoziationen zwischen Vorhofflimmern, Herzinsuffizienz und zerebralen Infarktherden sowie White-Matter-Hyperintensitäten.",
-    result:"Prävalenz ischämischer Hirninfarkte stieg progressiv: ohne AF/ohne HI 22,8%, mit HI nur 30,2%, mit AF nur 34,6%, mit AF und HI 44,6%. White-Matter-Hyperintensitäten: ohne AF/HI 43,2%, mit AF und HI 65,6%. AF (OR 1,78; 95%-KI 1,48–2,16; p&lt;0,001) und HI (OR 1,32; 95%-KI 1,06–1,64; p&lt;0,001) waren unabhängig assoziiert; keine signifikante Interaktion zwischen beiden.",
-    transfer:"Schweizer Daten, vergleichbares Versicherungssystem und Versorgungsstruktur."
-  },
-  {
-    journal:"JAMA Cardiol", year:"2026", pmid:"42961405",
-    author:"Verma A et al.", pubdate:"30.10.2026",
-    added:"30.10.2026",
-    title:"Ländliche Hospitalisierung verstärkt Mortalitätsrisiko bei Herzinsuffizienz",
-    sum:"Retrospektive Kohorte von 735.460 Medicare-Patienten mit Herzinsuffizienz mit reduzierter Ejektionsfraktion (2013–2021) zur Untersuchung, wie Wohnlage und Krankenhaustyp die Versorgungsqualität und 90-Tage-Mortalität beeinflussen.",
-    result:"Rurale Patienten in ländlichen Krankenhäusern hatten höhere 90-Tage-Mortalität als solche in urbanen Zentren (Odds Ratio 1,10; 95%-KI 1,06–1,14 bei 30 Tagen). Ländliche Hospitalisierung war mit schlechterer Leitlinien-gerechter medikamentöser Therapie assoziiert (z. B. ARNI OR 1,23; SGLT2i OR 1,48 bei ruralen vs. urbanen Patienten). Selbst rurale Patienten in urbanen Krankenhäusern hatten 30-Tage-Mortalität von 1,10 (95%-KI 1,06–1,14) im Vergleich zu urbanen Patienten.",
-    transfer:"USA Medicare-Daten; strukturelle Lernpunkte für deutsche Flächenversorgung relevant."
-  },
-  {
-    journal:"Europace", year:"2026", pmid:"42905911",
-    author:"Di Monaco A et al.", pubdate:"21.10.2026",
-    added:"22.10.2026",
-    title:"Sedation bei Pulsed-Field-Ablation: Narrative Review zu Anästhesie und Patientensicherheit",
-    sum:"Narrative Übersichtsarbeit zur Anästhesie und Sedation während Pulsed-Field-Ablation bei Vorhofflimmern, basierend auf Literaturanalyse und Expertenkonsens europäischer und internationaler Zentren.",
-    result:"Sowohl Tiefanästhesie als auch Vollnarkose ermöglichen sichere Bedingungen, wenn adäquates Monitoring und Airway-Management vorhanden sind. Tiefanästhesie bietet Vorteile bei Workflow und Genesung, besonders für Standard-Pulmonalvenen-Isolation mit zeitgenössischen bipolaren Systemen. Die klinische Praxis ist hochgradig heterogen; eine universelle Standardisierung fehlt. Randomisierte Vergleichsstudien zur optimalen Sedierungstiefe sind erforderlich.",
-    transfer:"Europäische Zentren, vergleichbare Strukturen und regulatorischer Rahmen der deutschsprachigen Länder."
-  },
-  {
-    journal:"Int J Cardiol", year:"2026", pmid:"42854852",
-    author:"Di Gioia G et al.", pubdate:"15.12.2026",
-    added:"09.10.2026",
-    title:"Umfassende kardiologische Screening bei Spitzensportlern steigert Erkennungsrate kardiovaskulärer Anomalien",
-    sum:"Prospektive Kohorte von 1.505 italienischen Spitzensportlern mit EKG, Echokardiographie und Spiroergometrie zur Beurteilung der Sensitivität und Spezifität für kardiovaskuläre Anomalien.",
-    result:"Kardiovaskuläre Anomalien fanden sich bei 1,13% (17 Sportler), darunter 7 Kardiomyopathien (0,46%) und 6 Kanalothropathien (0,40%). Ruhe-EKG allein zeigte Sensitivität 58,8% und Spezifität 94,0% (NPV 99,5%). EKG + Spiroergometrie erhöhte Sensitivität auf 82,4%, EKG + Echokardiographie auf 76,5% (Spezifität 91,5%). AUC-Werte: EKG 0,76, EKG+Spiroergometrie 0,82, EKG+Echokardiographie 0,84.",
-    transfer:"Italien, spezialisierte Sportkardiologie; Screening-Algorithmen für deutsche Athleten-Clearance übertragbar."
-  },
-  {
-    journal:"Int J Cardiol", year:"2026", pmid:"42838146",
-    author:"Ielasi A et al.", pubdate:"15.12.2026",
-    added:"06.10.2026",
-    title:"Octapro-Mitralklappe zeigt gute Frühergebnisse und niedrige Komplikationsrate",
-    sum:"Registerstudie mit 303 Patienten mit schwerer Aortenstenose, die von November 2024 bis Oktober 2025 in europäischen und indischen Zentren mit der Octapro-Klappe behandelt wurden, zur Beurteilung von VARC-3-Erfolg, Geräteübertragung und 30-Tage-Sicherheit.",
-    result:"VARC-3-technischer Erfolg 97%, periinterventionelle Mortalität 0,3%, keine prozeduralen Schlaganfälle oder Myokardinfarkte. Schrittmacher-Implantationsrate 13,5% stationär und 14,2% bei 30 Tagen. Implantationstiefe und Baseline-Rechtsschenkelblock waren unabhängige Prädiktoren für Schrittmacher-Bedarf (Schwellenwert 4,75 mm). Mittlerer Gradient bei Entlassung 8,4 mmHg, effektive Klappenöffnungsfläche 1,8 cm².",
-    transfer:"Europäische und indische Daten; Implantationstechnik-Optimierung überträgt auf deutsche TAVI-Praxis."
+    title:"GLP-1-Rezeptoragonisten als Herzinsuffizienz-Therapie: Gewichtsverlust und kardiale Effekte",
+    sum:"Narrative Review zu GLP-1-Rezeptoragonisten in der Herzinsuffizienz-Behandlung, die Gewichtsverlust bewirken, mit Diskussion der kardialen Mechanismen und Sicherheitsaspekte.",
+    result:"Review beschreibt, dass GLP-1-Agonisten in Herzinsuffizienz-Populationen sowohl Gewichtsverlust als auch Verbesserung kardialer Funktion zeigen, insbesondere in HFpEF und HFmrEF, wobei Mechanismen Verbesserung der Insulinsensitivität, Reduktion von Inflammation und direkte kardiale Effekte umfassen.",
+    transfer:"Narrative Review; GLP-1-Therapie in HF kardiologisch relevant und in Deutschland verordnungsfähig"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2241,7 +2241,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "08.11.2026";
+const NEWS_STAND = "09.11.2026";
 const NEWS = [
   {titel:"Ablation bei Vorhofflimmern: Herzstiftung zu Nutzen und Risiken", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/ablation-bei-vorhofflimmern-herzstiftung-zu-nutzen-und-risiken/"},
   {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
