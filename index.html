@@ -2233,62 +2233,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:25 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"ESC Heart Fail", year:"2026", pmid:"43023422",
-    author:"Piwowarski J et al.", pubdate:"13.11.2026",
+    journal:"Europace", year:"2026", pmid:"43023359",
+    author:"Zhou G et al.", pubdate:"13.11.2026",
     added:"13.11.2026",
-    title:"Validierte Warnzeichen für Transthyretin-Amyloidose bei Verdickung der Linksventrikels",
-    sum:"Deutsche Multizenterstudie an 425 Patienten mit linksventrikulärer Verdickung zur Validierung klinischer und bildgebender Befunde zur Früherkennung der ATTR-Kardiomyopathie.",
-    result:"Apikales Sparing (Apical-to-Basal-Strain-Ratio≥2,0) war der effektivste echokardiographische Parameter (Youden-Index 62%). Spezifische Kombinationen (z.B. Herzinsuffizienz mit bilaterales Karpaltunnelsyndrom, peripherale Niedervoltage, rechtventrikuläre Dysfunktion und Apical Sparing) zeigten hohe Spezifität (&gt;90%). Alle validierte Marker waren unabhängig von Alter, Geschlecht und Schweregrad assoziiert (p&lt;0,05).",
-    transfer:"Deutsche Universitätszentren, deutsches Dokumentationssystem, direkt anwendbar in Spezialistenpraxen"
+    title:"Posteriore Wand-Ablation in persistierendem Vorhofflimmern: kein Vorteil zu reiner Pulmonalisvenen-Isolation",
+    sum:"Randomisierte multizentrische Studie aus China mit 276 Patienten zu modifizierter posteriorer Wandablation versus reiner Pulmonalisvenen-Isolation bei erstem Ablations-Eingriff für persistierendes Vorhofflimmern.",
+    result:"Primärer Endpunkt (Freiheit von Vorhofflimmern über 30 Sekunden nach Blanking-Phase): 86,3 % (BOX+) vs. 86,9 % (BOX-) bei 12 Monaten (HR 1,046, 95%-KI 0,54–2,01; p=0,894). Routine-Addition der posterioren Wandablation verbesserte Gesamtergebnis nicht. Jedoch erfolgreiche PWI mit 93,4 % Arrhythmiefreiheit vs. 72,9 % bei gescheitertem Versuch (p=0,002).",
+    transfer:"Multizentrische RCT mit valider Methodik; Ergebnis zur Leitlinien-Anpassung (Mindest-Anforderung für posteriore Wandablation bei PFA neu zu bewerten)"
   },
   {
-    journal:"ESC Heart Fail", year:"2026", pmid:"43023381",
-    author:"Polovina MM et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Anthrazyclin-Kardiomyopathie: Früherkennung und präventive Therapie noch ohne klare Evidenz",
-    sum:"Narrative Übersichtsarbeit zu Mechanismen, Risikostratifizierung, Überwachung und Management der durch Chemotherapie induzierten Herzinsuffizienz.",
-    result:"Klinische Herzinsuffizienz bei ca. 6–9% der Patienten, subklinische Dysfunktion bis 18%. Risiko steigt ab Doxorubicin-Äquivalent-Kumulativdosis &gt;250–300 mg/m². Präventive Neurohormonal-Therapie und Statine zeigen heterogene Ergebnisse, meist nur imaging-Endpunkte. Frühe Erkennung und schnelle HF-Therapie können Dysfunktion reversibel machen, Verzögerung deutlich schlechtere Prognose.",
-    transfer:"Deutsche Klinikpraxis, europäische Zentren vertreten, Lücken in Prävention und Therapie für Leitlinien relevant"
+    journal:"Eur Heart J", year:"2026", pmid:"43031488",
+    author:"Sieliwonczyk E et al.", pubdate:"13.11.2026",
+    added:"14.11.2026",
+    title:"AI-EKG prägt Dilatatione Kardiomyopathie: 95 % Sensitivität, Negativprädiktionswert 91–95 %",
+    sum:"Deep-Learning-Modell trainiert auf &gt;330.000 EKG-Echokardiogramm-Paaren (Boston) zur Diagnose und Vorhersage der echokardiografischen DCM-Phänotyp und validiert in Biobank (UK), Krankenhäusern (Shanghai, Antwerpen) und familärer Screening-Kohorten.",
+    result:"Area under ROC für Diagnose DCM-Phänotyp: 0,87–0,97 (überlegen gegenüber traditionellen EKG-Parametern). Vorhersage künftiger DCM vergleichbar mit Echokardiografie (C-Index 0,80–0,87 vs. 0,80–0,90). Bei familären Risikopatienten: 5-Jahres-Negativprädiktionswert 95,5 % (Antwerpen) und 91,5 % (Maastricht); positive Vorhersage 42,4 % resp. 39,4 %. Hohe Risk-Scores mit 5,1- bis 6,4-fach erhöhtem DCM-Risiko.",
+    transfer:"Europäische Validierungs-Kohorten (UK Biobank, Niederlande, Belgien); günstiges Tool zur Reduktion Überwachungs-Burden in Cascade-Screening"
   },
   {
-    journal:"JACC Heart Fail", year:"2026", pmid:"43023959",
-    author:"Chimura M et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Aldosteron-Antagonisten in Herzinsuffizienz: Nutzen und Risiko über Regionen ähnlich, aber geografische Variation in Anwendung",
-    sum:"Patient-Level-Metaanalyse von vier RCTs (RALES, EMPHASIS-HF, TOPCAT, FINEARTS-HF) mit zusammengefasster Analyse nach geografischer Region zur Homogenität von Effekt und Sicherheit.",
-    result:"Reduktion kardiovaskulärer Morbidität/Mortalität über EMRO-, EURO- und AMRO-Regionen konsistent. Jedoch regionale Unterschiede in Anwendung und Verträglichkeit: Hyperkaliämie-Inzidenz und Therapieabbruch variierten, FINEARTS-HF zeigte neue Ansätze zur Risikoreduktion. Effektivität und Sicherheitsprofil bleiben weltweit ähnlich, Unterschiede eher in klinischer Praxis als Biologie.",
-    transfer:"Internationale Patient-Daten, europäische und deutsche Zentren eingeschlossen, direkt für Leitlinien-Harmonisierung nutzbar"
-  },
-  {
-    journal:"Heart Rhythm", year:"2026", pmid:"43020134",
-    author:"Spitaler P et al.", pubdate:"12.11.2026",
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43018071",
+    author:"Barry E et al.", pubdate:"12.11.2026",
     added:"12.11.2026",
-    title:"AF-Episoden verfestigen sich bereits nach Stunden, nicht erst nach Tagen",
-    sum:"Analyse von 204.775 Patient-Tagen aus 7002 rekonstruierten Vorhofflimmerepisoden via Schrittmacher-Monitoring zur quantifizierten Wahrscheinlichkeit spontaner Terminierung.",
-    result:"Terminierungswahrscheinlichkeit sank von 91,1% nach 1 Stunde auf 72,1% nach 12 Stunden, 33,3% nach 24 Stunden und 4,3% nach 7 Tagen. Episodendauern folgten Lognormalverteilung, nicht Potenzgesetz. Verfestigung beginnt unmittelbar, nicht erst nach 7 Tagen (p&lt;0,05 für Lognormal vs. Power-Law).",
-    transfer:"Österreich, vergleichbares Gesundheitssystem, Basis für künftige Rhythmuskontrollen-Strategien"
+    title:"Peripartale Herzinsuffizienz: 13,5 % Wiederaufnahmen in 30 Tagen",
+    sum:"Retrospektive Kohorten-Analyse von 19.452 Krankenhausaufenthalten mit peripartaler Herzinsuffizienz (2016–2021) zur Charakterisierung von Wiederaufnahme-Mustern und Risikofaktoren.",
+    result:"30-Tage-Wiederaufnahmerate 13,5 % (n=2.659). Unabhängig erhöhte Wiederaufnahme-Odds: Medicare/Medicaid-Versicherte, kleinstädtischer Wohnort, erhöhte DRG-Severity, Entlassung mit Homepflege, Entlassung gegen ärztlichen Rat. Begleitende Komorbiditäten (Anämie, COPD, Diabetes, Nierenschaden) signifikant assoziiert.",
+    transfer:"US-Versorgungsdaten (NRD); Risikofaktoren teilweise übertragbar (Sozialversicherungsstatus, Infrastruktur-Defizite). Transition-Strategien notwendig."
   },
   {
-    journal:"Int J Cardiol", year:"2026", pmid:"42926114",
-    author:"Boehmer AA et al.", pubdate:"24.10.2026",
-    added:"24.10.2026",
-    title:"AF-Kardiomyopathie nach Rhythmuskontrolle: weniger Herzinsuffizienz-Therapie kann möglich sein",
-    sum:"Narratives Expertenpapier zur Frage, ob Patienten mit AF-assoziierter Kardiomyopathie nach erfolgreicher Frequenzkontrolle ihre HF-Medikamente reduzieren können.",
-    result:"Wenn linksventrikuläre Ejektionsfraktion nach Rhythmuskontrolle normalisiert, können manche Patienten Diuretika, ACE-Hemmer und Betablocker reduzieren, ohne klinischen Schaden. Kernaussage: Individuelle Titration statt rigides Schema erforderlich; Kontrolluntersuchungen essentiell.",
-    transfer:"Deutschland, Wiesbaden und Montreal, Prinzip übertragbar auf deutsche Versorgungspraxis"
+    journal:"Open Heart", year:"2026", pmid:"43014995",
+    author:"Bradlow W et al.", pubdate:"11.11.2026",
+    added:"11.11.2026",
+    title:"Frühe hypertrophe Kardiomyopathie: 26 % bis 41 % Progression über 3–5 Jahre",
+    sum:"Prospektive multizentrische europäisch-amerikanische Beobachtungsstudie mit 961 Patienten in frühem NYHA-Stadium einer HCM zur Bestimmung natürlicher Progression und Risikofaktoren.",
+    result:"Composite-Endpunkt (NYHA-Verschlechterung oder ungeplante kardiovaskuläre Hospitalisierung): 26 % bei 3 Jahren, 41 % bei 5 Jahren. Unabhängige Prädiktoren: höheres Alter, COPD, Vorhofflimmern im EKG (log-HR=1,56, p&lt;0,0001), erhöhtes NT-proBNP, größeres linkes Atrium. Fast 30 % der frühen HCM-Patienten zeigen Krankheitsprogression – ungedeckter medizinischer Bedarf für intensivere Überwachung oder frühere Therapie.",
+    transfer:"Europäische Zentren (Frankreich, Spanien) + USA; Progressions-Phänotypen sollten deutsche HCM-Register validieren"
   },
   {
-    journal:"J Am Coll Cardiol", year:"2026", pmid:"43018504",
-    author:"Mdaihly M et al.", pubdate:"06.10.2026",
-    added:"12.11.2026",
-    title:"LAA-Verschluss nach AF-Ablation: Blutungsrisiko sinkt bei Männern, nicht bei Frauen",
-    sum:"Subgruppenanalyse der OPTION-Studie (n=1599: 1053 Männer, 546 Frauen) zu Sicherheit und Wirksamkeit von Linksohrohr-Verschluss vs. oraler Antikoagulation nach Katheterablation.",
-    result:"Primärer Wirksamkeitsendpunkt (Tod, Schlaganfall, Systemembolie in 36 Monaten): kein signifikanter Unterschied in beiden Geschlechtern (HR 0,96 bei Männern, HR 0,81 bei Frauen; beide p&gt;0,05). Primärer Sicherheitsendpunkt (majorale nicht-prozedurale Blutungen): bei Männern signifikant niedriger mit Gerät (HR 0,34; p&lt;0,0001), bei Frauen nur Trend (HR 0,68; p=0,11; Interaktion p=0,02).",
-    transfer:"Internationale Multicenter-Studie, europäische Zentren vertreten, Ergebnisse für deutsches Blutungsmanagement relevant"
+    journal:"Int J Cardiol", year:"2027", pmid:"42906822",
+    author:"Janssen S et al.", pubdate:"01.01.2027",
+    added:"22.10.2026",
+    title:"DOAC + Ticagrelor vs. DOAC + Clopidogrel nach PCI: keine Vorteile, mehr Blutungen",
+    sum:"Niederländische registry-basierte RCT (ZON-HR) mit 109 randomisierten Patienten (vorzeitig beendet) zur Sicherheit dualer antithrombotischer Therapie nach perkutaner Koronarintervention bei Antikoagulation.",
+    result:"Gesamtblutungsrate ähnlich (13,2 % vs. 14,3 %). Schwere Blutungen 9,4 % (Ticagrelor) vs. 1,8 % (Clopidogrel), MACCE 13,2 % vs. 5,4 %, NACE 20,8 % vs. 7,1 % – ohne statistische Signifikanz, aber numerisch ungünstiger mit Ticagrelor. Studie unterbesetzt (geplant 850, tatsächlich 109 randomisiert); Schlussfolgerungen begrenzt.",
+    transfer:"Niederländische Klinikdaten (CARIM/ZON-HR), vergleichbares Gesundheitssystem; Ticagrelor nach PCI+DOAC nicht zu empfehlen"
+  },
+  {
+    journal:"Int J Cardiol", year:"2027", pmid:"42901426",
+    author:"Fischer A et al.", pubdate:"01.01.2027",
+    added:"20.10.2026",
+    title:"Geschlechtsabhängige mikrovaskuläre Spasmen bei Angina ohne obstruktive Koronarerkrankung",
+    sum:"Prospektive Kohortenstudie von 142 ANOCA-Patienten in Deutschland mit intrakoronarer Acetylcholin-Provokationstestung zur Charakterisierung von mikrovaskulären und epikardial bedingten Koronarspasmen.",
+    result:"Mikrovaskuläre Spasmen vor epikardialem Spasmus bei 35 % der Patienten mit epikardialem Spasmus dokumentiert. Frauen signifikant häufiger betroffen (55 % vs. 29 %, p=0,037). Multivariable Analyse: weibliches Geschlecht unabhängiger Prädiktor mit OR 3,0 (95%-KI 1,15–7,80, p=0,021). Unterstreicht geschlechtsspezifische Unterschiede in der Pathophysiologie koronarer Spasmen.",
+    transfer:"Deutsche Klinikdaten (Robert-Bosch-Krankenhaus Stuttgart), vergleichbare Diagnostik wie in ESC-Leitlinien empfohlen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2313,7 +2313,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.11.2026";
+const NEWS_STAND = "15.11.2026";
 const NEWS = [
   {titel:"Herzinfarkt: Herzstiftung mahnt sofortigen Notruf 112 an", datum:"2026-11-12", url:"https://www.monitor-versorgungsforschung.de/news/herzinfarkt-herzstiftung-mahnt-sofortigen-notruf-112-an/"},
   {titel:"Ablation bei Vorhofflimmern: Herzstiftung zu Nutzen und Risiken", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/ablation-bei-vorhofflimmern-herzstiftung-zu-nutzen-und-risiken/"},
