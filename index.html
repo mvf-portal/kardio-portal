@@ -2249,62 +2249,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "19. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Heart Fail", year:"2026", pmid:"43042489",
-    author:"Wilde MI et al.", pubdate:"17.11.2026",
+    journal:"Dtsch Arztebl Int", year:"2027", pmid:"43049478",
+    author:"Schmitz T et al.", pubdate:"03.02.2027",
+    added:"18.11.2026",
+    title:"Herzinfarkt in Deutschland 1985–2023: Altersstandarisierte Rate um 57% (Männer) und 49% (Frauen) gesunken",
+    sum:"Bevölkerungsbasierte Auswertung des Augsburger Herzinfarkt-Registers über 38 Jahre zu säkularen Trends in Infarktinzidenz und koronarer Sterblichkeit mit standardisierter Altersadjustierung.",
+    result:"Altersstandarisierte Ereignisrate fiel von 633 auf 274 pro 100.000 Männer und von 156 auf 79 pro 100.000 Frauen (Alter 25–74). Erste-Ereignis-Raten: 414 auf 222 (Männer), 127 auf 69 (Frauen). Re-Infarkt-Raten: 219 auf 52 (Männer), 29 auf 10 (Frauen). KHK-Mortalität sank von 352 auf 86 (Männer) und von 58 auf 27 (Frauen). PCI-Quote stieg auf knapp 90%. 28-Tage-Fallsterblichkeit sank kontinuierlich.",
+    transfer:"Deutsche bevölkerungsbasierte Registerdaten über vier Dekaden; unmittelbar für deutsches Versorgungssystem anwendbar."
+  },
+  {
+    journal:"Circ Cardiovasc Imaging", year:"2026", pmid:"43046969",
+    author:"Wang W et al.", pubdate:"18.11.2026",
+    added:"18.11.2026",
+    title:"4D-Flow-CMR und LV-Kinetische Energie: Unabhängiger Prognosefaktor für Herzinsuffizienz-Ereignisse bei dilatativ",
+    sum:"Prospektive Multizenterstudie mit 675 DCM-Patienten und 80 Kontrollen aus 3 chinesischen Kliniken zu prognostischem Wert von 4D-Flow-CMR-Parametern für zusammengesetzten Endpunkt aus Herzinsuffizienz-Tod, ungeplante stationäre Aufnahme oder Transplantation über median 42 Monate.",
+    result:"58 Patienten (8,6%) erlebten das primäre Ereignis. Peak systolische KEiEDV und Peak E-Wave KEiEDV waren nach Adjustment für LVEF, NT-proBNP und late gadolinium enhancement unabhängig assoziiert (aHR 0,39 [95%-CI 0,28–0,53] und aHR 0,35 [0,26–0,48], beide p&lt;0,001) und boten inkrementellen prognostischen Wert über klinische und konventionelle Bildgebungsmarker.",
+    transfer:"Prospektives Design mit objektiven CMR-Parametern; Prognose-Stratifizierung jenseits Standard-Marker relevant."
+  },
+  {
+    journal:"J Am Coll Cardiol", year:"2026", pmid:"43049118",
+    author:"Bossard M et al.", pubdate:"17.11.2026",
+    added:"18.11.2026",
+    title:"Verkalkte KHK-Läsionen: Super-Hochdruck-Ballone nicht unterlegen gegenüber intravaskulärer Lithotrypsie",
+    sum:"Randomisierte, offene PROBE-Studie mit 278 Patienten zwischen Dez 2022 und Aug 2025 zum Vergleich von Plaque-Modifikation mit Super-Hochdruck-Noncompliant-Ballonen (SH-NCB) versus intravaskulärer Lithotrypsie (IVL) vor PCI mit Stent bei verkalkten Koronarlläsionen mit OCT-Bilgebung als primärem Endpunkt.",
+    result:"Stent-Expansion (primärer Endpunkt): SH-NCB nichtunterlegen IVL (85% vs. 84%, p-Nichtunterlegenheit &lt;0,0001). Prozedurdauer und Hilfsmittel bei IVL höher. Druck: SH-NCB 40 atm vs. IVL 6 atm. Zielgefäß-Versagen bei 30 Tagen: 2,8% (SH-NCB) vs. 5,7% (IVL, HR 0,50 [95%-CI 0,15–1,66], p=0,26). Koronarperforationen ohne Unterschied.",
+    transfer:"Randomisierte Vergleichsstudie mit OCT-Objektivierung in erfahrenen Zentren; etablierte Ballontherapie kostengünstiger Alternative."
+  },
+  {
+    journal:"EuroIntervention", year:"2026", pmid:"43043448",
+    author:"Ruberti A et al.", pubdate:"16.11.2026",
     added:"17.11.2026",
-    title:"Alter begrenzt Intensivierung der Herzinsuffizienz-Therapie früh nach Diagnose",
-    sum:"Prospektive Registerstudie aus den Niederlanden bei 3367 HFrEF-Patienten zur Implementierung der leitliniengerechten Medikamententherapie (GDMT) nach Altersgruppen.",
-    result:"Mit 12-monatigem Follow-up erhielten jüngere Patienten (&lt;65 Jahre) häufiger Vierfach-Therapie (68 %) als 65–74-Jährige (61 %) und ≥75-Jährige (51 %; p&lt;0,001). Altersunterschiede in der Intensivierung zeigten sich bereits wenige Wochen nach Diagnose. Vierfach-Therapie bei 6 Monaten war mit reduziertem Risiko für Hospitalisierung oder Tod zwischen Monat 6 und 12 assoziiert (adjustierte HR 0,65; 95%-KI 0,50–0,86; p=0,002). Downgrades und Nebenwirkungsraten waren altersunabhängig ähnlich.",
-    transfer:"Niederländisches Registersystem, vergleichbare Versorgungsstrukturen mit DMP-KHK in Deutschland"
+    title:"AML-Modifikation bei TMVR: 96% Erfolg, aber 12,7% LVOT-Obstruktion persistent",
+    sum:"Multizenterstudie zu Techniken der vorderen Mitralsegelbasis-Modifikation zur LVOT-Obstruktion-Prävention bei transkatheter Mitralklappenersatz in verschiedenen anatomischen Substraten.",
+    result:"Bei 55 Patienten (67% Frauen, Median-Alter 78 Jahre) war die AML-Modifikation in 96,4% erfolgreich, allerdings entwickelten 12,7% trotzdem hämodynamisch relevante LVOT-Obstruktion. Die Sterblichkeit im Krankenhaus betrug 16,4%, kardiovaskuläre Todesfälle 14,5%. Das ViMAC-Substrat zeigte die höchste LVOT-Obstruktionsrate (20,7% vs. 0–8,3% in anderen Gruppen).",
+    transfer:"Europäische Multizenterstudie mit etablierter TMVR-Praxis; Daten aus großen Herzcentern."
   },
   {
-    journal:"EuroIntervention", year:"2026", pmid:"43043451",
-    author:"Yadav P et al.", pubdate:"16.11.2026",
-    added:"17.11.2026",
-    title:"Transkatheter-Trikuspidalklappenersatz reduziert Regurgitation und verbessert Symptome",
-    sum:"Prospektive multizentrische Feasibility-Studie mit 19 Patienten (Alter 75,8 Jahre, 79 % weiblich, 79 % NYHA III/IV) zum transkatheter-Trikuspidalklappenersatz (TTVR) mit dem Trisol-System.",
-    result:"Trikuspidales Regurgitation wurde bei 87,5 % auf mild oder weniger reduziert, bei 100 % auf moderat oder weniger. Die 30-Tage-Rate der composite Major Adverse Events lag bei 10,5 % (n=2: kardiovaskulärer Tod, Schrittmacher-Implantation). NYHA-Klasse verbesserte sich in 87,5 % auf Klasse I/II, Kansas City Cardiomyopathy Questionnaire verbesserte sich um 13,6±34,6 Punkte.",
-    transfer:"Internationale Feasibility-Studie, Verfahren in europäischen Zentren verfügbar"
-  },
-  {
-    journal:"EuroIntervention", year:"2026", pmid:"43043445",
-    author:"Besler C et al.", pubdate:"16.11.2026",
-    added:"17.11.2026",
-    title:"TTVR nach gescheiterter Klappenreparatur: 93 % klinischer Erfolg bei persistenter Trikuspidalinsuffizienz",
-    sum:"Retrospektive multizentrische Kohortenstudie bei 28 Patienten mit hochgradiger residueller oder rezidivierender Trikuspidalinsuffizienz nach Transkatheter-Edge-to-Edge-Repair (TEER) zur Bewertung von TTVR.",
-    result:"Klinischer Erfolg bei 30 Tagen: 93 %. NYHA-Klasse verbesserte sich in 93 % mit 85 % in NYHA I/II nach 1 Monat. Von den 28 Patienten hatten 20 (72 %) residuelle und 8 (28 %) rezidivierende Trikuspidalinsuffizienz. Zwei Patienten starben aus Nichtherz-Gründen, vier erlitten trotz prozeduralem Erfolg eine Herzinsuffizienz-Hospitalisierung während medianer 69-Tage-Verfolgung.",
-    transfer:"Multizentrische europäische Registerdaten, Verfahren an Leitzentren etabliert"
-  },
-  {
-    journal:"Int J Cardiol", year:"2026", pmid:"43039149",
-    author:"Shanmuganathan JWD et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Herzinfarkt-Risiko post-Krebs: Multiple Myelom und Blasenkarzinom am höchsten",
-    sum:"Dänische Registerstudie bei 660.531 Patienten mit 13 Krebsarten zur Schätzung des einjährigen Herzinfarkt-Risikos mit Inverse-Probability-of-Treatment-Weighting.",
-    result:"Im Vergleich zu Niedrig-Risiko-Hauttumoren zeigten sich höchste Herzinfarkt-Relative Risiken bei multiples Myelom (RR 1,80; 95%-KI 1,34–2,26), Blasenkrebs (RR 1,52; 95%-KI 1,26–1,78) und Nierenkarzinom (RR 1,51; 95%-KI 1,20–1,82). Das standardisierte einjährige Herzinfarkt-Risiko blieb unter 1 % über alle Krebsarten hinweg (Spanne 0,31 % bei Brustkrebs bis 0,91 % bei multiples Myelom).",
-    transfer:"Dänisches Registersystem, Strukturen und Nachsorge ähnlich deutschem System"
-  },
-  {
-    journal:"Eur Heart J", year:"2026", pmid:"43031393",
-    author:"Mullens W et al.", pubdate:"14.11.2026",
-    added:"14.11.2026",
-    title:"Vasodilation bei HFrEF: Zielgruppe und Timing neu bewerten",
-    sum:"Narratives Review zur Vasodilation in der HFrEF-Behandlung unter Berücksichtigung von Mechanismen, Zielgruppen und Evidenzlücken.",
-    result:"Vasodilation bleibt kontraindiziert bei akuter dekompensierter Herzinsuffizienz, kann aber bei stabiler HFrEF unter strenger Auswahl zur Symptomlinderung erwogen werden. Langfristige Mortalitätsdaten für neuere Vasodilatatoren (wie Vericiguat) zeigen kardioprotektive Effekte. Die richtige Patienten-Phänotyp-Definition und das optimale Timing der Vasodilation erfordern weitere prospektive Studien.",
-    transfer:"Europäisches Versorgungssystem mit etablierten HFrEF-Behandlungspfaden"
-  },
-  {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"43018066",
-    author:"Xue R et al.", pubdate:"12.11.2026",
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43018096",
+    author:"Gao Y et al.", pubdate:"17.11.2026",
     added:"12.11.2026",
-    title:"LDL-Cholesterin-Paradoxon bei HFrEF: pathologische Hypocholesterinämie vorhersagt schlechtere Prognose",
-    sum:"Registerstudie bei 2188 HFrEF-Patienten (LV-EF &lt;40 %) mit Latent-Class-Analysis zur Identifikation von Subgruppen mit niedriger LDL-C und Auswirkung auf klinische Outcomes.",
-    result:"Patienten mit pathologischer Hypocholesterinämie (niedriges LDL-C, höheres Alter, niedrigeres Gewicht, höhere Komorbiditätslast) zeigten versus Patienten mit Hypercholesterinämie höhere 1-Jahres-Gesamtsterblichkeit (adjustierte HR 2,14; 95%-KI 1,17–2,69; p&lt;0,001) und kardiovaskuläre Sterblichkeit (adjustierte HR 1,93; 95%-KI 1,46–2,54; p&lt;0,001). Nichtpathologische Hypocholesterinämie-Subgruppe hatte vergleichbare Outcomes.",
-    transfer:"Registerstudie Südostasien, biologisches Phänomen unabhängig von Region"
+    title:"Klonale Hämatopoese bei Typ-2-Diabetes: 1,19-faches MACE-Risiko, 1,34-faches Risiko für Mikrogefäßkomplikationen",
+    sum:"Retrospektive Analyse von 17.893 UK-Biobank-Teilnehmern mit Typ-2-Diabetes ohne kardiovaskuläre Erkrankung zum Zusammenhang zwischen klonaler Hämatopoese indeterminaten Potenzials (CHIP) und kardiovaskulären sowie mikrogefäßlichen Folgeerkrankungen über 14,6 Jahre.",
+    result:"CHIP lag bei 3,7% der Teilnehmer vor. CHIP war assoziiert mit erhöhtem Composite-Kardiovaskulär-Risiko (SHR 1,19 [95%-CI 1,00–1,42]), am stärksten für Herzinsuffizienz (SHR 1,43 [1,13–1,81]). Für Mikrogefäßkomplikationen betrug das SHR 1,34 (1,15–1,56), für Nierenerkrankung 1,28 (1,05–1,57), für Retinopathie 1,43 (1,15–1,77). Zehn-Jahres-Risikodifferenz: 1,94% für kardiovaskuläre, 3,46% für mikrogefäßliche Ereignisse.",
+    transfer:"UK Biobank mit vollständiger Genomik und langem Follow-up; Risikoerhöhung auch nach Adjustment robust."
+  },
+  {
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43018056",
+    author:"Brunner S et al.", pubdate:"17.11.2026",
+    added:"12.11.2026",
+    title:"Transkatheter Trikuspidalklappe-Kantenkanten-Reparatur: RV-Dilatation zurückgegangen, Funktion moderat reduziert",
+    sum:"Internationale EuroTR-Registerstudie mit 699 Patienten aus 18 europäischen Zentren zu RV-Remodeling nach T-TEER zwischen 2016 und 2024 mit Echokardiographie-Follow-up ≥90 Tage.",
+    result:"RV-Durchmesser sank von 40,2±8,9 auf 37,1±8,4 mm (p&lt;0,001), RV-Enddiastole von 28,7±9,0 auf 26,2±9,6 cm² (p&lt;0,001). Prozeduraler Erfolg assoziiert mit positivem RV-Remodeling (OR 1,82 [95%-CI 1,07–3,09]). Fraktionelle Flächenänderung fiel von 37,8%±10,2% auf 33,3%±10,1% (p&lt;0,001), tricuspid annular plane systolic excursion von 17,4±4,7 auf 16,6±4,7 mm (p&lt;0,001).",
+    transfer:"Europäischer Registerdatenverbund, etablierte Echo-Messungen nach standardisiertem Protokoll."
+  },
+  {
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43018045",
+    author:"Chen J et al.", pubdate:"17.11.2026",
+    added:"12.11.2026",
+    title:"Körperaktivität zur KHK-Prävention: Ältere Erwachsene brauchen nur 60 Min/Woche versus 330 Min bei Mittelalten",
+    sum:"UK-Biobank-Analyse mit tragbaren Beschleunigungsmessern bei 80.243 Teilnehmern (Alter 61,54±7,84 Jahre) zu altersabhängigen Unterschieden in der Assoziation zwischen körperlicher Aktivität und KHK-Inzidenz mit nichtlinearen Dosis-Wirkungs-Modellen.",
+    result:"Über 7,88 Jahre (Median) traten 3.764 KHK-Ereignisse auf. Moderate-intensive Aktivität von etwa 60 Min/Woche senkte das KHK-Risiko bei ≥65-Jährigen um 20% (HR 0,8), während ≥65-Jährige mit Leitlinien-Adhärenz ein HR von 0,72 (vs. 0,85 bei &lt;65-Jährigen) aufwiesen (Interaktion p=0,029). Weekend-Warrior-Phänomen bei ≥65-Jährigen mit 28% Risikoreduktion. P-Interaktion altersabhängig p=0,006.",
+    transfer:"UK Biobank mit objektiver Wearable-Messung; Altersunterschiede klinisch relevant für Deutsche Präventionsleitlinien."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2329,10 +2338,10 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.11.2026";
+const NEWS_STAND = "19.11.2026";
 const NEWS = [
-  {titel:"RNA-basierte Medizin – Ansätze, Potenziale und Herausforderungen", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/rna-basierte-medizin-ansaetze-potenziale-und-herausforderungen/"},
-  {titel:"Herzinfarkt: Herzstiftung mahnt sofortigen Notruf 112 an", datum:"2026-11-12", url:"https://www.monitor-versorgungsforschung.de/news/herzinfarkt-herzstiftung-mahnt-sofortigen-notruf-112-an/"},
+  {titel:"Nordic Bioscience: Endotrophin-Forschungstest auf Roche-Plattform", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/nordic-bioscience-endotrophin-forschungstest-auf-roche-plattform/"},
+  {titel:"Herzstiftung und DGK legen Patientenleitlinie bei Vorhofflimmern vor", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/herzstiftung-und-dgk-legen-patientenleitlinie-bei-vorhofflimmern-vor/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
