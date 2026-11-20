@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://kardio.m-vf.de/</loc><lastmod>2026-11-19</lastmod></url>
-<url><loc>https://kardio.m-vf.de/studie/</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://kardio.m-vf.de/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/</loc><lastmod>2026-11-20</lastmod></url>
 <url><loc>https://kardio.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://kardio.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://kardio.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://kardio.m-vf.de/studie/43056248/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/43056220/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/43055692/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/43055691/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/43055265/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://kardio.m-vf.de/studie/43048765/</loc><lastmod>2026-11-20</lastmod></url>
 <url><loc>https://kardio.m-vf.de/studie/43049478/</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://kardio.m-vf.de/studie/43049118/</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://kardio.m-vf.de/studie/43046969/</loc><lastmod>2026-11-19</lastmod></url>
