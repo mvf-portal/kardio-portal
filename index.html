@@ -2249,62 +2249,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "21. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"ESC Heart Fail", year:"2026", pmid:"43055265",
-    author:"Berliner D et al.", pubdate:"19.11.2026",
+    journal:"Am J Cardiol", year:"2026", pmid:"43057603",
+    author:"Li S et al.", pubdate:"19.11.2026",
     added:"19.11.2026",
-    title:"Interdisziplinäre Zusammenarbeit optimiert Ergebnisse bei fortgeschrittener Herzinsuffizienz",
-    sum:"Konzeptpapier zur Strukturierung einer interdisziplinären Herzinsuffizienz-Kollaboration (IHFC) mit kardiologisch-chirurgischen Teams über drei Phasen: präklinisch, intra-hospital, postdischarge.",
-    result:"Rahmenwerk definiert drei Managementphasen: (1) ambulante Diagnostik und Zuweisung, (2) interventionelle/chirurgische Therapie inkl. VAD und Transplantation, (3) Rehabilitation und Langzeitfolge mit Patientenschulung. IHFC integriert standardisierte Protokolle und Kommunikation zwischen Kardiologen, Herzchirurgen, Intensivisten, Psychologen und VAD-Koordinatoren.",
-    transfer:"Deutsches Gesundheitssystem, vergleichbare Strukturen möglich"
+    title:"Frühe Angiographie nach Fibrinolyse senkt Sterblichkeit bei STEMI",
+    sum:"Retrospektive Kohortenstudie mit 130.322 Patienten nach Fibrinolyse bei STEMI, die Angiographiezeitpunkte (2-6 vs. 6-24 Stunden) und klinische Folgen verglichen hat.",
+    result:"Angiographie 2-6 Stunden nach Fibrinolyse war assoziiert mit niedrigerer Gesamtmortalität (adjustierte HR 0,87; 95% CI 0,78-0,98) und kardialem Tod (adjustierte subdistribution HR 0,85; 95% CI 0,76-0,95) ohne Unterschied in Blutung oder im-Spital-Mortalität. Die Ergebnisse stützen prospektive Evaluationen dieser Timing-Strategie innerhalb des empfohlenen 2-24-Stunden-Fensters.",
+    transfer:"China, nationale Datenbank großer Versorger, vergleichbare Leitlinien-Implementierung"
   },
   {
-    journal:"ESC Heart Fail", year:"2026", pmid:"43056248",
-    author:"Sinha A et al.", pubdate:"19.11.2026",
+    journal:"JACC Clin Electrophysiol", year:"2026", pmid:"43055715",
+    author:"Lee YS et al.", pubdate:"19.11.2026",
     added:"19.11.2026",
-    title:"SGLT2-Hemmer reduzieren renale Ereignisse und akute Nierenschädigung bei Herzinsuffizienz um 25–28 %",
-    sum:"Metaanalyse von 13 randomisierten Studien mit 90.413 Teilnehmern (32.957 HF-Patienten, Median Follow-up 2,3 Jahre), um Effekte von SGLT2-Hemmern auf Nierenfunktion zu untersuchen.",
-    result:"SGLT2-Hemmer reduzierten renal-spezifische Composite-Outcomes um 28 % (RR 0,72; 95%-KI 0,57–0,91) und akute Nierenschädigung um 25 % (RR 0,75; 95%-KI 0,65–0,86). Effekte zeigten sich unabhängig von Baseline-Nierenfunktion, HF-Phänotyp und Komorbiditäten. Trotz initialem eGFR-Rückgang sollten SGLT2-Hemmer fortgesetzt werden.",
-    transfer:"Internationale Evidenz, deutsche Zulassungsempfehlungen für HF etabliert"
+    title:"Antikoagulanzien-Stopp nach AF-Ablation senkt Blutungen ohne Schlaganfall-Anstieg",
+    sum:"Südkoreanische nationale Versicherungsdatenbank mit 3.637 Patienten ohne AF-Rezidiv im ersten Jahr nach Ablation mit CHA2DS2-VA ≥2, stratifiziert nach Antikoagulanzien-Fortsetzung vs. Absetzen.",
+    result:"Bei CHA2DS2-VA 2-4 (n=3.054) war Antikoagulanzien-Stopp assoziiert mit niedrigerem Blutungsrisiko (HR 0,51; 95% CI 0,29-0,90) und zusammengesetztem Ereignis (Schlaganfall/Blutung; HR 0,61; 95% CI 0,38-0,96) ohne Schlaganfall-Anstieg (HR 0,73; 95% CI 0,34-1,58). Bei CHA2DS2-VA ≥5 kein signifikanter Unterschied.",
+    transfer:"Südkorea, nationales System ähnlich deutsche Versicherung, Langzeit-Nachsorge dokumentiert"
   },
   {
-    journal:"Eur Heart J Cardiovasc Imaging", year:"2026", pmid:"43056220",
-    author:"Wang Y et al.", pubdate:"19.11.2026",
+    journal:"Int J Cardiol", year:"2026", pmid:"43057393",
+    author:"Horie T et al.", pubdate:"19.11.2026",
     added:"19.11.2026",
-    title:"Phenomapping mit CMR und EHR identifiziert Hochrisiko-Patienten mit nichtischämischer Kardiomyopathie besser als LVEF allein",
-    sum:"Prospektive Kohortenstudie mit 1.355 Patienten (752 DCM, 603 hypokinetische non-dilate CMP): K-Means-Clustering von 55 Routineparametern (Patient-reported health, CMR, EHR) zur Erstellung einer Point-of-Service-Phenomapping-Strategie mit MACE-Vorhersage über 3,7–3,9 Jahre.",
-    result:"Drei Phenogruppen identifiziert; Phänotyp-Zugehörigkeit unabhängig assoziiert mit MACE nach Adjustierung für Alter, Geschlecht, NYHA und LVEF. Bei DCM: aHR Phenogruppe 2 vs. 1: 2,8 (95%-KI 1,6–4,8), Phenogruppe 3: 3,5 (95%-KI 1,9–6,5); bei HNDC Phenogruppe 3: aHR 4,2 (95%-KI 1,7–10,2). Decision-Tree-Klassifizierer ermöglichte prospektive Zuordnung.",
-    transfer:"Kanada (Calgary), ähnliche Versorgungsstruktur; CMR-Nutzung in Deutschland etabliert"
+    title:"PFA senkt Perikarditis-Risiko nach AF-Ablation deutlich",
+    sum:"Prospektives Multizentrismus-Register mit 19.555 AF-Ablationen (5.743 PFA, 12.768 Radiofrequenz, 5.729 Kryoballoon) 2022-2026, verglich klinisch diagnostizierte akute Perikarditis zwischen Energiequellen.",
+    result:"Akute Perikarditis trat auf in 0,09% nach PFA vs. 0,28% nach thermalen Verfahren (p=0,011). In Multivariablenanalyse war PFA-Nutzung unabhängig mit niedrigerem Perikarditis-Risiko assoziiert (adjustierte OR 0,382; 95% CI 0,149-0,980; p=0,045). Mitralisthmus-Ablation erhöhte Risiko (OR 2,457; 95% CI 1,136-5,311).",
+    transfer:"Japan, Multizentrisches Real-World-Daten-Register, moderne PFA-Plattformen"
   },
   {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"43048765",
-    author:"Yan LD et al.", pubdate:"18.11.2026",
+    journal:"Heart", year:"2026", pmid:"43051975",
+    author:"Venetsanos D et al.", pubdate:"18.11.2026",
     added:"18.11.2026",
-    title:"HFpEF-Screening-Scores zeigen in ressourcenlimitierten Ländern Validierungslücken; HFA-PEFF überlegen H2FPEF",
-    sum:"Querschnittsstudie mit 3.003 Erwachsenen aus Haiti: Validierung von H2FPEF und HFA-PEFF gegen ärztliche Adjudikation mit Echokardiographie und BNP, um HFpEF-Prävalenz und Screening-Performance zu evaluieren.",
-    result:"HFpEF-Prävalenz (Adjudikation): 9,5 % (95%-KI 8,3–11,0); Patienten median 57 Jahre, 70 % Hypertonie, 33 % Adipositas, kein Vorhofflimmern. HFA-PEFF zeigte bessere Konkordanz (κ 0,62 vs. κ mit H2FPEF) und höhere Sensitivität. Moderate-substanzielle Übereinstimmung zwischen allen drei Scores (α 0,57).",
-    transfer:"Haiti - ressourcenlimitiert; Befund unterstreicht Bedarf für lokale Screening-Instrumente"
+    title:"Ältere Herzinfarkt-Patienten: Revaskularisierungstrends in Schweden 2015-2022",
+    sum:"Schwedische Register-Analyse mit Trendbetrachtung von Managementstrategien und Outcomes älterer Patienten mit Herzinfarkt über 8 Jahre (Datenquelle: SWEDEHEART).",
+    result:"Abstract präsentiert Managementtrends älteren Herzinfarkt-Patienten; konkrete Zahlenergebnisse nicht im bereitgestellten Textauszug angegeben.",
+    transfer:"Schweden, europäisches Versicherungssystem, vergleichbare Strukturen und Dokumentation"
   },
   {
-    journal:"JACC Heart Fail", year:"2026", pmid:"43055691",
-    author:"Lindenfeld J et al.", pubdate:"17.11.2026",
-    added:"19.11.2026",
-    title:"Erhöhter Pulmonalarterienddruck nach Entlassung sagt Herzinsuffizienz-Ereignisse innerhalb 90 Tagen voraus",
-    sum:"Remote-Hämodynamik-Monitoring mit drahtlosen PAP-Sensoren bei 783 Herzinsuffizienz-Patienten: Vergleich der Pulmonalarteriendrücke nach Entlassung bei nicht-HF- und HF-Ereignissen zur Vorhersage erneuter HF-Ereignisse.",
-    result:"Nach nicht-HF-Ereignis (615 Ereignisse) zeigte sich diastolischer PAP 23,3±7,9 mmHg bei nachfolgendem HF-Ereignis vs. 20,4±7,3 mmHg bei nicht-HF-Ereignis (p=0,0046) und 20,9±7,4 mmHg bei keinem Ereignis (p=0,015). Nach HF-Ereignis (539 Ereignisse) ähnliche Muster. Persistieren erhöhte PAP früh nach Entlassung mit Risiko für erneute HF-Ereignisse assoziiert.",
-    transfer:"USA-basierte Studie mit drahtlosen Sensoren; Messkonzept übertragbar"
+    journal:"JAMA Cardiol", year:"2026", pmid:"43050201",
+    author:"Nair M et al.", pubdate:"18.11.2026",
+    added:"18.11.2026",
+    title:"Anämie und Eisenmangel erhöhen Herzinsuffizienz in Schwangerschaft 5-fach",
+    sum:"Indische prospektive Fallkontroll-Studie mit 532 Frauen mit peripartaler Herzinsuffizienz und 1.091 Kontrollen, untersuchte Blutarmut und Eisenstatus als Risikofaktoren.",
+    result:"Schwere Anämie war assoziiert mit 5-fach erhöhtem Herzinsuffizienz-Risiko (adjustierte OR 5,06; 95% CI 3,02-8,48), moderate Anämie mit 1,5-fach erhöhtem Risiko (OR 1,52; 95% CI 1,13-2,05). Eisenmangel-Marker (hohe lösliche Transferrin-Rezeptoren, niedrige Hepcidin) waren unabhängig assoziiert (OR 1,44 bzw. OR 2,65). Anämie verbesserte AUC für Risikovorhersage von 78% auf 83%.",
+    transfer:"Indien, Länder mit mittlerem Einkommen, Eisenmangel-Prävention als Versorgungsansatz"
   },
   {
-    journal:"JACC Heart Fail", year:"2026", pmid:"43055692",
-    author:"Krolevets M et al.", pubdate:"13.11.2026",
-    added:"19.11.2026",
-    title:"DNA-Methylierungsmuster sagen Herzinsuffizienz-Phänotypen und klinische Outcomes voraus",
-    sum:"Genomweite DNA-Methylierungsmuster aus Blutproben von 3.289 Herzinsuffizienz-Patienten und 18.700 Kontrollen wurden analysiert, um ihre Aussagekraft für Phänotypen und Prognose zu untersuchen.",
-    result:"Methylierungs-Scores unterschieden Herzinsuffizienz-Patienten von Kontrollen mit hoher Genauigkeit (AUC 0,97–0,98). Alle Scores waren unabhängig mit Herzod oder Hospitalisierung wegen Verschlechterung assoziiert; der stärkste Effekt zeigte sich für HFrEF (HR ~1,7 pro SD). Die Signatures waren phänotypspezifisch mit unterschiedlichen biologischen Pathways verknüpft.",
-    transfer:"Deutsche Kohortendaten (MyoVasc), dokumentationspflichtig wie hier"
+    journal:"Am Heart J", year:"2026", pmid:"43044708",
+    author:"Skibniewski M et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Orale Antikoagulation bei AF und ACS senkt Herzinfarkt und Schlaganfall",
+    sum:"Schwedische nationale Registeranalyse mit 15.358 Patienten mit AF und ACS nach PCI zwischen 2010-2022, verglich VKA-, DOAC-, und Plättchen-Hemmer-Strategien.",
+    result:"Sowohl VKA als auch DOAC waren assoziiert mit niedrigerem MACE (adjustierte HR 0,80 bzw. 0,82; beide 95% CI &lt;0,90) und NACE (adjustierte HR 0,86 bzw. 0,85) ohne signifikanten Unterschied zwischen VKA und DOAC. OAC-Nutzung stieg von 27% 2010 auf 82% 2021.",
+    transfer:"Schweden, europäisches Versicherungssystem, vergleichbare Leitlinien-Standards"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2329,7 +2329,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.11.2026";
+const NEWS_STAND = "21.11.2026";
 const NEWS = [
   {titel:"Mikrostromtherapie bei Herzinsuffizienz: Berlin Heals startet C-MIC IV", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/mikrostromtherapie-bei-herzinsuffizienz-berlin-heals-startet-c-mic-iv/"},
   {titel:"Nordic Bioscience: Endotrophin-Forschungstest auf Roche-Plattform", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/nordic-bioscience-endotrophin-forschungstest-auf-roche-plattform/"},
