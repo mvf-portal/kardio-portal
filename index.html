@@ -2249,62 +2249,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "23. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Heart", year:"2026", pmid:"43064532",
-    author:"DUAL-ACS Trial Investigators", pubdate:"20.11.2026",
+    journal:"Am J Cardiol", year:"2026", pmid:"43067367",
+    author:"Morrison A et al.", pubdate:"21.11.2026",
+    added:"21.11.2026",
+    title:"KI-EKG erkennt hypertrophe Kardiomyopathie besser, identifiziert Hochrisikopatienten",
+    sum:"Vergleichsstudie von 102 HCM-Patienten und 302 Kontrollen ohne HCM, die alle eine Kardio-MRT erhielten; AI-EKG-Algorithmus wurde auf vorherige EKG angewendet, Diagnostik und prognostische Leistung bewertet.",
+    result:"AI-EKG: Sensitivität 51,1%, Spezifität 96,1% für phänotypische HCM. Zusätzliche Verbesserung der Diskriminierung über EKG-Standard-Merkmale (Net Reclassification Improvement 0,19; p&lt;0,001). AI-EKG-Wahrscheinlichkeit ≥0,99 identifizierte Patienten mit höchstem Risiko für nachfolgende Ereignisse (ICD-Einlage, septale Reduktion; HR 2,92, 95%-KI 1,59–5,35; p=0,011).",
+    transfer:"USA (Beth Israel), aber EKG-Algorithmen geräteunabhängig einsetzbar in Deutschland"
+  },
+  {
+    journal:"Int J Cardiol", year:"2026", pmid:"43064251",
+    author:"Sriskandarajah R et al.", pubdate:"20.11.2026",
     added:"20.11.2026",
-    title:"Verkürzte duale Thrombozytenaggregationshemmung nach Herzinfarkt gleich wirksam",
-    sum:"Randomisierte britische Studie zu optimaler Dauer der dualen Thrombozytenaggregationshemmung nach akutem Myokardinfarkt.",
-    result:"Nach 12 Monaten Follow-up zeigten Patienten mit verkürzter dualer Thrombozytenaggregationshemmung (1-3 Monate) vergleichbare Ergebnisse bezüglich Reinfarkt, Stent-Thrombose und Blutungskomplikationen wie Patienten mit Standarddauer (12 Monate); genaue Häufigkeiten im Abstract nicht genannt. Die Studie deutet darauf hin, dass eine Verkürzung bei vielen Patienten sicher ist.",
-    transfer:"Britisches NHS-System, europäisches Versicherungsprinzip, vergleichbar mit Deutschland"
+    title:"EKG-Veränderungen bei Arrhythmogener Kardiomyopathie: Belastung verzögert nicht die Progression",
+    sum:"Retrospektive Kohortenstudie von 163 Patienten mit arrhythmogener Kardiomyopathie (56% männlich, Durchschnittsalter 47±16 Jahre) mit mindestens zwei analysierbaren EKGs, stratifiziert nach Trainingsintensität post-Diagnose (sedentär/niedrig vs. moderat/hoch).",
+    result:"9% entwickelten neu T-Wellen-Inversionen (TWI), 45% zeigten TWI-Progression. PKP2-Träger häufiger mit ATWI-Progression (p=0,002). Niedriges QRS-Spannungsvoltage (LQRSV) bei 12% Baseline, 6% entwickelten neu LQRSV, 23% substantielle Reduktion. Moderate/hohe Belastung war nicht unabhängig mit Progression assoziiert (adjustierte OR 1,49, 95%-KI 0,72–3,11). Über 4,6±2,5 Jahre 17% primäre arrhythmische Ereignisse. Baseline inferiores TWI (HR 3,79, 95%-KI 1,60–8,97; p=0,002) und totales Extremitäten-Lead-QRSV &lt;3 mV (HR 2,40, 95%-KI 1,05–5,48; p=0,037) unabhängig mit Arrhythmierisiko assoziiert.",
+    transfer:"Großbritannien, spezialisiertes genetisches Register; EKG-Monitoring etabliert in deutschen HCM-Zentren"
   },
   {
-    journal:"Am Heart J", year:"2026", pmid:"43051386",
-    author:"Kumar A et al.", pubdate:"18.11.2026",
+    journal:"Am J Cardiol", year:"2026", pmid:"43057602",
+    author:"Nyirenda N et al.", pubdate:"19.11.2026",
+    added:"19.11.2026",
+    title:"NT-proBNP-Ziele bei Herzinsuffizienz senken Sterblichkeit und Hospitalisierung",
+    sum:"Sekundäranalyse des GUIDE-IT-Trials: 319 Patienten mit Herzinsuffizienz mit reduzierter Ejektionsfraktion wurden über 180 Tage verfolgt, stratifiziert nach Erreichen von NT-proBNP ≤1000 pg/mL bei mindestens 50% der Besuche.",
+    result:"Jede 10%ige Steigerung der Zielwerterfüllung senkte das Mortalitäts- und Hospitalisierungsrisiko um 11% (HR 0,89, 95%-KI 0,84–0,96; p=0,001). Mit ≥50% vs. &lt;50% Erfüllung fiel das Risiko um 56% (HR 0,44, 95%-KI 0,27–0,71; p&lt;0,001). Der prognostische Mehrwert überlappte jedoch mit der aktuellen NT-proBNP-Messung.",
+    transfer:"USA, Studiendaten; Blutbiomarker-Management in der deutschen Herzinsuffizienzversorgung etabliert"
+  },
+  {
+    journal:"Heart", year:"2026", pmid:"43051979",
+    author:"Tsujisaka Y et al.", pubdate:"18.11.2026",
     added:"18.11.2026",
-    title:"Linksammlung zur Vorhofohrverschluss senkt Blutungen stärker als DOAC",
-    sum:"Metaanalyse von fünf randomisierten Studien zum Vergleich von Vorhofohrverschluss (LAAC) mit direkten oralen Antikoagulanzien (DOAC) beim Vorhofflimmern.",
-    result:"Bei 6239 Patienten (LAAC n=3126, DOAC n=3113): Keine signifikanten Unterschiede in Mortalität oder Schlaganfallrate (RR 1,07). LAAC reduzierte klinisch relevante Nicht-Prozedur-Blutungen stärker (RR 0,56; p&lt;0,01) und leichte Blutungen (RR 0,48; p&lt;0,01), aber systemische Thromboembolien waren häufiger (RR 2,53; p=0,04) und Perikardergüsse häufiger (RR 2,35; p=0,02).",
-    transfer:"Globale Studienpopulation, Sicherheit übertragbar, Indikationsstellung muss nach Phänotyp erfolgen"
+    title:"PCI versus Bypass bei dialysepflichtigen Patienten: ähnliche 5-Jahres-Sterblichkeit",
+    sum:"Prospektive Registerstudie von 1047 dialysepflichtigen Patienten mit Drei-Gefäß-Koronariastenosen aus Japan, vergleichend PCI (n=349) vs. Bypass (n=349) nach Propensity-Score-Matching.",
+    result:"5-Jahres-Gesamtsterblichkeit: PCI 42,0% vs. Bypass 38,2% (p=0,19, nicht signifikant). Reinfarkt häufiger nach PCI (13,2% vs. 1,7%; p&lt;0,001), Schlaganfall häufiger nach Bypass (4,0% vs. 1,2%; p=0,04). Wiederholte Revaskularisation deutlich häufiger nach PCI. Langfristig ähnliche Sterblichkeit, aber höhere Morbidität beider Verfahren bei Dialysepatienten.",
+    transfer:"Japan, spezialisierte Registerdaten; hohe KHK-Last bei Nierenpatienten auch in Deutschland relevant"
   },
   {
-    journal:"Circ Arrhythm Electrophysiol", year:"2026", pmid:"43046951",
-    author:"Wang L et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Herzketogenese treibt Vorhofflimmern bei Diabetes an",
-    sum:"Tiermodell-Studie mit Mechanismusanalyse bei diabetischen Mäusen zur Rolle der Hmgcs2-vermittelten Ketogenese beim Vorhofflimmern und Erkenntnisse aus Patientenblut (Metabolomik) zu Ketonen und Vorhofflimmer-Rückfallrisiko.",
-    result:"Das Herz wird in Diabetes zum Ketogenese-Organ (Hmgcs2-Hochregulation). Hmgcs2-abhängige Ketogenese verursacht oxidativen Stress, Mitochondrienschaden und erhöhte Vorhofflimmer-Induzierbarkeit in KI-Mäusen. Hmgcs2-Knockout verbesserte Fettsäure-, β-Hydroxybutyrat- und Glukosenutzung und reduzierte Diabetes-assoziiertes Vorhofflimmern. Bei Patienten: Venöse Plasma-β-OHB korrelierte mit atrialem Low-Voltage-Burden und Vorhofflimmer-Rückfall nach Ablation (exakte Korrelationskoeffizienten nicht genannt).",
-    transfer:"Grundlagen-Maus-Studie mit klinischer Bestätigung durch Patientenmetabolomik; Hmgcs2 als therapeutisches Ziel"
-  },
-  {
-    journal:"Clin Res Cardiol", year:"2026", pmid:"43049778",
-    author:"Dalal N et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Cannabiskonsum erhöht Herzinsuffizienz-Hospitalisierung um 47 Prozent",
-    sum:"US-amerikanische Real-World-Kohortenstudie aus TriNetX-Netz mit Propensity-Score-Matching zu Assoziation zwischen dokumentierter Cannabisabhängigkeit und Hospitalisierung sowie kardiovaskulären Ereignissen bei Herzinsuffizienzpatienten.",
-    result:"Nach Matching 30624 Patienten pro Gruppe: Dokumentierte Cannabisabhängigkeit assoziiert mit erhöhtem 1-Jahres-Hospitalisierungsrisiko (57,5% vs. 45,1%; HR 1,468; p&lt;0,001), Mortalität (10,4% vs. 9,3%; HR 1,147; p&lt;0,001), Schlaganfall (2,9% vs. 2,3%; HR 1,263; p&lt;0,001) und Myokardinfarkt (6,0% vs. 4,4%; HR 1,415; p&lt;0,001). Assoziation persistierte nach Ausschluss der ersten 30 Tage (HR 1,252; p&lt;0,001).",
-    transfer:"USA (TriNetX-Netz), aber Cannabis-Epidemiologie und Herzinsuffizienz-Folgen sind universell relevant"
-  },
-  {
-    journal:"Am Heart J", year:"2026", pmid:"43044707",
-    author:"Pae BJ et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Bessere körperliche Funktion senkt Vorhofflimmer-Risiko deutlich",
-    sum:"Epidemiologische Kohortenstudie an 4803 älteren US-amerikanischen Teilnehmern ohne Vorhofflimmern zur Assoziation zwischen körperlicher Funktion (SPPB-Score, Gehgeschwindigkeit, Griffstärke) und Vorhofflimmer-Inzidenz über Median 9,2 Jahre.",
-    result:"Bei 809 Vorhofflimmer-Ereignissen: SPPB-Score (HR 0,93 pro 1-Punkt-Anstieg; p&lt;0,001), Griffstärke (HR 0,87 pro 10 kg; p=0,002) und Gehgeschwindigkeit (HR 1,08 pro 1 Sekunde; p=0,005) zeigten unabhängige Assoziationen. Der Chair-Stand-Test (Komponente von SPPB) war die stärkste Einzelkomponente. Die körperliche Funktion war modifizierbar und daher potenzielles Präventionsziel.",
-    transfer:"USA (unterschiedliches Versicherungssystem), aber Vorhofflimmer-Prävention durch Bewegung ist universell"
-  },
-  {
-    journal:"Circulation", year:"2026", pmid:"43038427",
-    author:"Wei X et al.", pubdate:"17.11.2026",
+    journal:"Circulation", year:"2026", pmid:"43038425",
+    author:"Khiabani AJ et al.", pubdate:"17.11.2026",
     added:"16.11.2026",
-    title:"Schonende Myektomie ohne Herzlungenmaschine bei obstruktiver HCM",
-    sum:"Übersichtsarbeit zu transapikaler Schlag-Herz-Septumyektomie (TA-BSM) als neue Technik zur Behandlung der obstruktiven hypertrophen Kardiomyopathie, die Sternotomie und kardiopulmonale Umleitung vermeidet.",
-    result:"TA-BSM mit Echtzeit-Echokardiographie reduziert chirurgisches Trauma und Operationszeiten erheblich, ermöglicht schnellere postoperative Erholung und ist besonders für Patienten mit Langstreckenobstruktion, kleiner Aortenklappe oder vorangegangenen Operationen geeignet. Systemische anterior motion und mitrale Regurgitation werden häufig ohne separate Mitralklappenoperation behoben; genaue Erfolgsquoten nicht genannt.",
-    transfer:"Neue operative Technik, Mechanismus-Prinzip hier: Echokardiographie-Guidance verbessert Präzision und Sicherheit"
+    title:"Chirurgische Vorhofflimmer-Ablation: 85–95% arrhythmiefreies Überleben nach Cox-Maze",
+    sum:"Übersichtsarbeit zu minimalinvasiven und hybriden chirurgischen Verfahren für Vorhofflimmern, insbesondere für Patienten, bei denen Katheterablation versagt hat oder nicht in Frage kommt.",
+    result:"Cox-Maze-IV-Verfahren erreicht 5-Jahres-Arrhythmiefreiheit von 85–95%, hybrid-epikardial-endokardialer Ablation 60–70%, gegenüber 35–45% bei thorakoskopischer epikardischer Ablation und 30–35% bei alleiniger Katheterablation. Minimalinvasive Verfahren zeigen superiore Langzeitergebnisse, besonders bei persistierendem Vorhofflimmern und vergrößerten Vorhöfen.",
+    transfer:"Internationale Evidenz, aber Patientenauswahl und OP-Kapazität limitieren Einsatz in Deutschland"
+  },
+  {
+    journal:"EuroIntervention", year:"2026", pmid:"43043443",
+    author:"Shitan H et al.", pubdate:"16.11.2026",
+    added:"17.11.2026",
+    title:"Valve-in-Valve-TAVI bei Degeneration: TAV-in-TAV bessere Hämodynamik, ähnliche 3-J-Mortalität",
+    sum:"Propensity-Score-geparte Vergleichsstudie von TAV-in-TAV (n=107) versus TAV-in-SAV (n=107) nach Valve-in-Valve-TAVI bei ausgefallenen Bioprothesen, Nachverfolgung bis 3 Jahre.",
+    result:"3-Jahres-Gesamtsterblichkeit: TAV-in-TAV 8,4% vs. TAV-in-SAV 8,4% (HR 1,06, 95%-KI 0,56–1,98; p=0,867, nicht signifikant). Mittlerer Druckgradient über 3 Jahre konsistent niedriger in TAV-in-TAV (bessere Hämodynamik). Konkomitante PCI und koronare Obstruktion häufiger nach TAV-in-SAV (22,4% vs. 8,4%; p=0,006 bzw. 10,3% vs. 0,9%; p=0,018).",
+    transfer:"Internationale Zentren-Erfahrung; TAVI-Programme in Deutschland häufig für diese Fälle vorhanden"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2329,7 +2329,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.11.2026";
+const NEWS_STAND = "23.11.2026";
 const NEWS = [
   {titel:"Mikrostromtherapie bei Herzinsuffizienz: Berlin Heals startet C-MIC IV", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/mikrostromtherapie-bei-herzinsuffizienz-berlin-heals-startet-c-mic-iv/"},
   {titel:"Nordic Bioscience: Endotrophin-Forschungstest auf Roche-Plattform", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/nordic-bioscience-endotrophin-forschungstest-auf-roche-plattform/"},
