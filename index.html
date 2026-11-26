@@ -2401,62 +2401,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "26. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JACC Cardiovasc Interv", year:"2026", pmid:"43072903",
-    author:"Geisler T et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Trikuspidalklappenreparatur reduziert Herzinsuffizienz-Hospitalisierungen um 71 %",
-    sum:"Die TriCLASP-Studie untersuchte die 2-Jahres-Outcomes der perkutanen Trikuspidalklappenreparatur mit dem PASCAL-System in 300 europäischen Patienten mit schwerer Trikuspidalinsuffizienz.",
-    result:"81,3 % der Patienten erreichten moderate oder leichtere Trikuspidalinsuffizienz (p &lt; 0,001). Die annualisierte Herzinsuffizienz-Hospitalisierungsrate sank um 71,4 % (p &lt; 0,001), die 2-Jahres-Überlebensrate betrug 77,5 ± 2,6 %. In NYHA-Klasse I/II befanden sich 73,2 % der Patienten, die 6-Minuten-Gehstrecke verbesserte sich um 26,6 m. Diese Ergebnisse bestätigen Sicherheit und Effektivität des Verfahrens in der klinischen Praxis.",
-    transfer:"Deutsche Herzzentren beteiligt, europäische postmarket-Daten"
+    journal:"N Engl J Med", year:"2026", pmid:"43084787",
+    author:"Bidel Z et al.", pubdate:"26.11.2026",
+    added:"25.11.2026",
+    title:"Blutdrucksenkung über alle Risikostufen hinweg wirksam",
+    sum:"Metaanalyse von 51 randomisierten Studien mit 357.440 Teilnehmenden zur Frage, ob Blutdrucksenker auch bei niedrigem kardiovaskulärem Risiko nutzen.",
+    result:"Pro 5 mmHg systolische Blutdrucksenkung Hazard Ratio 0,90 (95%-KI 0,88–0,92) für kardiovaskuläre Ereignisse ohne Schwellenwert-Effekt über alle Dekilen. Absolute Risikoreduktion bei 5-Jahres-Risiko &gt;27% (höchstes Dezil) 2,6 Prozentpunkte vs. &lt;4% (niedrigstes Dezil) 0,4 Prozentpunkte. NNT über 5 Jahre: 38 vs. 255. Nebenwirkungsrate (Kardiovaskuläre/hämodynamische Ereignisse) 12,0 pro 1000 Personenjahre unter Intervention vs. 6,5 unter Kontrolle.",
+    transfer:"Internationale Metaanalyse, Zahlen-Schwellenwerte weichen von europäischen ab."
   },
   {
-    journal:"Eur J Heart Fail", year:"2026", pmid:"43070446",
-    author:"Turgeon RD et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Patientenpräferenzen in Herzinsuffizienz-Studien: neue Bewertung von sieben Therapietrials",
-    sum:"Entwicklung und Anwendung eines methodischen Ansatzes zur hierarchischen Kombination von Outcomes in Herzinsuffizienz-Studien, der explizit Patientenpräferenzen einbezieht, auf Einzeldaten aus sieben randomisierten Studien (n=15.357).",
-    result:"In fünf von sieben reanalysierten Studien waren die Ergebnisse robust gegenüber unterschiedlichen Präferenzordnungen. In TOPCAT-Americas zeigte sich bei Priorisierung von Verträglichkeit ein abgeschwächter Nutzen von Spironolakton (Win Ratio 1,03 statt 1,13), in BEST wurde der Vorteil von Bucindolol durch Priorisierung der Lebensqualität nicht signifikant. Die Ergebnisse zeigen, dass Patientenpräferenzen die Interpretation von Therapieeffekten verändern können.",
-    transfer:"Kanadische und europäische Daten; methodisches Modell für deutsche Leitlinien übertragbar"
+    journal:"Eur Heart J", year:"2026", pmid:"43080183",
+    author:"Lang A et al.", pubdate:"25.11.2026",
+    added:"25.11.2026",
+    title:"CD40-Inhibition reduziert Narbenbildung und verbessert Herzfunktion nach Infarkt",
+    sum:"Deutsche experimentelle und klinische Studie zum Mechanismus der Vernarbung nach Herzinfarkt: Blockade der CD40-TRAF6-Signalisierung in Makrophagen begrenzt die pro-fibrotische Aktivierung und Narbenbildung.",
+    result:"Bei STEMI-Patienten (n=360) war erhöhtes sCD40L am Tag 5 post-Infarkt assoziiert mit größerer Narbengröße, LV-Remodeling und Re-Hospitalisierung in 6 Monaten. Im Mausmodell reduzierte TRAF-STOP-Behandlung (Tag 5 post-MI) die CD40+SPP1+-Makrophagen-Population, limitierte fibrotische Genexpression, begrenzte Narbenformation und verbesserte LV-Funktion. Behandlungsfenster kritisch: optimale Wirkung in der Reparaturphase.",
+    transfer:"Deutsche Multicenter-Studie, Düsseldorf, Aachen, Köln; vergleichbares Versorgungssystem."
   },
   {
-    journal:"Eur J Heart Fail", year:"2026", pmid:"43070118",
-    author:"Lee JH et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Vorhofsteifigkeit prognostiziert Sterblichkeit in akuter Herzinsuffizienz unabhängig vom EF-Phänotyp",
-    sum:"Die STRATS-AHF-Registerstudie untersuchte, ob der durch Echokardiographie messbare Left Atrial Stiffness Index (LASI) die Sterblichkeit und Herzinsuffizienz-Hospitalisierung bei 3.133 Patienten mit akuter Herzinsuffizienz vorhersagt, stratifiziert nach HFrEF, HFmrEF und HFpEF.",
-    result:"Bei Median-Follow-up von 32,5 Monaten hatten 616 Patienten (19,7 %) HF-Wiederaufnahmen und 1.281 (40,9 %) starben. Jede Verdoppelung des LASI war mit erhöhter Mortalität assoziiert (HR 1,13, 95%-KI 1,08–1,19). LASI &gt; 1,0 (exploratorischer Grenzwert) war mit erhöhtem Risiko verbunden (HR 1,27, 95%-KI 1,11–1,46). Die Assoziation war über alle EF-Phänotypen konsistent. Der Effekt wurde teilweise durch NT-proBNP erklärt, blieb aber nach Mehrfach-Imputation signifikant (HR 1,10, 95%-KI 1,04–1,15).",
-    transfer:"Südkoreanische Registerdaten; ökologisches Design, deutsche Validierung erforderlich"
+    journal:"JACC Heart Fail", year:"2026", pmid:"43083514",
+    author:"Lakdawala NK et al.", pubdate:"24.11.2026",
+    added:"25.11.2026",
+    title:"Aficamten senkt NT-proBNP und Troponin stärker als Metoprolol",
+    sum:"Randomisierte MAPLE-HCM-Studie zum Vergleich des Herzmuskelinhibitors Aficamten mit Metoprolol bei symptomatischer obstruktiver Hypertrophischer Kardiomyopathie (oHCM), Messung von Biomarkern und funktionellen Parametern.",
+    result:"Nach 24 Wochen geometrisches Mittel NT-proBNP −73% unter Aficamten vs. +42% unter Metoprolol (Behandlungseffekt −81%, 95%-KI −85% bis −76%, p&lt;0,001). High-Sensitivity-Troponin I −43% vs. −17% (Behandlungseffekt −28%, 95%-KI −41% bis −13%, p=0,001). NT-proBNP-Reduktion korrelierte mit Verbesserung der Belastungskapazität, des LVOT-Gradienten und der Lebensqualität.",
+    transfer:"Multizentrisch Europa und USA, europäische Sites in Spanien, Dänemark, Frankreich, Deutschland."
   },
   {
-    journal:"JACC Heart Fail", year:"2026", pmid:"43076847",
-    author:"Valentim Gonçalves A et al.", pubdate:"23.11.2026",
+    journal:"Heart Rhythm", year:"2026", pmid:"43078289",
+    author:"Virk S et al.", pubdate:"24.11.2026",
     added:"24.11.2026",
-    title:"Digoxin verbessert myokardiales Arbeitsvolumen in modernel behandelter Herzinsuffizienz",
-    sum:"Portugiesische offene randomisierte Crossover-Studie mit 50 Patienten mit Herzinsuffizienz und reduzierter EF unter maximaler moderner Therapie (88 % NYHA II, nahezu universelle Vierfach-Therapie), die niedrig-dosiertes Digoxin (0,125 mg/Tag) gegen Standardtherapie über je 24 Wochen testete.",
-    result:"Digoxin verbesserte nicht den Peak-Sauerstoffverbrauch (Differenz –0,08 mL/kg/min, 95%-KI –1,64–1,47, p = 0,914), verbesserte aber signifikant den Global Work Index (Differenz +157,8 mm Hg%, 95%-KI +12,2–303,4, p = 0,034). NT-proBNP und Kansas City Cardiomyopathy Questionnaire-12 verbesserten sich in der Digoxin-Phase. Die zusammengesetzte Sicherheitskombination unterschied sich nicht signifikant (p = 0,089).",
-    transfer:"Südeuropäischer sozialversicherungssystem; kleine Fallzahl begrenzt Aussagekraft"
+    title:"Pulsfeld-Ablation bei älteren AF-Patienten sicher und effektiv",
+    sum:"Australisch-neuseeländische Multicenter-Registerstudie (SENTINEL) zur Sicherheit und Wirksamkeit der Pulsfeld-Ablation mit Pentaspline-System bei Patienten ≥75 Jahren mit Vorhofflimmern.",
+    result:"Von 1.611 Patienten waren 269 (17%) ≥75 Jahre. Größere Komorbiditäten und höhere Prävalenz von nicht-paroxysmales AF und LA-Dilatation in älteren Patienten. Major-Komplikationen vergleichbar: 0,9%, 0,2% und 0,7% (p=0,48). Über Median 426 Tage: Gesundheitsnutzung (10,8%, 12,0%, 10,0%; p=0,61) und Arrhythmie-Rezidiv (17,2%, 19,5%, 19,3%; p=0,39) ähnlich. Alter ≥75 Jahre nicht unabhängig assoziiert mit schlechteren Outcomes nach Adjustierung.",
+    transfer:"Australien/Neuseeland, vergleichbares anglophiles Gesundheitssystem; begrenzt auf diese Region."
   },
   {
-    journal:"Heart Rhythm", year:"2026", pmid:"43072700",
-    author:"Kim JH et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Klonale Hämatopoese erhöht Vorhofflimmern-Progression um Faktor 3,4",
-    sum:"Südkoreanische prospektive Kohortenstudie mit 310 Patienten mit paroxysmales Vorhofflimmern, bei der Deep-Sequencing auf CHIP-Mutationen durchgeführt und die Assoziation mit dokumentierter AF-Progression über median 2,6 Jahre untersucht wurde.",
-    result:"CHIP war in 64 Patienten (20,6 %) vorhanden. AF-Progression trat in 10/64 (15,6 %) mit CHIP vs. 15/246 (6,1 %) ohne CHIP auf. Adjustierte HR für CHIP: 3,38 (95%-KI 1,45–7,85, p = 0,005). In explorativen Mapping-Subgruppen war extensive Low-Voltage-Area (≥ 10,0 %) häufiger bei CHIP (24,4 % vs. 9,5 %, unadjustierte OR 3,10, 95%-KI 1,10–8,71), was auf substratbedingte Progression hindeutet.",
-    transfer:"Südkoreanische Daten; Mechanismus durch Grundlagenarbeit gestützt"
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43069031",
+    author:"Banovic M et al.", pubdate:"22.11.2026",
+    added:"22.11.2026",
+    title:"Guideline-Indikationen identifizieren asymptomatische AS-Hochrisiko-Patienten",
+    sum:"Randomisierte AVATAR-Studie (157 asymptomatische Patienten mit schwerer Aortenstenose, randomisiert zu frühem AVR vs. konservativ) zur Frage, ob ESC-Klasse-IIa-Indikationen die Patienten mit Nutzenvorteil durch frühe Intervention korrekt identifizieren.",
+    result:"62 Patienten (39,5%) hatten Klasse-IIa-Indikation. Primärer Composite-Endpunkt (Mortalität + MACE) häufiger bei Klasse-IIa-Indikation vs. ohne (46,8% vs. 27,4%; p=0,010). Benefit der frühen AVR konsistent in beiden Gruppen: HR 0,48 (95%-KI 0,23–1,00) mit IIa-Indikation, HR 0,29 (95%-KI 0,12–0,73) ohne; p-Interaktion=0,389.",
+    transfer:"Europäische Multicenter-Studie (Belgien, Frankreich, Niederlande, Serbien, Polen)."
   },
   {
-    journal:"Europace", year:"2026", pmid:"42968619",
-    author:"Lachmann K et al.", pubdate:"04.11.2026",
-    added:"02.11.2026",
-    title:"Smartwatch-Monitoring nach Vorhofflimmern-Ablation: Aktivität steigt, Rezidive sinken",
-    sum:"Prospektive deutsche TRUST-Registerstudie mit 154 Patienten, die Daten von Smartphones und Smartwatches nach Pulmonalvenenisolation erfasste, um Aktivität und Rhythmusstörungen remote zu monitoren.",
-    result:"Mittlere tägliche Schrittanzahl stieg von 5.731 ± 2.808 auf 6.220 ± 2.816 Schritte/Tag nach Ablation (+488 Schritte, p = 0,002). Bei 35 Smartwatch-Nutzern sank die Vorhofflimmern-Last von 3,6 % [1,6–10,8] auf 0,0 % [0,0–0,3] (p &lt; 0,001). 61 % der 280 berechtigten Patienten nahmen teil, 90 % vollendeten die Datenübertragung mit 98 % Abdeckung über median 6,0 Jahre. Die Methode ermöglicht skalierbare, objektive Langzeit-Funktionsergebnisse.",
-    transfer:"Deutsche akademische Zentren, vergleichbare Digitalinfrastruktur"
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43069046",
+    author:"Kim DY et al.", pubdate:"22.11.2026",
+    added:"22.11.2026",
+    title:"MRT-Muster identifizieren Schlaganfallrisiko bei Vorhofflimmern besser als CHA2DS2-VASc",
+    sum:"Prospektive multizentrische koreanische Kohortenstudie (EAST-AF, n=2.270) zur Frage, ob spezifische MRT-Parameter für Residuallakunen und chronische Hirninfärkte das Rezidiv-Schlaganfallrisiko über klinische Scores hinaus prognostizieren.",
+    result:"Median Follow-up 431 Tage, 123 rezidivale Schläge (2-Jahres-Kumulative Inzidenz 5,6%). Chronische nicht-lakuäre Infarkte assoziiert mit erhöhtem Risiko (aHR 1,50, 95%-KI 1,01–2,23). Lakunen im Medullär-Arterienterritorium (embolic pattern) besonders riskant (aHR 2,65, 95%-KI 1,56–4,49). Hinzufügen dieser Bildgebungsmarker zu CHA2DS2-VASc erhöhte C-Statistik von 0,53 auf 0,63 (p&lt;0,001).",
+    transfer:"Südkorea, multinationale Stroke-Datenbasis, transponierbar auf europäische Praxis."
+  },
+  {
+    journal:"J Am Coll Cardiol", year:"2026", pmid:"43083523",
+    author:"Dahl JS et al.", pubdate:"17.11.2026",
+    added:"25.11.2026",
+    title:"Aortensklerose und -stenose: ein Krankheitskontinuum ohne Schwelle",
+    sum:"Retrospektive Analyse von 181.167 Erwachsenen mit abnormalen Aortenklappen (Vmax 1,0–3,9 m/s) zur Frage, ob Aortensklerose und -stenose separate Erkrankungen oder ein Kontinuum darstellen.",
+    result:"Während Median-Nachverfolgung von 3,2 Jahren: 4.112 AVR (3,2%), 61.654 Todesfälle. AVR-Risiko stieg kontinuierlich über gesamte Vmax-Spanne ohne erkennbare Schwelle. 5-Jahres-Kumulative AVR-Inzidenz: 0,1% bei Vmax 1,0–1,4 m/s bis 31,2% bei 3,0–3,9 m/s (p&lt;0,001). Assoziation zwischen Vmax und Outcomes persistierte nach Multivariable-Adjustierung und Sensitivitätsanalysen. Mortalitäts-Assoziation auch signifikant.",
+    transfer:"USA (Mayo Clinic), Daten vergleichbar, aber US-Schwellenwerte; Übertragung auf deutsche Echokardiographie-Praxis möglich."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2481,7 +2490,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.11.2026";
+const NEWS_STAND = "26.11.2026";
 const NEWS = [
   {titel:"Mikrostromtherapie bei Herzinsuffizienz: Berlin Heals startet C-MIC IV", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/mikrostromtherapie-bei-herzinsuffizienz-berlin-heals-startet-c-mic-iv/"},
   {titel:"Nordic Bioscience: Endotrophin-Forschungstest auf Roche-Plattform", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/nordic-bioscience-endotrophin-forschungstest-auf-roche-plattform/"},
@@ -2491,8 +2500,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Bluthochdruck: kostenlose telefonische Sprechstunden mit Ärztinnen und Ärzten sowie Selbsthilfegruppen", datum:"2026-11-25", url:"http://idw-online.de/de/news881503", quelle:"idw"},
   {titel:"Transatlantische Übersichtsstudie erklärt Verkehrslärm erstmals zum eigenständigen Herz-Kreislauf-Risikofaktor", datum:"2026-11-23", url:"http://idw-online.de/de/news881359", quelle:"idw"},
-  {titel:"Bluthochdruck früh erkennen und gesünder leben: Kostenlose Blutdruckmessaktion in Bochum am 2. Dezember 2026", datum:"2026-11-18", url:"http://idw-online.de/de/news881092", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
