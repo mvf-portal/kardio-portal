@@ -2401,62 +2401,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "28. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur Heart J", year:"2026", pmid:"43096922",
-    author:"Erlinge D et al.", pubdate:"26.11.2026",
-    added:"26.11.2026",
-    title:"Europäische STEMI-Versorgung: 95% Reperfusion, aber nur 64% innerhalb 90 Minuten",
-    sum:"Register von 146.958 STEMI-Patienten aus 13 europäischen Ländern (2022–24) dokumentiert Versorgungsqualität und Variabilität in der Reperfusionstherapie, Medikation und In-Hospital-Mortalität.",
-    result:"Reperfusionsrate 95,0%, radiale Zugänge 87,6%, aber nur 63,9% innerhalb 90 Minuten von Diagnose-EKG reperfundiert (Spannweite 34,3–95,5% zwischen Ländern). In-Hospital-Mortalität 6,4% (1,6–9,5%). Aspirin bei Entlassung 90,3%, P2Y12-Inhibitoren 95,1%, Statine 93,2%, aber SGLT2-Hemmer nur 32,7% und Ezetimib 23,4%.",
-    transfer:"13 europäische Länder, direkter Benchmarking für deutsche Chest-Pain-Units"
-  },
-  {
-    journal:"Am J Cardiol", year:"2026", pmid:"43085706",
-    author:"Pugliesi GM et al.", pubdate:"25.11.2026",
-    added:"25.11.2026",
-    title:"HFpEF unterdiagnostiziert bei sekundärer Trikuspidalinsuffizienz, erhöht Sterblichkeit",
-    sum:"Retrospektive Kohortenstudie von 1.735 Patienten mit sekundärer Trikuspidalinsuffizienz, untersucht Prävalenz und prognostische Bedeutung von HFpEF mittels H₂FPEF-Score und Framingham-Kriterien.",
-    result:"H₂FPEF-Score ≥6 bei 52% (904 von 1.735), davon 63% erfüllten Framingham-Kriterien, aber nur 17% hatten ICD-9/10-Diagnose. Patienten mit H₂FPEF ≥6 hatten schlechteres Überleben (Hazard Ratio 1,34–1,35, 95% CI 1,14–1,57).",
-    transfer:"USA-Daten, aber ICD-Kodierungsprobleme gelten auch für Deutschland"
-  },
-  {
-    journal:"Heart Rhythm", year:"2026", pmid:"43085557",
-    author:"Rodrigues Oliveira VM et al.", pubdate:"25.11.2026",
-    added:"25.11.2026",
-    title:"Pulsfeldablation erhöht Schlaganfall/TIA-Risiko 30 Tage nach Eingriff auf das Zweifache",
-    sum:"Metaanalyse von 28 Studien mit 21.915 Patienten vergleicht Schlaganfall- und TIA-Inzidenz innerhalb 30 Tagen nach Pulsfeldablation vs. Thermoablation bei Vorhofflimmern.",
-    result:"Schlaganfall oder TIA innerhalb 30 Tage: 24 von 6.688 nach Pulsfeldablation vs. 17 von 10.973 nach Thermoablation (Odds Ratio 2,18; 95% CI 1,13–4,22; I²=0%). Bei paroxysmales Vorhofflimmern nicht signifikant (OR 2,76; 95% CI 0,85–8,93). Über volle Nachbeobachtung kein Unterschied.",
-    transfer:"Internationale Daten, relevant für PFA-Einsatz in Deutschland"
-  },
-  {
-    journal:"Eur Heart J", year:"2026", pmid:"43068705",
-    author:"Israel CW", pubdate:"23.11.2026",
-    added:"22.11.2026",
-    title:"Optimalrate-Kontrolle bei Vorhofflimmern: Vergleich Leitungssystem vs biventrikulär",
-    sum:"Fachkommentar zu Strategien der Frequenzkontrolle bei Vorhofflimmern, vergleicht Leitungssystemschrittmacher mit biventrikulärer Stimulation.",
-    result:"Editorischer Überblick ohne primäre Studienergebnisse, diskutiert klinische Prinzipien und Evidenzlücken zur optimalen Frequenzkontrolle und Schrittmacherplatzierung.",
-    transfer:"Deutschland, deutschsprachige Fachperspektive"
-  },
-  {
-    journal:"JAMA", year:"2026", pmid:"43071397",
-    author:"Ommen SR", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Hypertrophe Kardiomyopathie: Therapie verbessert Symptome in 60–95%, Plötzentod 0,8%/Jahr",
-    sum:"Aktuelle Übersichtsarbeit zu Epidemiologie, Pathophysiologie, Diagnostik und Therapie der hypertrophen Kardiomyopathie mit Fokus auf medikamentöse und interventionelle Behandlung.",
-    result:"HCM betrifft 0,2% der Bevölkerung weltweit (&gt;600.000 in USA). Jährliches Plötzentod-Risiko 0,8%. Erste Linie: β-Blocker oder Nicht-Dihydropyridin-Kalziumkanalblocker. Disopyramid lindert Symptome in ~60%, Myosininihibitoren (Mavacamten/Aficamten) in ~70–80%, septale Alkoholablation in ~75–80%, chirurgische Myektomie in ~90–95% der Fälle.",
-    transfer:"USA, aber Therapieprotokolle und Risikoeinschätzungen gelten weltweit"
-  },
-  {
-    journal:"JACC Heart Fail", year:"2026", pmid:"43083517",
-    author:"de Almeida Neto OP et al.", pubdate:"22.11.2026",
-    added:"25.11.2026",
-    title:"Video-Intervention zur Eigenversorgung reduziert Hospitalisierungen bei HFrEF",
-    sum:"Randomisierte Studie eines Video-gestützten Übergangsprogramms für HFrEF-Patienten zur Verbesserung von Selbstversorgungsfertigkeiten und klinischen Ergebnissen.",
-    result:"Intervention mit Video-basierter Schulung und Pflegeübergangshilfe verbessert die Selbstversorgung signifikant und reduziert Wiederaufnahmen; exakte Zahlenwerte im Abstract nicht genannt, aber Studiendesign und Intervention beschrieben.",
-    transfer:"Multinationales Design mit Schwerpunkt patientenzentrierte Versorgung, internationale Perspektive"
+    journal:"Int J Cardiol", year:"2027", pmid:"43033835",
+    author:"Giangiacomi F et al.", pubdate:"15.01.2027",
+    added:"14.11.2026",
+    title:"Sozioökonomische Ungleichheit bei NSTEMI-Ergebnissen trotz Universalversicherung",
+    sum:"In Belgien wurden 64.890 NSTEMI-Patienten analysiert, um den Einfluss sozioökonomischer Faktoren auf Sterblichkeit und Zugang zu PCI zu untersuchen.",
+    result:"Patienten im niedrigsten Einkommensviertel hatten ein 1,48-fach erhöhtes Mortalitätsrisiko gegenüber dem höchsten Viertel (p&lt;0,01). Die Sterblichkeit betrug insgesamt 5,0%. Frauen erhielten seltener PCI (OR 0,74; p&lt;0,01). Auch persönliches Einkommen senkte die Mortalität (OR 0,67; p&lt;0,01). Soziale Determinanten beeinflussen Outcomes auch unter Universalversicherung.",
+    transfer:"Belgien, vergleichbares Versicherungssystem wie Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2481,7 +2436,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.11.2026";
+const NEWS_STAND = "28.11.2026";
 const NEWS = [
   {titel:"Mikrostromtherapie bei Herzinsuffizienz: Berlin Heals startet C-MIC IV", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/mikrostromtherapie-bei-herzinsuffizienz-berlin-heals-startet-c-mic-iv/"},
   {titel:"Nordic Bioscience: Endotrophin-Forschungstest auf Roche-Plattform", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/nordic-bioscience-endotrophin-forschungstest-auf-roche-plattform/"},
