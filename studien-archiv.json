@@ -1,5 +1,57 @@
 [
  {
+  "pmid": "43098333",
+  "journal": "Heart Rhythm",
+  "year": "2026",
+  "author": "Jalli E et al.",
+  "pubdate": "26.11.2026",
+  "added": "26.11.2026",
+  "transfer": "Finnlandische Daten mit europäischen Kohorten, Zeittrends übertragbar auf Deutschland – leitlinienberelevante Neubewertung der CHA2DS2-VASc-Stratifizierung.",
+  "title": "Schlaganfallrisiko bei Frauen mit Vorhofflimmern: Geschlechtsspezifisches Risiko sinkt kontinuierlich",
+  "sum": "Meta-Regressionsanalyse von 47 Studien (5.114.440 Patienten, 46 % Frauen) zur zeitlichen Entwicklung des geschlechtsspezifischen Schlaganfallrisikos bei Vorhofflimmern.",
+  "result": "Das mit weiblichem Geschlecht assoziierte Schlaganfallrisiko nahm über die Zeit signifikant ab (β = -0,0091 pro Jahr; 95%-KI -0,0145 bis -0,0036; p = 0,001) mit substanzieller Heterogenität (I² = 86,8 %). In den neuesten Beobachtungszeiträumen war kein statistisch signifikanter Geschlechtsunterschied mehr erkennbar. Nichtlineares Modell besser angepasst; die Effekte blieben in allen Leave-one-out-Analysen signifikant.",
+  "aufgenommen": "2026-11-28"
+ },
+ {
+  "pmid": "43086335",
+  "journal": "Nature",
+  "year": "2026",
+  "author": "Schiattarella GG et al.",
+  "pubdate": "25.11.2026",
+  "added": "25.11.2026",
+  "transfer": "Deutsches Herzzentrum der Charité, Berlin – europäische Leitlinienentwicklung mit direktem Bezug zur deutschen Versorgungsstruktur.",
+  "title": "Kardiovaskulärer Mechanismus der HFpEF: Endotheliale Dysfunktion und Organvernetzung",
+  "sum": "Narrative Review zur wachsenden epidemiologischen, mechanistischen und therapeutischen Bedeutung der kardiometabolischen HFpEF als eigenständiges Krankheitsentitäten, die durch Adipositas, Typ-2-Diabetes und systemische Kardiometabolische Dysfunktion gekennzeichnet ist.",
+  "result": "Die Autoren identifizieren ein mechanistisch definiertes Endotyp mit endothelialer Dysfunktion, metabolischer Inflexibilität und maladaptiver Organvernetzung (Leber, Niere, Adipositas, Skelettmuskulatur). Dieser Phänotyp korreliert mit klinisch erkennbaren adipositäsabhängigen Merkmalen und erfordert systemgestützte, zielgerichtete Interventionen statt blocker Biomarker-fokussierter Ansätze.",
+  "aufgenommen": "2026-11-28"
+ },
+ {
+  "pmid": "43076848",
+  "journal": "JACC Heart Fail",
+  "year": "2026",
+  "author": "Myhre PL et al.",
+  "pubdate": "23.11.2026",
+  "added": "24.11.2026",
+  "transfer": "Leitlinienrelevante Stellungnahme zur deutschen Herzinsuffizienz-Stratifizierung, direkt auf DMPs übertragbar.",
+  "title": "NT-proBNP-Schwellwerte: Bessere Risikostratifizierung bei Vorhofflimmern und HFrEF",
+  "sum": "Editoriale Stellungnahme zur Frage, ob aktuelle NT-proBNP-Schwellwerte in Studien zu Herzinsuffizienz mit reduzierter Ejektionsfraktion und Vorhofflimmern ausreichend differenzieren.",
+  "result": "Die Autoren argumentieren, dass erhöhte NT-proBNP-Schwellwerte speziell für Patienten mit kombiniertem Vorhofflimmern und HFrEF notwendig sind, um Studienpopulationen risikoadaptiert abzugrenzen und die Versorgungsrealität besser abzubilden. Aktuelle Schwellwerte erfassen diese hochrisiko-Subgruppe suboptimal.",
+  "aufgenommen": "2026-11-28"
+ },
+ {
+  "pmid": "43070192",
+  "journal": "Circ Arrhythm Electrophysiol",
+  "year": "2026",
+  "author": "Kay J et al.",
+  "pubdate": "23.11.2026",
+  "added": "23.11.2026",
+  "transfer": "Britisch-deutsches Zentrum (London/München); interventionelle Machbarkeitsstudie, begrenzte Fallzahlen, Repräsentativität offen.",
+  "title": "Nicht-Pulmonalvenen-Ablation bei Vorhofflimmern: 63 % Rezidivfreiheit nach 1 Jahr",
+  "sum": "Prospektive Machbarkeitsstudie mit 23 Patienten (8 mit durabel isolierten Pulmonalvenen, 15 mit persistierendem Vorhofflimmern) zur Identifizierung und Ablation ektopie-auslösender ganglionärer Plexusse mit dem Tau20-RETROmapping-System während Sinusrhythmus.",
+  "result": "Im Durchschnitt wurden 85±15 Stellen getestet mit Identifizierung von 11,8±3,8 ektopie-auslösenden Ganglien. Nach 12 Monaten Nachverfolgung und Absetzen von Antiarrhythmika betrug die Arrhythmiefreiheit 63 % bei Patienten mit durabel isolierten Venen und 60 % bei persistierendem Vorhofflimmern. Versprechende Ergebnisse, die in größeren randomisierten Studien validiert werden müssen.",
+  "aufgenommen": "2026-11-28"
+ },
+ {
   "pmid": "43033835",
   "journal": "Int J Cardiol",
   "year": "2027",
@@ -10,6 +62,19 @@
   "title": "Sozioökonomische Ungleichheit bei NSTEMI-Ergebnissen trotz Universalversicherung",
   "sum": "In Belgien wurden 64.890 NSTEMI-Patienten analysiert, um den Einfluss sozioökonomischer Faktoren auf Sterblichkeit und Zugang zu PCI zu untersuchen.",
   "result": "Patienten im niedrigsten Einkommensviertel hatten ein 1,48-fach erhöhtes Mortalitätsrisiko gegenüber dem höchsten Viertel (p<0,01). Die Sterblichkeit betrug insgesamt 5,0%. Frauen erhielten seltener PCI (OR 0,74; p<0,01). Auch persönliches Einkommen senkte die Mortalität (OR 0,67; p<0,01). Soziale Determinanten beeinflussen Outcomes auch unter Universalversicherung.",
+  "aufgenommen": "2026-11-28"
+ },
+ {
+  "pmid": "42988067",
+  "journal": "Int J Cardiol",
+  "year": "2027",
+  "author": "Martens E et al.",
+  "pubdate": "15.01.2027",
+  "added": "05.11.2026",
+  "transfer": "Multinationale Registerstudie mit 38 europäischen und internationalen Zentren, vergleichbar mit deutschen Strukturen und Dokumentationsanforderungen.",
+  "title": "Implantierbare Ereignismonitore: Sichere Rhythmuserkennung über 5 Jahre",
+  "sum": "Prospektive Registerstudie zur Langzeitsicherheit und Effektivität von Implantable Cardiac Monitors (ICMs) bei 1.249 Patienten mit Synkope oder Schlaganfall unbekannter Genese an 38 Zentren in 9 Ländern mit 5-Jahres-Nachverfolgung.",
+  "result": "Nach 5 Jahren erhielten 31–39 % der Patienten mit Synkope und 21–28 % der Patienten mit Schlaganfall unbekannter Ursache eine indikationsspezifische Diagnose; 46 % der ICMs wurden nach Diagnose explantiert. Nur 6 unerwünschte Ereignisse traten nach 180 Tagen auf, und Explantationen waren in 86 % einfach oder sehr einfach durchführbar (Dauer median 10 min). Sicherheit und Effektivität bestätigt auch im dritten und vierten Jahr.",
   "aufgenommen": "2026-11-28"
  },
  {
